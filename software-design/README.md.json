@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "software-design",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-design"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

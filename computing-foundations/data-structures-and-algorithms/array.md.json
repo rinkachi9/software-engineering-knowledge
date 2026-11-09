@@ -1,0 +1,31 @@
+{
+  "node": {
+    "id": "computing-foundations.data-structures-and-algorithms.array",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "computing-foundations",
+      "data-structures-and-algorithms"
+    ]
+  },
+  "sources": [
+    {
+      "key": "clrs",
+      "type": "book",
+      "title": "Introduction to Algorithms, 4th Edition",
+      "authors": [
+        "Cormen, T. H.",
+        "Leiserson, C. E.",
+        "Rivest, R. L.",
+        "Stein, C."
+      ],
+      "year": 2022,
+      "publisher": "MIT Press",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-structures-and-algorithms"
+  }
+}

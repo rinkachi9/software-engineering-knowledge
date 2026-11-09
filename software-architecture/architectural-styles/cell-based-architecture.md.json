@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-architecture.architectural-styles.cell-based-architecture",
+    "kind": "note",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-architecture",
+      "architectural-styles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.high-availability.bulkhead",
+      "rel": "applies",
+      "note": "Cells isolate failures like bulkheads"
+    }
+  ],
+  "sources": [
+    {
+      "key": "aws-cell",
+      "type": "documentation",
+      "title": "Reducing the Scope of Impact with Cell-Based Architecture",
+      "authors": [
+        "Amazon Web Services"
+      ],
+      "year": 2023,
+      "publisher": "AWS",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/reducing-scope-of-impact-with-cell-based-architecture/reducing-scope-of-impact-with-cell-based-architecture.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "architectural-styles"
+  }
+}

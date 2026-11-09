@@ -1,0 +1,27 @@
+{
+  "node": {
+    "id": "software-configuration-management.release-management-and-delivery.software-versioning",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-configuration-management",
+      "release-management-and-delivery"
+    ]
+  },
+  "sources": [
+    {
+      "key": "semver",
+      "type": "standard",
+      "title": "Semantic Versioning 2.0.0",
+      "authors": [
+        "Preston-Werner, T."
+      ],
+      "url": "https://semver.org/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "release-management-and-delivery"
+  }
+}

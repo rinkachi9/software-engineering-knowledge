@@ -1,0 +1,41 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.enterprise.value-object",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "enterprise"
+    ]
+  },
+  "sources": [
+    {
+      "key": "poeaa",
+      "type": "book",
+      "title": "Patterns of Enterprise Application Architecture",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2002,
+      "publisher": "Addison-Wesley",
+      "url": "https://martinfowler.com/eaaCatalog/",
+      "verified": false
+    },
+    {
+      "key": "evans-ddd",
+      "type": "book",
+      "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+      "authors": [
+        "Evans, E."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "enterprise"
+  }
+}

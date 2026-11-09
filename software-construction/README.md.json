@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "software-construction",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-construction"
+    ]
+  },
+  "map": {
+    "group": "software-construction"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-architecture.evaluation",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "evaluation"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

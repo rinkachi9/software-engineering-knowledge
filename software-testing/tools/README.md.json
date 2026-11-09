@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-testing.tools",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-testing",
+      "tools"
+    ]
+  },
+  "map": {
+    "group": "software-testing"
+  }
+}

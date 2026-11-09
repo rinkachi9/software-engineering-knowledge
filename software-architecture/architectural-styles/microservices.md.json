@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-architecture.architectural-styles.microservices",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "architectural-styles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.architectural-styles.monolithic-architecture",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fowler-microservices",
+      "type": "website",
+      "title": "Microservices",
+      "authors": [
+        "Lewis, J.",
+        "Fowler, M."
+      ],
+      "year": 2014,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/articles/microservices.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "architectural-styles"
+  }
+}

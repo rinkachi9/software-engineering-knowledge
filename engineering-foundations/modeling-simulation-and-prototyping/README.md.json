@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "engineering-foundations.modeling-simulation-and-prototyping",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "engineering-foundations",
+      "modeling-simulation-and-prototyping"
+    ]
+  },
+  "map": {
+    "group": "engineering-foundations"
+  }
+}

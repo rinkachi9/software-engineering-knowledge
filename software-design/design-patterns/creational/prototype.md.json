@@ -1,0 +1,38 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.creational.prototype",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "creational"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.design-patterns.creational.factory",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gof",
+      "type": "book",
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "authors": [
+        "Gamma, E.",
+        "Helm, R.",
+        "Johnson, R.",
+        "Vlissides, J."
+      ],
+      "year": 1994,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "creational"
+  }
+}

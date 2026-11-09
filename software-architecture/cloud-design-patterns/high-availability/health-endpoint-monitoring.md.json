@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.high-availability.health-endpoint-monitoring",
+    "kind": "note",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "high-availability"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-engineering-operations.control.monitoring.health-monitoring",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-health-endpoint-monitoring",
+      "type": "documentation",
+      "title": "Health endpoint monitoring pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "high-availability"
+  }
+}

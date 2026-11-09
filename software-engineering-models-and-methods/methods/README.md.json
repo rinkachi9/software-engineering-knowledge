@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-models-and-methods.methods",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-engineering-models-and-methods",
+      "methods"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-models-and-methods"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.high-availability.rate-limiting",
+    "kind": "note",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "high-availability"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.high-availability.throttling",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "software-architecture.cloud-design-patterns.resiliency.retry",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-rate-limiting",
+      "type": "documentation",
+      "title": "Rate limiting pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "high-availability"
+  }
+}

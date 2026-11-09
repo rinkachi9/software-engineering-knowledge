@@ -1,0 +1,22 @@
+{
+  "node": {
+    "id": "software-design.fundamentals.design-principles.kiss",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-design",
+      "fundamentals",
+      "design-principles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.fundamentals.design-principles.yagni",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "design-principles"
+  }
+}

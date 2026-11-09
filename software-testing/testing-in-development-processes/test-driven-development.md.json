@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-testing.testing-in-development-processes.test-driven-development",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-testing",
+      "testing-in-development-processes"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-engineering-models-and-methods.methods.extreme-programming",
+      "rel": "related",
+      "note": "TDD is one of the XP practices"
+    }
+  ],
+  "sources": [
+    {
+      "key": "beck-tdd",
+      "type": "book",
+      "title": "Test-Driven Development: By Example",
+      "authors": [
+        "Beck, K."
+      ],
+      "year": 2002,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "testing-in-development-processes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.data-management.index-table",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "data-management"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-index-table",
+      "type": "documentation",
+      "title": "Index table pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/index-table",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-management"
+  }
+}

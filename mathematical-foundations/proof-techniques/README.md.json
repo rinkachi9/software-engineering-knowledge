@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.proof-techniques",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "mathematical-foundations",
+      "proof-techniques"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

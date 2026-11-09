@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.design-and-implementation.external-configuration-store",
+    "kind": "note",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "design-and-implementation"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-construction.practical-considerations.twelve-factor-app",
+      "rel": "related",
+      "note": "Factor III: store config in the environment"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-external-configuration-store",
+      "type": "documentation",
+      "title": "External configuration store pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/external-configuration-store",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-and-implementation"
+  }
+}

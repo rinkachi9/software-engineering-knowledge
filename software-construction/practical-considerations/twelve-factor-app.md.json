@@ -1,0 +1,28 @@
+{
+  "node": {
+    "id": "software-construction.practical-considerations.twelve-factor-app",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-construction",
+      "practical-considerations"
+    ]
+  },
+  "sources": [
+    {
+      "key": "twelve-factor",
+      "type": "website",
+      "title": "The Twelve-Factor App",
+      "authors": [
+        "Wiggins, A."
+      ],
+      "year": 2011,
+      "url": "https://12factor.net/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "practical-considerations"
+  }
+}

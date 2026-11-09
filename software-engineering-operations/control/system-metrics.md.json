@@ -1,0 +1,38 @@
+{
+  "node": {
+    "id": "software-engineering-operations.control.system-metrics",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-engineering-operations",
+      "control"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-engineering-operations.control.sla-slo-sli",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sre-monitoring",
+      "type": "book",
+      "title": "Site Reliability Engineering, chapter 6: Monitoring Distributed Systems",
+      "authors": [
+        "Beyer, B.",
+        "Jones, C.",
+        "Petoff, J.",
+        "Murphy, N. R. (eds.)"
+      ],
+      "year": 2016,
+      "publisher": "O'Reilly Media",
+      "url": "https://sre.google/sre-book/monitoring-distributed-systems/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "control"
+  }
+}

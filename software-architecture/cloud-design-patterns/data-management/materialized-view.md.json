@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.data-management.materialized-view",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "data-management"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-materialized-view",
+      "type": "documentation",
+      "title": "Materialized view pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/materialized-view",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-management"
+  }
+}

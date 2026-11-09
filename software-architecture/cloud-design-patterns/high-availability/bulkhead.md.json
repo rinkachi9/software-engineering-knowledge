@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.high-availability.bulkhead",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "high-availability"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.high-availability.circuit-breaker",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-bulkhead",
+      "type": "documentation",
+      "title": "Bulkhead pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "high-availability"
+  }
+}

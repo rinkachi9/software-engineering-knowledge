@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-construction.construction-technologies",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-construction",
+      "construction-technologies"
+    ]
+  },
+  "map": {
+    "group": "software-construction"
+  }
+}

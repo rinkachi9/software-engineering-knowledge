@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.data-management.static-content-hosting",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "data-management"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-static-content-hosting",
+      "type": "documentation",
+      "title": "Static content hosting pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-management"
+  }
+}

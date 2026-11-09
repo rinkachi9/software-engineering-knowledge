@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.chatty-io",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.performance-antipatterns.extraneous-fetching",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-chatty-io",
+      "type": "documentation",
+      "title": "Chatty I/O antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

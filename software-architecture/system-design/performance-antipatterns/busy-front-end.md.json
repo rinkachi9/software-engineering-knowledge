@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.busy-front-end",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-busy-front-end",
+      "type": "documentation",
+      "title": "Busy front end antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-front-end",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

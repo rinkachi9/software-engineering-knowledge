@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-architecture.system-design",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-architecture",
+      "system-design"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

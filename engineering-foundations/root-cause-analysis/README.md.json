@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "engineering-foundations.root-cause-analysis",
+    "kind": "index",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "engineering-foundations",
+      "root-cause-analysis"
+    ]
+  },
+  "map": {
+    "group": "engineering-foundations"
+  }
+}

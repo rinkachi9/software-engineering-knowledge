@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.design-and-implementation.gateway-aggregation",
+    "kind": "note",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "design-and-implementation"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.design-and-implementation.gateway-routing",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-gateway-aggregation",
+      "type": "documentation",
+      "title": "Gateway aggregation pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-and-implementation"
+  }
+}

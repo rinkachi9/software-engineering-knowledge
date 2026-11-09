@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.messaging.asynchronous-request-reply",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "messaging"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.synchronous-communication",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-asynchronous-request-reply",
+      "type": "documentation",
+      "title": "Asynchronous request-reply pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/asynchronous-request-reply",
+      "verified": false
+    },
+    {
+      "key": "eip",
+      "type": "book",
+      "title": "Enterprise Integration Patterns",
+      "authors": [
+        "Hohpe, G.",
+        "Woolf, B."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "url": "https://www.enterpriseintegrationpatterns.com/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "messaging"
+  }
+}

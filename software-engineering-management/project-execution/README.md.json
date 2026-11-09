@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-management.project-execution",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-engineering-management",
+      "project-execution"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-management"
+  }
+}

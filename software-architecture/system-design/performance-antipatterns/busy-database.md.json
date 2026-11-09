@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.busy-database",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-busy-database",
+      "type": "documentation",
+      "title": "Busy database antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-database",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

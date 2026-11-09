@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "engineering-foundations.engineering-design",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "engineering-foundations",
+      "engineering-design"
+    ]
+  },
+  "map": {
+    "group": "engineering-foundations"
+  }
+}

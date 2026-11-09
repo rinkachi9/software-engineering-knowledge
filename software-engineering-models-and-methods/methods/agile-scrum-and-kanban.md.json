@@ -1,0 +1,41 @@
+{
+  "node": {
+    "id": "software-engineering-models-and-methods.methods.agile-scrum-and-kanban",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-engineering-models-and-methods",
+      "methods"
+    ]
+  },
+  "sources": [
+    {
+      "key": "agile-manifesto",
+      "type": "website",
+      "title": "Manifesto for Agile Software Development",
+      "authors": [
+        "Beck, K.",
+        "et al."
+      ],
+      "year": 2001,
+      "url": "https://agilemanifesto.org/",
+      "verified": false
+    },
+    {
+      "key": "scrum-guide",
+      "type": "standard",
+      "title": "The Scrum Guide",
+      "authors": [
+        "Schwaber, K.",
+        "Sutherland, J."
+      ],
+      "year": 2020,
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "methods"
+  }
+}

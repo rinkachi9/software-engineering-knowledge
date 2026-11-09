@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "computing-foundations.computer-networks-and-communications",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "computing-foundations",
+      "computer-networks-and-communications"
+    ]
+  },
+  "map": {
+    "group": "computing-foundations"
+  }
+}

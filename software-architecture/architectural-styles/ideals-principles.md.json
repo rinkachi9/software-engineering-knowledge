@@ -1,0 +1,41 @@
+{
+  "node": {
+    "id": "software-architecture.architectural-styles.ideals-principles",
+    "kind": "note",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "software-architecture",
+      "architectural-styles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.architectural-styles.microservices",
+      "rel": "applies"
+    },
+    {
+      "to": "software-design.fundamentals.design-principles.solid",
+      "rel": "contrasts",
+      "note": "IDEALS adapts SOLID to microservice design"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ideals",
+      "type": "website",
+      "title": "IDEALS, Not SOLID: Principles for Microservice Design",
+      "authors": [
+        "Merson, P.",
+        "Yoder, J."
+      ],
+      "year": 2020,
+      "publisher": "InfoQ",
+      "url": "https://www.infoq.com/articles/microservices-design-ideals/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "architectural-styles"
+  }
+}

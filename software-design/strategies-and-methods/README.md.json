@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-design.strategies-and-methods",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-design",
+      "strategies-and-methods"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

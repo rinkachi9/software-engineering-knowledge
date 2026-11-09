@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "computing-foundations.basic-concepts-of-a-system.system-application-and-platform",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "computing-foundations",
+      "basic-concepts-of-a-system"
+    ]
+  },
+  "map": {
+    "group": "basic-concepts-of-a-system"
+  }
+}

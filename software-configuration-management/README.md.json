@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "software-configuration-management",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-configuration-management"
+    ]
+  },
+  "map": {
+    "group": "software-configuration-management"
+  }
+}

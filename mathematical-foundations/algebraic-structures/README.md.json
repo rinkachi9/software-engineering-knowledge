@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.algebraic-structures",
+    "kind": "index",
+    "status": "draft",
+    "order": 11,
+    "tags": [
+      "mathematical-foundations",
+      "algebraic-structures"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

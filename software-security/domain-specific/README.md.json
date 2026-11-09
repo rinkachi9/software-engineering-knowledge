@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-security.domain-specific",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-security",
+      "domain-specific"
+    ]
+  },
+  "map": {
+    "group": "software-security"
+  }
+}

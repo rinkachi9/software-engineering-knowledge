@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "software-security",
+    "kind": "index",
+    "status": "draft",
+    "order": 13,
+    "tags": [
+      "software-security"
+    ]
+  },
+  "map": {
+    "group": "software-security"
+  }
+}

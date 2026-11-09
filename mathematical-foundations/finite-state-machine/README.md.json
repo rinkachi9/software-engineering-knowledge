@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.finite-state-machine",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "mathematical-foundations",
+      "finite-state-machine"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

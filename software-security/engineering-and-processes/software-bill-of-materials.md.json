@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "software-security.engineering-and-processes.software-bill-of-materials",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-security",
+      "engineering-and-processes"
+    ]
+  },
+  "sources": [
+    {
+      "key": "ntia-sbom",
+      "type": "report",
+      "title": "The Minimum Elements For a Software Bill of Materials (SBOM)",
+      "authors": [
+        "NTIA"
+      ],
+      "year": 2021,
+      "publisher": "U.S. Department of Commerce",
+      "url": "https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom",
+      "verified": false
+    },
+    {
+      "key": "cyclonedx",
+      "type": "standard",
+      "title": "CycloneDX Specification",
+      "authors": [
+        "OWASP"
+      ],
+      "url": "https://cyclonedx.org/specification/overview/",
+      "verified": false
+    },
+    {
+      "key": "spdx",
+      "type": "standard",
+      "title": "SPDX Specification",
+      "authors": [
+        "Linux Foundation"
+      ],
+      "url": "https://spdx.dev/use/specifications/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "engineering-and-processes"
+  }
+}

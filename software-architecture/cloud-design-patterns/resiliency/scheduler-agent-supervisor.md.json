@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.resiliency.scheduler-agent-supervisor",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "resiliency"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-scheduler-agent-supervisor",
+      "type": "documentation",
+      "title": "Scheduler agent supervisor pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/scheduler-agent-supervisor",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "resiliency"
+  }
+}

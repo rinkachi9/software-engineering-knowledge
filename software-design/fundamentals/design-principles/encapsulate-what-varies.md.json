@@ -1,0 +1,32 @@
+{
+  "node": {
+    "id": "software-design.fundamentals.design-principles.encapsulate-what-varies",
+    "kind": "note",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-design",
+      "fundamentals",
+      "design-principles"
+    ]
+  },
+  "sources": [
+    {
+      "key": "gof",
+      "type": "book",
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "authors": [
+        "Gamma, E.",
+        "Helm, R.",
+        "Johnson, R.",
+        "Vlissides, J."
+      ],
+      "year": 1994,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-principles"
+  }
+}

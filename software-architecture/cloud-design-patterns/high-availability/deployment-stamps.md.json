@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.high-availability.deployment-stamps",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "high-availability"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-deployment-stamps",
+      "type": "documentation",
+      "title": "Deployment stamps pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/deployment-stamp",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "high-availability"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-construction.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-construction",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-construction"
+  }
+}

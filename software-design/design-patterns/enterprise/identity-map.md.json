@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.enterprise.identity-map",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "enterprise"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.design-patterns.enterprise.repository",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "poeaa",
+      "type": "book",
+      "title": "Patterns of Enterprise Application Architecture",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2002,
+      "publisher": "Addison-Wesley",
+      "url": "https://martinfowler.com/eaaCatalog/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "enterprise"
+  }
+}

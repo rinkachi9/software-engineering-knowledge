@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-operations.practical-considerations",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-engineering-operations",
+      "practical-considerations"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-operations"
+  }
+}

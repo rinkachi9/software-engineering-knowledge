@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.discrete-probability",
+    "kind": "index",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "mathematical-foundations",
+      "discrete-probability"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

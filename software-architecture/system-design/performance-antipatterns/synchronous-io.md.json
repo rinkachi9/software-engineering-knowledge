@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.synchronous-io",
+    "kind": "note",
+    "status": "draft",
+    "order": 10,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.asynchronism",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-synchronous-io",
+      "type": "documentation",
+      "title": "Synchronous I/O antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/synchronous-io",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

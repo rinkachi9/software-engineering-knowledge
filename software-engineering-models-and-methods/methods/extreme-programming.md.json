@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-engineering-models-and-methods.methods.extreme-programming",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-engineering-models-and-methods",
+      "methods"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-engineering-models-and-methods.methods.agile-scrum-and-kanban",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "beck-xp",
+      "type": "book",
+      "title": "Extreme Programming Explained: Embrace Change, 2nd Edition",
+      "authors": [
+        "Beck, K.",
+        "Andres, C."
+      ],
+      "year": 2004,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "methods"
+  }
+}

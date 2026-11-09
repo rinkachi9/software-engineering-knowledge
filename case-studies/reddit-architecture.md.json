@@ -1,0 +1,20 @@
+{
+  "node": {
+    "id": "case-studies.reddit-architecture",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "case-studies"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.caching",
+      "rel": "applies"
+    }
+  ],
+  "map": {
+    "group": "case-studies"
+  }
+}

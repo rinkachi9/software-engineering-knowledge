@@ -1,0 +1,1118 @@
+# Table of contents
+
+Full tree of every file in the repository, generated from the files, the note titles and summaries, and the planned topics in the READMEs. Sidecar files (`.md.json`) are not listed: the entry of their Markdown file covers them.
+
+Entries without a link are planned topics. They become notes or directories when they are written.
+
+- **Repository root**
+  - [.gitignore](.gitignore): Files excluded from version control.
+  - [AGENTS.md](AGENTS.md): AGENTS.md - GUIDELINE.md defines the rules and the context of this repository: scope, structure, note format, writing style, visuals, sources, Librarian OS requirements and quality checks.
+  - [CLAUDE.md](CLAUDE.md): CLAUDE.md - The import above loads GUIDELINE.md.
+  - [GUIDELINE.md](GUIDELINE.md): Guideline - This document describes how to approach the Software Engineering Knowledge repository: what belongs in it, how notes are organized, how concepts must be explained and what quality bar every note has...
+  - [INSTRUCTIONS.md](INSTRUCTIONS.md): Preparing a repository for Librarian OS - This guide is for the person, or the AI agent, who adapts a repository so that Librarian OS can open it.
+  - [README.md](README.md): Software Engineering Knowledge - A personal, language agnostic knowledge base of software engineering: concepts, principles, patterns and practices, organized by the knowledge areas of the SWEBOK Guide V4.0.
+  - [ToC.md](ToC.md): This file.
+  - [librarian-os.json](librarian-os.json): Configuration for Librarian OS: project name, entry points and rules.
+- **software-requirements/**
+  - [README.md](software-requirements/README.md): Software requirements - Software requirements describe what a system must do and the constraints it must respect.
+  - **fundamentals/** (planned)
+    - [README.md](software-requirements/fundamentals/README.md): Software requirements fundamentals - The vocabulary of requirements: what a requirement is, the difference between product and project requirements, and between functional and nonfunctional requirements.
+    - Definition of a software requirement (planned)
+    - Functional and nonfunctional requirements (planned)
+    - Quality attribute requirements and their relation to the quality model (planned)
+    - Product, project and process requirements (planned)
+    - System requirements versus software requirements (planned)
+  - **elicitation/** (planned)
+    - [README.md](software-requirements/elicitation/README.md): Requirements elicitation - How requirements are discovered from stakeholders, documents and existing systems.
+    - Stakeholder identification and analysis (planned)
+    - Interviews and workshops (planned)
+    - Observation and contextual inquiry (planned)
+    - Prototyping as an elicitation technique (planned)
+    - Event storming as an elicitation technique (planned)
+  - **analysis/** (planned)
+    - [README.md](software-requirements/analysis/README.md): Requirements analysis - How raw requirements are classified, checked for conflicts and turned into a consistent model.
+    - Requirements classification (planned)
+    - Conceptual modeling of the problem domain (planned)
+    - Detecting and resolving requirement conflicts (planned)
+    - Requirements prioritization (MoSCoW, Kano, weighted scoring) (planned)
+  - **specification/** (planned)
+    - [README.md](software-requirements/specification/README.md): Requirements specification - How requirements are written down so that they are unambiguous, testable and traceable.
+    - Software requirements specification documents (ISO/IEC/IEEE 29148) (planned)
+    - Use cases (planned)
+    - User stories and acceptance criteria (planned)
+    - Specification by example and Gherkin scenarios (planned)
+    - Writing measurable nonfunctional requirements (planned)
+  - **validation/** (planned)
+    - [README.md](software-requirements/validation/README.md): Requirements validation - How a team checks that the documented requirements describe the system the stakeholders actually need.
+    - Requirements reviews (planned)
+    - Prototype validation (planned)
+    - Model validation (planned)
+    - Acceptance tests as validation (planned)
+  - **management-activities/**
+    - [README.md](software-requirements/management-activities/README.md): Requirements management activities - How requirements are changed, traced and kept in step with the design, code and tests over time.
+    - [feature-creep.md](software-requirements/management-activities/feature-creep.md): Feature creep - Feature creep is the excessive, ongoing addition of new features to a product beyond its basic function.
+    - Requirements traceability (planned)
+    - Change management for requirements (planned)
+    - Requirements attributes and baselines (planned)
+    - Product backlog management (planned)
+  - **practical-considerations/** (planned)
+    - [README.md](software-requirements/practical-considerations/README.md): Practical considerations for requirements - The iterative nature of requirements work, measuring requirements and the scope of requirements in agile development.
+    - Iterative requirements engineering (planned)
+    - Measuring requirements (function points, story points) (planned)
+    - Requirements in agile and plan driven projects (planned)
+  - **tools/** (planned)
+    - [README.md](software-requirements/tools/README.md): Software requirements tools - Tools that support modeling, tracing and managing requirements.
+    - Requirements management tools (planned)
+    - Requirements modeling tools (planned)
+- **software-architecture/**
+  - [README.md](software-architecture/README.md): Software architecture - Software architecture is the set of fundamental decisions about how a system is structured into elements, how those elements relate and which principles guide its evolution.
+  - **fundamentals/**
+    - [README.md](software-architecture/fundamentals/README.md): Software architecture fundamentals - What software architecture is, why it matters, the levels at which architects work and the responsibilities of the role.
+    - [software-architecture.md](software-architecture/fundamentals/software-architecture.md): What software architecture is - Software architecture is the set of fundamental structures of a software system and the design decisions that created them.
+    - [architecture-levels.md](software-architecture/fundamentals/architecture-levels.md): Architecture levels - Application architecture is the foundational level of architecture focused on the structure and behavior of individual applications.
+    - [architect-responsibilities.md](software-architecture/fundamentals/architect-responsibilities.md): Responsibilities of a software architect - A software architect makes and communicates the decisions that shape a system: technology and platform choices, development standards, decomposition into components and the handling of quality...
+    - **architectural-principles/**
+      - [README.md](software-architecture/fundamentals/architectural-principles/README.md): Architectural principles - Principles that guide how components, boundaries and dependencies are arranged so that an architecture stays easy to change.
+      - [component-principles.md](software-architecture/fundamentals/architectural-principles/component-principles.md): Component principles - Component principles guide which classes belong together in a component and how components may depend on each other.
+      - [policy-and-detail.md](software-architecture/fundamentals/architectural-principles/policy-and-detail.md): Policy and detail - Policy is the business rules and high level decisions of a system; details are the mechanisms such as databases, frameworks, user interfaces and devices.
+      - [boundaries.md](software-architecture/fundamentals/architectural-principles/boundaries.md): Architectural boundaries - Architectural boundaries are the lines that separate components, layers or services, and that control which dependencies may cross them.
+      - Dependency rule and clean architecture (planned)
+      - Hexagonal architecture (ports and adapters) (planned)
+      - Screaming architecture (planned)
+    - Stakeholders and concerns (planned)
+    - Architecturally significant requirements (planned)
+    - Conway's law and socio-technical architecture (planned)
+    - Architecture and agility (planned)
+  - **description/**
+    - [README.md](software-architecture/description/README.md): Software architecture description - How an architecture is documented: views, viewpoints, models and the enterprise architecture frameworks that organize them.
+    - [enterprise-architecture-frameworks.md](software-architecture/description/enterprise-architecture-frameworks.md): Enterprise architecture frameworks - An enterprise architecture framework (or simply EA framework) is the collection of processes, templates and tools that software teams use to plan and build large, enterprise-grade application...
+    - [togaf.md](software-architecture/description/togaf.md): TOGAF - TOGAF (The Open Group Architecture Framework) is a widely adopted enterprise architecture framework that provides a methodology and tools to design, plan, implement, and govern enterprise...
+    - [zachman-framework.md](software-architecture/description/zachman-framework.md): Zachman Framework - The Zachman Framework is a foundational enterprise architecture framework that provides a structured approach for organizing and analyzing the artifacts of an organization’s architecture.
+    - [integrated-architecture-framework.md](software-architecture/description/integrated-architecture-framework.md): Integrated Architecture Framework (IAF) - The Integrated Architecture Framework (IAF) is a comprehensive, structured framework used to design and manage enterprise architectures.
+    - ISO/IEC/IEEE 42010 concepts: views, viewpoints and model kinds (planned)
+    - The 4+1 view model (planned)
+    - The C4 model (planned)
+    - Architecture decision records (ADR) (planned)
+    - Architecture description languages (planned)
+  - **process/** (planned)
+    - [README.md](software-architecture/process/README.md): Software architecture process - How architectural decisions are made: from analyzing drivers to synthesizing and evaluating candidate designs.
+    - Attribute-driven design (ADD) (planned)
+    - Quality attribute scenarios (planned)
+    - Architectural tactics (planned)
+    - Evolutionary architecture and fitness functions (planned)
+    - Technical debt at the architecture level (planned)
+  - **evaluation/** (planned)
+    - [README.md](software-architecture/evaluation/README.md): Software architecture evaluation - How an architecture is reviewed against its quality goals before and after it is built.
+    - Architecture Tradeoff Analysis Method (ATAM) (planned)
+    - Lightweight architecture reviews (planned)
+    - Architecture conformance checking (planned)
+  - **architectural-styles/**
+    - [README.md](software-architecture/architectural-styles/README.md): Architectural styles - Recurring large scale structures of software systems, such as layered, client-server, service-oriented, microservices and serverless architectures, with their trade offs.
+    - [monolithic-architecture.md](software-architecture/architectural-styles/monolithic-architecture.md): Monolithic architecture - A monolithic architecture builds and deploys an application as a single unit: one codebase, one build artifact and usually one database, running as one process or as identical copies behind a load...
+    - [layered-architecture.md](software-architecture/architectural-styles/layered-architecture.md): Layered architecture - The Layered Architecture is a software design pattern that organizes a system into logical layers, each responsible for a specific aspect of the application.
+    - [client-server-architecture.md](software-architecture/architectural-styles/client-server-architecture.md): Client-server architecture - Client-server architecture is a distributed system framework where tasks and workloads are divided between service providers (servers) and service requesters (clients).
+    - [service-oriented-architecture.md](software-architecture/architectural-styles/service-oriented-architecture.md): Service-oriented architecture - Service-Oriented Architecture (SOA) is a software design methodology that uses independent, self-contained software components called services to build business applications.
+    - [microservices.md](software-architecture/architectural-styles/microservices.md): Microservices architecture - Microservices are an architectural and organizational approach to software development where software is composed of small independent services that communicate over well-defined APIs.
+    - [microservices-vs-monolith.md](software-architecture/architectural-styles/microservices-vs-monolith.md): Microservices versus monolith - A monolith is deployed as one unit, while microservices split an application into small services that are deployed and scaled independently.
+    - [ideals-principles.md](software-architecture/architectural-styles/ideals-principles.md): IDEALS principles for microservices - IDEALS is a set of six principles for microservice design proposed as a counterpart of SOLID: interface segregation, deployability, event-driven, availability over consistency, loose coupling and...
+    - [cell-based-architecture.md](software-architecture/architectural-styles/cell-based-architecture.md): Cell-based architecture - Cell-based architecture in software is a design framework where the application is divided into a collection of individual units called "cells." Each cell operates independently and can communicate...
+    - [serverless-architecture.md](software-architecture/architectural-styles/serverless-architecture.md): Serverless architecture - Serverless architecture (also known as serverless computing or function as a service, FaaS) is a software design pattern where applications are hosted by a third-party service, eliminating the need...
+    - Modular monolith (planned)
+    - Event-driven architecture (planned)
+    - Pipe and filter architecture (planned)
+    - Microkernel (plugin) architecture (planned)
+    - Space-based architecture (planned)
+    - Hexagonal and clean architecture (planned)
+  - **web-architecture/**
+    - [README.md](software-architecture/web-architecture/README.md): Web application architecture - Architectural choices specific to web applications: where pages are rendered and how a large frontend is split between teams.
+    - [spa-ssr-and-ssg.md](software-architecture/web-architecture/spa-ssr-and-ssg.md): SPA, SSR and SSG rendering - A single page application (SPA) renders pages in the browser with JavaScript, server-side rendering (SSR) renders each page on the server at request time, and static site generation (SSG) renders...
+    - [micro-frontends.md](software-architecture/web-architecture/micro-frontends.md): Micro-frontends - Microfrontends is an architectural style where independently deliverable frontend applications built by different teams using different technologies are composed into a greater whole.
+    - Progressive enhancement (planned)
+    - Islands architecture and partial hydration (planned)
+    - Content delivery networks (planned)
+    - Web performance budgets (planned)
+  - **distributed-systems/**
+    - [README.md](software-architecture/distributed-systems/README.md): Distributed systems - Concepts that govern systems whose components run on networked computers: consistency, partitions, the CAP theorem and actor based concurrency.
+    - [distributed-systems.md](software-architecture/distributed-systems/distributed-systems.md): Distributed systems - A distributed system is a set of independent computers that communicate over a network and appear to their users as one system.
+    - [consistency.md](software-architecture/distributed-systems/consistency.md): Consistency - Consistency in system design refers to the property of ensuring that all nodes in a distributed system have the same view of the data at any given point in time, despite possible concurrent...
+    - [eventual-consistency.md](software-architecture/distributed-systems/eventual-consistency.md): Eventual consistency - Eventual consistency is a consistency model used in distributed computing, where updates to a data system are propagated across nodes asynchronously.
+    - [cap-theorem.md](software-architecture/distributed-systems/cap-theorem.md): CAP theorem - The CAP theorem states that when a network partition occurs, a distributed data store must choose between consistency (every read sees the latest write) and availability (every request gets a...
+    - [partition-tolerance.md](software-architecture/distributed-systems/partition-tolerance.md): Partition tolerance - A partition is when the network fails to deliver some messages to one or more nodes by losing them (not by delaying them - eventual delivery is not a partition).
+    - [actor-model.md](software-architecture/distributed-systems/actor-model.md): Actor model - The actor model is a conceptual model to deal with concurrent computation.
+    - Fallacies of distributed computing (planned)
+    - Consensus algorithms (Paxos, Raft) (planned)
+    - Clocks, ordering and vector clocks (planned)
+    - Consistent hashing (planned)
+    - Load balancing (planned)
+    - Distributed transactions and two-phase commit (planned)
+    - PACELC theorem (planned)
+  - **system-design/**
+    - [README.md](software-architecture/system-design/README.md): System design - Building blocks used when designing a concrete system for a set of requirements: caching, background jobs, asynchronous processing and the performance antipatterns to avoid.
+    - [system-design.md](software-architecture/system-design/system-design.md): System design process - System design is the process of defining the elements of a system, as well as their interactions and relationships, in order to satisfy a set of specified requirements.
+    - [caching.md](software-architecture/system-design/caching.md): Caching - Caching is the process of storing frequently accessed data in a temporary storage location, called a cache, in order to quickly retrieve it without the need to query the original data source.
+    - [background-jobs.md](software-architecture/system-design/background-jobs.md): Background jobs - Background jobs in system design refer to tasks that are executed in the background, independently of the main execution flow of the system.
+    - **asynchronous-processing/**
+      - [README.md](software-architecture/system-design/asynchronous-processing/README.md): Asynchronous processing - Moving work out of the request path with queues, and the techniques that keep asynchronous systems correct and stable.
+      - [asynchronism.md](software-architecture/system-design/asynchronous-processing/asynchronism.md): Asynchronism - Asynchronous workflows help reduce request times for expensive operations that would otherwise be performed in-line.
+      - [synchronous-communication.md](software-architecture/system-design/asynchronous-processing/synchronous-communication.md): Synchronous communication - Synchronous communication in system design refers to a type of interaction where processes or components operate in lockstep with each other.
+      - [message-queues.md](software-architecture/system-design/asynchronous-processing/message-queues.md): Message queues - A Message Queue is a form of communication and data transfer mechanism used in computer science and system design.
+      - [task-queues.md](software-architecture/system-design/asynchronous-processing/task-queues.md): Task queues - Tasks queues receive tasks and their related data, runs them, then delivers their results.
+      - [back-pressure.md](software-architecture/system-design/asynchronous-processing/back-pressure.md): Back pressure - Back pressure is a way for an overloaded consumer to signal producers to slow down, instead of letting queues grow without bound.
+      - [idempotent-operations.md](software-architecture/system-design/asynchronous-processing/idempotent-operations.md): Idempotent operations - Idempotent operations are operations that can be applied multiple times without changing the result beyond the initial application.
+      - Delivery semantics: at most once, at least once, exactly once (planned)
+      - Dead-letter queues (planned)
+      - Transactional outbox (planned)
+      - Event streaming logs (planned)
+    - **performance-antipatterns/**
+      - [README.md](software-architecture/system-design/performance-antipatterns/README.md): Performance antipatterns - Common design and implementation mistakes that make cloud applications slow or unstable under load, with ways to detect each one.
+      - [busy-database.md](software-architecture/system-design/performance-antipatterns/busy-database.md): Busy database antipattern - A busy database in system design refers to a database that is handling a high volume of requests or transactions, this can occur when a system is experiencing high traffic or when a database is not...
+      - [extraneous-fetching.md](software-architecture/system-design/performance-antipatterns/extraneous-fetching.md): Extraneous fetching antipattern - Extraneous fetching in system design refers to the practice of retrieving more data than is needed for a specific task or operation.
+      - [busy-front-end.md](software-architecture/system-design/performance-antipatterns/busy-front-end.md): Busy front end antipattern - The busy front end antipattern occurs when resource intensive work runs on the same front end instances that serve user requests, for example on many background threads.
+      - [chatty-io.md](software-architecture/system-design/performance-antipatterns/chatty-io.md): Chatty I/O antipattern - The cumulative effect of a large number of I/O requests can have a significant impact on performance and responsiveness.
+      - [improper-instantiation.md](software-architecture/system-design/performance-antipatterns/improper-instantiation.md): Improper instantiation antipattern - Improper instantiation in system design refers to the practice of creating unnecessary instances of an object, class or service, which can lead to performance and scalability issues.
+      - [monolithic-persistence.md](software-architecture/system-design/performance-antipatterns/monolithic-persistence.md): Monolithic persistence antipattern - Monolithic Persistence refers to the use of a single, monolithic database to store all of the data for an application or system.
+      - [no-caching.md](software-architecture/system-design/performance-antipatterns/no-caching.md): No caching antipattern - No caching antipattern occurs when a cloud application that handles many concurrent requests, repeatedly fetches the same data.
+      - [noisy-neighbor.md](software-architecture/system-design/performance-antipatterns/noisy-neighbor.md): Noisy neighbor antipattern - Noisy neighbor refers to a situation in which one or more components of a system are utilizing a disproportionate amount of shared resources, leading to resource contention and reduced performance...
+      - [retry-storm.md](software-architecture/system-design/performance-antipatterns/retry-storm.md): Retry storm antipattern - Retry Storm refers to a situation in which a large number of retries are triggered in a short period of time, leading to a significant increase in traffic and resource usage.
+      - [synchronous-io.md](software-architecture/system-design/performance-antipatterns/synchronous-io.md): Synchronous I/O antipattern - Blocking the calling thread while I/O completes can reduce performance and affect vertical scalability.
+    - Load balancing (planned)
+    - Content delivery networks (planned)
+    - Rate limiting algorithms (token bucket, leaky bucket, sliding window) (planned)
+    - Back-of-the-envelope capacity estimation (planned)
+    - Data partitioning and replication strategies (planned)
+  - **cloud-design-patterns/**
+    - [README.md](software-architecture/cloud-design-patterns/README.md): Cloud design patterns - Proven solutions to recurring problems in distributed cloud applications, grouped by the concern they address: messaging, data management, design and implementation, availability, resiliency and...
+    - [cloud-design-patterns-overview.md](software-architecture/cloud-design-patterns/cloud-design-patterns-overview.md): Cloud design patterns overview - Design patterns are solutions to common problems that arise when building systems that run on a cloud platform.
+    - **messaging/**
+      - [README.md](software-architecture/cloud-design-patterns/messaging/README.md): Messaging patterns - Patterns for communication between components through messages and events, so that senders and receivers stay decoupled.
+      - [asynchronous-request-reply.md](software-architecture/cloud-design-patterns/messaging/asynchronous-request-reply.md): Asynchronous request-reply pattern - Decouple backend processing from a frontend host, where backend processing needs to be asynchronous, but the frontend still needs a clear response.
+      - [claim-check.md](software-architecture/cloud-design-patterns/messaging/claim-check.md): Claim check pattern - The Claim-Check pattern allows workloads to transfer payloads without storing the payload in a messaging system.
+      - [choreography.md](software-architecture/cloud-design-patterns/messaging/choreography.md): Choreography pattern - Decentralize workflow logic and distribute the responsibilities to other components within a system.
+      - [competing-consumers.md](software-architecture/cloud-design-patterns/messaging/competing-consumers.md): Competing consumers pattern - Enable multiple concurrent consumers to process messages received on the same messaging channel.
+      - [pipes-and-filters.md](software-architecture/cloud-design-patterns/messaging/pipes-and-filters.md): Pipes and filters pattern - Decompose a task that performs complex processing into a series of separate elements that can be reused.
+      - [priority-queue.md](software-architecture/cloud-design-patterns/messaging/priority-queue.md): Priority queue pattern - The priority queue pattern enables a workload to process high-priority tasks more quickly than lower-priority tasks.
+      - [publisher-subscriber.md](software-architecture/cloud-design-patterns/messaging/publisher-subscriber.md): Publisher-subscriber pattern - Enable an application to announce events to multiple interested consumers asynchronously, without coupling the senders to the receivers.
+      - [sequential-convoy.md](software-architecture/cloud-design-patterns/messaging/sequential-convoy.md): Sequential convoy pattern - Process a set of related messages in a defined order, without blocking processing of other groups of messages.
+    - **data-management/**
+      - [README.md](software-architecture/cloud-design-patterns/data-management/README.md): Data management patterns - Patterns for storing, partitioning, caching and querying data that is spread across many locations.
+      - [cache-aside.md](software-architecture/cloud-design-patterns/data-management/cache-aside.md): Cache-aside pattern - Load data on demand into a cache from a data store.
+      - [index-table.md](software-architecture/cloud-design-patterns/data-management/index-table.md): Index table pattern - Create indexes over the fields in data stores that are frequently referenced by queries.
+      - [materialized-view.md](software-architecture/cloud-design-patterns/data-management/materialized-view.md): Materialized view pattern - Generate prepopulated views over the data in one or more data stores when the data isn't ideally formatted for required query operations.
+      - [sharding.md](software-architecture/cloud-design-patterns/data-management/sharding.md): Sharding pattern - Divide a data store into a set of horizontal partitions or shards.
+      - [static-content-hosting.md](software-architecture/cloud-design-patterns/data-management/static-content-hosting.md): Static content hosting pattern - Deploy static content to a cloud-based storage service that can deliver them directly to the client.
+      - Event sourcing pattern (planned)
+      - Valet key (see security patterns) (planned)
+    - **design-and-implementation/**
+      - [README.md](software-architecture/cloud-design-patterns/design-and-implementation/README.md): Design and implementation patterns - Patterns that improve consistency, maintainability and reuse of components in cloud applications, many of them around gateways and helper processes.
+      - [ambassador.md](software-architecture/cloud-design-patterns/design-and-implementation/ambassador.md): Ambassador pattern - Create helper services that send network requests on behalf of a consumer service or application.
+      - [anti-corruption-layer.md](software-architecture/cloud-design-patterns/design-and-implementation/anti-corruption-layer.md): Anti-corruption layer pattern - Implement a façade or adapter layer between different subsystems that don't share the same semantics.
+      - [backends-for-frontends.md](software-architecture/cloud-design-patterns/design-and-implementation/backends-for-frontends.md): Backends for frontends pattern - Create separate backend services to be consumed by specific frontend applications or interfaces.
+      - [cqrs.md](software-architecture/cloud-design-patterns/design-and-implementation/cqrs.md): CQRS pattern - CQRS stands for Command and Query Responsibility Segregation, a pattern that separates read and update operations for a data store.
+      - [compute-resource-consolidation.md](software-architecture/cloud-design-patterns/design-and-implementation/compute-resource-consolidation.md): Compute resource consolidation pattern - Consolidate multiple tasks or operations into a single computational unit.
+      - [external-configuration-store.md](software-architecture/cloud-design-patterns/design-and-implementation/external-configuration-store.md): External configuration store pattern - Move configuration information out of the application deployment package to a centralized location.
+      - [gateway-aggregation.md](software-architecture/cloud-design-patterns/design-and-implementation/gateway-aggregation.md): Gateway aggregation pattern - Use a gateway to aggregate multiple individual requests into a single request.
+      - [gateway-offloading.md](software-architecture/cloud-design-patterns/design-and-implementation/gateway-offloading.md): Gateway offloading pattern - Offload shared or specialized service functionality to a gateway proxy.
+      - [gateway-routing.md](software-architecture/cloud-design-patterns/design-and-implementation/gateway-routing.md): Gateway routing pattern - The gateway routing pattern exposes several services or service instances behind a single endpoint and routes each request to the right backend, usually by path, header or version.
+      - [sidecar.md](software-architecture/cloud-design-patterns/design-and-implementation/sidecar.md): Sidecar pattern - Deploy components of an application into a separate process or container to provide isolation and encapsulation.
+      - [strangler-fig.md](software-architecture/cloud-design-patterns/design-and-implementation/strangler-fig.md): Strangler fig pattern - Incrementally migrate a legacy system by gradually replacing specific pieces of functionality with new applications and services.
+    - **high-availability/**
+      - [README.md](software-architecture/cloud-design-patterns/high-availability/README.md): High availability patterns - Patterns that keep a system working and measurably available when load grows or parts of it fail.
+      - [failover-and-replication.md](software-architecture/cloud-design-patterns/high-availability/failover-and-replication.md): Failover and replication - Failover and replication are the two basic techniques for high availability.
+      - [deployment-stamps.md](software-architecture/cloud-design-patterns/high-availability/deployment-stamps.md): Deployment stamps pattern - The deployment stamp pattern involves provisioning, managing, and monitoring a heterogeneous group of resources to host and operate multiple workloads or tenants.
+      - [geode.md](software-architecture/cloud-design-patterns/high-availability/geode.md): Geode pattern - The Geode pattern involves deploying a collection of backend services into a set of geographical nodes, each of which can service any request for any client in any region.
+      - [bulkhead.md](software-architecture/cloud-design-patterns/high-availability/bulkhead.md): Bulkhead pattern - The bulkhead pattern isolates the resources of an application into separate pools, so that a failure or overload in one pool cannot exhaust the resources of the others.
+      - [throttling.md](software-architecture/cloud-design-patterns/high-availability/throttling.md): Throttling pattern - Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service.
+      - [queue-based-load-leveling.md](software-architecture/cloud-design-patterns/high-availability/queue-based-load-leveling.md): Queue-based load leveling pattern - Use a queue that acts as a buffer between a task and a service it invokes in order to smooth intermittent heavy loads that can cause the service to fail or the task to time out.
+      - [health-endpoint-monitoring.md](software-architecture/cloud-design-patterns/high-availability/health-endpoint-monitoring.md): Health endpoint monitoring pattern - To verify that applications and services are performing correctly, you can use the Health Endpoint Monitoring pattern.
+      - [circuit-breaker.md](software-architecture/cloud-design-patterns/high-availability/circuit-breaker.md): Circuit breaker pattern - Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource.
+      - [rate-limiting.md](software-architecture/cloud-design-patterns/high-availability/rate-limiting.md): Rate limiting pattern - The rate limiting pattern makes a client control the rate at which it sends requests to a service that enforces limits, so that it stays under the limit instead of repeatedly hitting it and being...
+    - **resiliency/**
+      - [README.md](software-architecture/cloud-design-patterns/resiliency/README.md): Resiliency patterns - Patterns that let a system recover gracefully from transient and permanent failures.
+      - [compensating-transaction.md](software-architecture/cloud-design-patterns/resiliency/compensating-transaction.md): Compensating transaction pattern - When you use an eventually consistent operation that consists of a series of steps, the Compensating Transaction pattern can be useful.
+      - [leader-election.md](software-architecture/cloud-design-patterns/resiliency/leader-election.md): Leader election pattern - Coordinate the actions performed by a collection of collaborating instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the others.
+      - [retry.md](software-architecture/cloud-design-patterns/resiliency/retry.md): Retry pattern - Enable an application to handle transient failures when it tries to connect to a service or network resource, by transparently retrying a failed operation.
+      - [scheduler-agent-supervisor.md](software-architecture/cloud-design-patterns/resiliency/scheduler-agent-supervisor.md): Scheduler agent supervisor pattern - Coordinate a set of distributed actions as a single operation.
+    - **security/**
+      - [README.md](software-architecture/cloud-design-patterns/security/README.md): Security patterns - Patterns that protect cloud applications by controlling identity, access and exposure of services and data.
+      - [federated-identity.md](software-architecture/cloud-design-patterns/security/federated-identity.md): Federated identity pattern - Delegate authentication to an external identity provider.
+      - [gatekeeper.md](software-architecture/cloud-design-patterns/security/gatekeeper.md): Gatekeeper pattern - Protect applications and services by using a dedicated host instance to broker requests between clients and the application or service.
+      - [valet-key.md](software-architecture/cloud-design-patterns/security/valet-key.md): Valet key pattern - Use a token that provides clients with restricted direct access to a specific resource, in order to offload data transfer from the application.
+    - Saga pattern (planned)
+    - Event sourcing pattern (planned)
+    - Transactional outbox pattern (planned)
+    - Edge workload configuration pattern (planned)
+- **software-design/**
+  - [README.md](software-design/README.md): Software design - Software design turns requirements and architecture into a description of components, interfaces and data detailed enough to be built.
+  - **fundamentals/**
+    - [README.md](software-design/fundamentals/README.md): Software design fundamentals - The basic ideas of design: abstraction, coupling and cohesion, decomposition, encapsulation and the signs that a design is decaying.
+    - [coupling-and-cohesion.md](software-design/fundamentals/coupling-and-cohesion.md): Coupling and cohesion - Coupling is the degree to which components depend on each other, and cohesion is the degree to which the elements inside one component belong together.
+    - [design-rot.md](software-design/fundamentals/design-rot.md): Design rot - Design rot is the gradual decay of a software design until simple changes become slow, risky and expensive.
+    - **design-principles/**
+      - [README.md](software-design/fundamentals/design-principles/README.md): Design principles - Rules of thumb that guide design decisions toward code that is easy to understand, change and extend.
+      - [solid.md](software-design/fundamentals/design-principles/solid.md): SOLID principles - SOLID is a set of five object-oriented design principles: single responsibility, open-closed, Liskov substitution, interface segregation and dependency inversion.
+      - [dry.md](software-design/fundamentals/design-principles/dry.md): DRY principle - DRY (Don’t Repeat Yourself) is a software development principle that suggests that code should not have duplicate functionality.
+      - [kiss.md](software-design/fundamentals/design-principles/kiss.md): KISS principle - KISS (keep it simple, stupid) says that a system works best when it has as few parts, and especially as few interdependent parts, as the problem allows.
+      - [yagni.md](software-design/fundamentals/design-principles/yagni.md): YAGNI principle - YAGNI (You Ain’t Gonna Need It) is a software development principle that suggests that developers should not add functionality to a codebase unless it is immediately necessary.
+      - [composition-over-inheritance.md](software-design/fundamentals/design-principles/composition-over-inheritance.md): Composition over inheritance - The "Composition over Inheritance" principle encourages creating modular, flexible, and maintainable systems by combining smaller, reusable components rather than building complex class hierarchies.
+      - [encapsulate-what-varies.md](software-design/fundamentals/design-principles/encapsulate-what-varies.md): Encapsulate what varies - The "Encapsulate What Varies" principle is essential for creating flexible, maintainable, and scalable systems.
+      - [program-to-abstractions.md](software-design/fundamentals/design-principles/program-to-abstractions.md): Program to abstractions - Programming against abstractions is a foundational principle for building flexible, maintainable, and scalable software systems.
+      - [hollywood-principle.md](software-design/fundamentals/design-principles/hollywood-principle.md): Hollywood principle - The Hollywood Principle enforces a separation of responsibilities, ensuring high-level components control the flow of an application while low-level components remain passive and responsive.
+      - Principle of least astonishment (planned)
+      - Tell, do not ask (planned)
+      - Command-query separation (planned)
+    - Abstraction and information hiding (planned)
+    - Separation of concerns (planned)
+    - Modularity and decomposition (planned)
+    - Law of Demeter (planned)
+  - **processes/** (planned)
+    - [README.md](software-design/processes/README.md): Software design processes - How design work is organized: high level and detailed design, and how design fits into iterative development.
+    - High level and detailed design (planned)
+    - Design reviews (planned)
+    - Emergent design in agile teams (planned)
+  - **qualities/** (planned)
+    - [README.md](software-design/qualities/README.md): Software design qualities - Qualities a design must address beyond functionality: concurrency, events, distribution, errors, interaction and persistence.
+    - Concurrency in design (planned)
+    - Error and exception handling strategy (planned)
+    - Design for testability (planned)
+    - Design for observability (planned)
+  - **recording-designs/** (planned)
+    - [README.md](software-design/recording-designs/README.md): Recording software designs - How a design is captured so that others can understand and review it, from sketches to formal models.
+    - Design documents (planned)
+    - Structural and behavioral design notations (planned)
+    - Diagrams as code (planned)
+  - **strategies-and-methods/**
+    - [README.md](software-design/strategies-and-methods/README.md): Software design strategies and methods - General strategies and complete methods for producing a design, such as object-oriented design and domain-driven design.
+    - [domain-driven-design.md](software-design/strategies-and-methods/domain-driven-design.md): Domain-driven design - Domain-Driven Design (DDD) is a software development approach that emphasizes collaboration between technical and domain experts to create a shared understanding of the problem space, leading to more...
+    - Function-oriented (structured) design (planned)
+    - Object-oriented analysis and design (planned)
+    - Data-centered design (planned)
+    - Event storming (planned)
+  - **quality-analysis-and-evaluation/** (planned)
+    - [README.md](software-design/quality-analysis-and-evaluation/README.md): Software design quality analysis and evaluation - How the quality of a design is reviewed and measured before and after it is implemented.
+    - Design metrics (coupling, cohesion, complexity) (planned)
+    - Static analysis of design (planned)
+    - Design review checklists (planned)
+  - **design-patterns/**
+    - [README.md](software-design/design-patterns/README.md): Design patterns - Named, reusable solutions to recurring design problems at the level of classes and objects, grouped into creational, structural, behavioral, enterprise and presentation patterns.
+    - **creational/**
+      - [README.md](software-design/design-patterns/creational/README.md): Creational patterns - Patterns that control how objects are created, so that client code does not depend on concrete classes.
+      - [factory.md](software-design/design-patterns/creational/factory.md): Factory pattern - The Factory pattern is a creational design pattern used to abstract the process of creating objects.
+      - [abstract-factory.md](software-design/design-patterns/creational/abstract-factory.md): Abstract factory pattern - The Abstract Factory pattern is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+      - [singleton.md](software-design/design-patterns/creational/singleton.md): Singleton pattern - The Singleton pattern is a creational design pattern that ensures a class has only one instance and provides a global point of access to that instance.
+      - [prototype.md](software-design/design-patterns/creational/prototype.md): Prototype pattern - The Prototype pattern is a creational design pattern that enables the creation of new objects by copying existing ones, rather than instantiating them directly.
+      - [builder.md](software-design/design-patterns/creational/builder.md): Builder pattern - The Builder pattern is a creational design pattern that provides a structured way to construct complex objects step by step.
+    - **structural/**
+      - [README.md](software-design/design-patterns/structural/README.md): Structural patterns - Patterns that compose classes and objects into larger structures while keeping them flexible.
+      - [adapter.md](software-design/design-patterns/structural/adapter.md): Adapter pattern - The Adapter pattern is a structural design pattern that allows incompatible interfaces to work together.
+      - [bridge.md](software-design/design-patterns/structural/bridge.md): Bridge pattern - The Bridge pattern is a structural design pattern that decouples an abstraction from its implementation, allowing them to evolve independently.
+      - [composite.md](software-design/design-patterns/structural/composite.md): Composite pattern - The Composite pattern is a structural design pattern used to treat individual objects and compositions of objects uniformly.
+      - [decorator.md](software-design/design-patterns/structural/decorator.md): Decorator pattern - The Decorator pattern is a structural design pattern that allows you to dynamically add behavior or responsibilities to an object at runtime without modifying its structure.
+      - [facade.md](software-design/design-patterns/structural/facade.md): Facade pattern - The Facade pattern is a structural design pattern that provides a simplified, unified interface to a set of complex subsystems.
+      - [flyweight.md](software-design/design-patterns/structural/flyweight.md): Flyweight pattern - The Flyweight pattern is a structural design pattern that focuses on minimizing memory usage by sharing as much data as possible with similar objects.
+      - [proxy.md](software-design/design-patterns/structural/proxy.md): Proxy pattern - The Proxy pattern is a structural design pattern that provides a surrogate or placeholder for another object to control access to it.
+    - **behavioral/**
+      - [README.md](software-design/design-patterns/behavioral/README.md): Behavioral patterns - Patterns that assign responsibilities between objects and define how they communicate.
+      - [chain-of-responsibility.md](software-design/design-patterns/behavioral/chain-of-responsibility.md): Chain of responsibility pattern - The Chain of Responsibility pattern is a behavioral design pattern that allows multiple objects to process a request without coupling the sender to the receiver.
+      - [command.md](software-design/design-patterns/behavioral/command.md): Command pattern - The Command pattern is a behavioral design pattern that encapsulates a request as an object, allowing you to parameterize objects with operations, delay execution, or queue operations.
+      - [interpreter.md](software-design/design-patterns/behavioral/interpreter.md): Interpreter pattern - The Interpreter pattern is a behavioral design pattern that defines a way to evaluate or interpret sentences in a specific language.
+      - [mediator.md](software-design/design-patterns/behavioral/mediator.md): Mediator pattern - The Mediator pattern is a behavioral design pattern that facilitates communication between objects by encapsulating how they interact.
+      - [memento.md](software-design/design-patterns/behavioral/memento.md): Memento pattern - The Memento pattern is a behavioral design pattern that provides a way to capture and restore an object's state without exposing its internal details.
+      - [observer.md](software-design/design-patterns/behavioral/observer.md): Observer pattern - The Observer pattern is a behavioral design pattern that establishes a one-to-many relationship between objects.
+      - [state.md](software-design/design-patterns/behavioral/state.md): State pattern - The State pattern is a behavioral design pattern that allows an object to alter its behavior when its internal state changes.
+      - [strategy.md](software-design/design-patterns/behavioral/strategy.md): Strategy pattern - The Strategy pattern is a behavioral design pattern that enables selecting an algorithm's behavior at runtime.
+      - [template-method.md](software-design/design-patterns/behavioral/template-method.md): Template method pattern - The Template Method pattern is a behavioral design pattern that defines the skeleton of an algorithm in a base class and allows subclasses to override specific steps without altering the overall...
+      - [visitor.md](software-design/design-patterns/behavioral/visitor.md): Visitor pattern - The Visitor pattern is a behavioral design pattern that allows you to separate algorithms from the objects on which they operate.
+    - **enterprise/**
+      - [README.md](software-design/design-patterns/enterprise/README.md): Enterprise application patterns - Patterns for organizing domain logic, data access and data transfer in business applications.
+      - [data-transfer-object.md](software-design/design-patterns/enterprise/data-transfer-object.md): Data transfer object (DTO) pattern - The Data Transfer Object (DTO) design pattern is a widely used enterprise application architecture pattern.
+      - [identity-map.md](software-design/design-patterns/enterprise/identity-map.md): Identity map pattern - The Identity Map pattern is a crucial enterprise design pattern used to optimize object retrieval and maintain consistency in object identity within an application.
+      - [repository.md](software-design/design-patterns/enterprise/repository.md): Repository pattern - The Repository pattern is a design pattern widely used in enterprise software development.
+      - [transaction-script.md](software-design/design-patterns/enterprise/transaction-script.md): Transaction script pattern - The Transaction Script pattern is a simple yet effective architectural pattern used for organizing business logic in enterprise applications.
+      - [value-object.md](software-design/design-patterns/enterprise/value-object.md): Value object pattern - The Value Object (VO) pattern is a key concept in enterprise software development, especially in Domain-Driven Design (DDD).
+      - [domain-model.md](software-design/design-patterns/enterprise/domain-model.md): Domain model pattern - The Domain Model pattern is a fundamental architectural pattern in enterprise application development, particularly in Domain-Driven Design (DDD).
+      - [entity.md](software-design/design-patterns/enterprise/entity.md): Entity pattern - The Entity pattern is a foundational concept in enterprise software design, especially in Domain-Driven Design (DDD) and object-oriented programming.
+      - [mapper.md](software-design/design-patterns/enterprise/mapper.md): Mapper pattern - The Mapper pattern is a design pattern used in enterprise applications to transform data between different data models or formats.
+      - Unit of work pattern (planned)
+      - Active record pattern (planned)
+      - Table data gateway pattern (planned)
+      - Lazy load pattern (planned)
+      - Service layer pattern (planned)
+    - **presentation/**
+      - [README.md](software-design/design-patterns/presentation/README.md): Presentation patterns - Patterns that separate the user interface from the logic and data behind it.
+      - [model-view-controller.md](software-design/design-patterns/presentation/model-view-controller.md): Model-view-controller (MVC) - MVC is a design pattern that separates an application into three interconnected components: Model, View, and Controller.
+      - [model-view-viewmodel.md](software-design/design-patterns/presentation/model-view-viewmodel.md): Model-view-viewmodel (MVVM) - MVVM stands for Model-View-ViewModel, a presentation pattern that separates the graphical user interface (GUI) of an application from the business logic or back-end logic.
+      - [model-view-presenter.md](software-design/design-patterns/presentation/model-view-presenter.md): Model-view-presenter (MVP) - MVP stands for Model-View-Presenter.
+      - Flux and unidirectional data flow (planned)
+  - **api-design/**
+    - [README.md](software-design/api-design/README.md): API design - Styles and protocols for interfaces between services: REST, GraphQL, RPC and gRPC, and the trade offs between them.
+    - [rest.md](software-design/api-design/rest.md): REST - REST is an architectural style enforcing a client/server model where the client acts on a set of resources managed by the server.
+    - [rpc.md](software-design/api-design/rpc.md): Remote procedure call (RPC) - In an RPC, a client causes a procedure to execute on a different address space, usually a remote server.
+    - [grpc.md](software-design/api-design/grpc.md): gRPC - gRPC is a robust open-source RPC (Remote Procedure Call) framework used to build scalable and fast APIs.
+    - [graphql.md](software-design/api-design/graphql.md): GraphQL - GraphQL is a query language and runtime for building APIs.
+    - API versioning strategies (planned)
+    - Pagination, filtering and sorting (planned)
+    - Error formats (RFC 9457 problem details) (planned)
+    - OpenAPI and contract-first design (planned)
+    - Webhooks (planned)
+    - WebSockets and server-sent events (planned)
+    - Idempotency keys in APIs (planned)
+- **software-construction/**
+  - [README.md](software-construction/README.md): Software construction - Software construction is the detailed creation of working software through coding, verification, unit testing, integration and debugging.
+  - **fundamentals/**
+    - [README.md](software-construction/fundamentals/README.md): Software construction fundamentals - The goals that drive construction: minimizing complexity, anticipating and constructing for change, reuse, verification and standards.
+    - [code-reuse.md](software-construction/fundamentals/code-reuse.md): Code reuse - Code reuse is the practice of using existing code to build a new function or new software.
+    - Minimizing complexity (planned)
+    - Anticipating change (planned)
+    - Constructing for verification (planned)
+    - Coding standards (planned)
+  - **managing-construction/** (planned)
+    - [README.md](software-construction/managing-construction/README.md): Managing construction - How construction is planned and measured inside different life cycle models.
+    - Construction planning (planned)
+    - Construction measurement (planned)
+  - **practical-considerations/**
+    - [README.md](software-construction/practical-considerations/README.md): Practical considerations for construction - Everyday construction practice: writing readable code, building cloud-ready applications, integration and debugging.
+    - [clean-code.md](software-construction/practical-considerations/clean-code.md): Clean code - Clean code refers to a programming style and set of practices aimed at producing code that is easy to read, understand, maintain, and extend.
+    - [twelve-factor-app.md](software-construction/practical-considerations/twelve-factor-app.md): Twelve-factor app - The twelve-factor app is a methodology for building software-as-a-service applications that are easy to deploy, scale and operate.
+    - Refactoring (planned)
+    - Code review (planned)
+    - Defensive programming and error handling (planned)
+    - Debugging techniques (planned)
+    - Continuous integration (planned)
+  - **construction-technologies/**
+    - [README.md](software-construction/construction-technologies/README.md): Construction technologies - Technologies used while building software: APIs, middleware, distributed runtimes, concurrency primitives and platform standards.
+    - [dapr.md](software-construction/construction-technologies/dapr.md): Dapr (Distributed Application Runtime) - Dapr is a portable, event-driven runtime that exposes standardized, language-agnostic APIs (“building blocks”) for common distributed-systems concerns, service-to-service calls, pub/sub, state...
+    - Middleware and message brokers (planned)
+    - Concurrency primitives (planned)
+    - Dependency injection containers (planned)
+    - Object-relational mapping (planned)
+  - **tools/** (planned)
+    - [README.md](software-construction/tools/README.md): Software construction tools - Tools that support construction: development environments, build systems, unit testing frameworks and profilers.
+    - Build systems and dependency management (planned)
+    - Static analysis and linters (planned)
+    - Profiling tools (planned)
+- **software-testing/**
+  - [README.md](software-testing/README.md): Software testing - Software testing is the dynamic verification that a program behaves as expected on a finite set of test cases chosen from a usually infinite input domain.
+  - **fundamentals/** (planned)
+    - [README.md](software-testing/fundamentals/README.md): Software testing fundamentals - Terminology and key issues of testing: faults and failures, test oracles, the limits of testing and the relation between testing and other verification activities.
+    - Faults, errors and failures (planned)
+    - The test oracle problem (planned)
+    - Limitations of testing (planned)
+    - Testability (planned)
+  - **test-levels/** (planned)
+    - [README.md](software-testing/test-levels/README.md): Test levels - Targets and objectives of testing: unit, integration, system and acceptance tests, and the purpose each one serves.
+    - Unit testing (planned)
+    - Integration testing (planned)
+    - System and end-to-end testing (planned)
+    - Acceptance testing (planned)
+    - Regression testing (planned)
+    - The test pyramid (planned)
+  - **test-techniques/** (planned)
+    - [README.md](software-testing/test-techniques/README.md): Test techniques - Systematic ways of choosing test cases, based on specifications, code structure, faults, usage or experience.
+    - Equivalence partitioning and boundary value analysis (planned)
+    - Decision tables and combinatorial testing (planned)
+    - Code coverage criteria (planned)
+    - Mutation testing (planned)
+    - Property-based testing (planned)
+    - Exploratory testing (planned)
+  - **test-related-measures/** (planned)
+    - [README.md](software-testing/test-related-measures/README.md): Test-related measures - Measures used to evaluate both the program under test and the tests themselves.
+    - Coverage measures (planned)
+    - Defect density and fault seeding (planned)
+    - Mutation score (planned)
+  - **test-process/** (planned)
+    - [README.md](software-testing/test-process/README.md): Test process - How testing is planned, executed, documented and managed.
+    - Test planning and strategy (planned)
+    - Test documentation (planned)
+    - Test environments and test data (planned)
+  - **testing-in-development-processes/**
+    - [README.md](software-testing/testing-in-development-processes/README.md): Testing in development processes - How testing is embedded in development practices such as test-driven development, behavior-driven development and continuous integration.
+    - [test-driven-development.md](software-testing/testing-in-development-processes/test-driven-development.md): Test-driven development (TDD) - Test Driven Development (TDD) is a software development method where tests are written before code, ensuring quality, simplicity, and maintainability.
+    - Behavior-driven development (planned)
+    - Acceptance test-driven development (planned)
+    - Continuous testing in CI/CD (planned)
+    - Contract testing for services (planned)
+  - **emerging-technologies/** (planned)
+    - [README.md](software-testing/emerging-technologies/README.md): Testing of and through emerging technologies - Testing systems built on new technologies such as machine learning, and using such technologies to support testing.
+    - Testing machine learning systems (planned)
+    - AI-assisted test generation (planned)
+  - **tools/** (planned)
+    - [README.md](software-testing/tools/README.md): Software testing tools - Tools that support test design, execution, mocking and reporting.
+    - Test doubles: mocks, stubs and fakes (planned)
+    - Test runners and frameworks (planned)
+    - Load testing tools (planned)
+- **software-engineering-operations/**
+  - [README.md](software-engineering-operations/README.md): Software engineering operations - Software engineering operations covers the activities that deploy, run, monitor and support software in production.
+  - **fundamentals/** (planned)
+    - [README.md](software-engineering-operations/fundamentals/README.md): Software engineering operations fundamentals - What operations means for a software engineer, and how DevOps and site reliability engineering connect development with operations.
+    - DevOps principles (planned)
+    - Site reliability engineering (planned)
+    - Operations processes (planned)
+  - **planning/** (planned)
+    - [README.md](software-engineering-operations/planning/README.md): Software engineering operations planning - Planning the operational side of a system: capacity, availability, backup and recovery, and the operations environment.
+    - Capacity planning (planned)
+    - Backup and disaster recovery planning (planned)
+    - Infrastructure as code (planned)
+  - **delivery/** (planned)
+    - [README.md](software-engineering-operations/delivery/README.md): Software engineering operations delivery - Getting changes into production safely: build and deployment pipelines and deployment strategies.
+    - Continuous delivery and deployment pipelines (planned)
+    - Deployment strategies (blue-green, canary, rolling) (planned)
+    - Feature flags (planned)
+    - Containers and orchestration (planned)
+  - **control/**
+    - [README.md](software-engineering-operations/control/README.md): Software engineering operations control - Keeping a running system under control: monitoring, service level management, operational metrics and incident handling.
+    - [system-metrics.md](software-engineering-operations/control/system-metrics.md): System metrics - In system design, metrics are essential for assessing and maintaining the performance, reliability, and overall quality of a system.
+    - [sla-slo-sli.md](software-engineering-operations/control/sla-slo-sli.md): SLA, SLO and SLI - An SLA is a formal, contractual agreement between a service provider and a customer that defines the expected standards of service.
+    - [devops-metrics.md](software-engineering-operations/control/devops-metrics.md): DevOps metrics - DevOps metrics measure how fast and how safely a team delivers software: deployment size, deployment frequency, deployment time, lead time and availability.
+    - **monitoring/**
+      - [README.md](software-engineering-operations/control/monitoring/README.md): Monitoring - Collecting and analyzing telemetry about health, availability, performance, security, service levels and usage of a running system.
+      - [monitoring-and-diagnostics.md](software-engineering-operations/control/monitoring/monitoring-and-diagnostics.md): Monitoring and diagnostics - Monitoring and diagnostics is the continuous collection and analysis of telemetry from a running system, to know whether it is healthy, available, fast, secure and used as expected.
+      - [instrumenting-an-application.md](software-engineering-operations/control/monitoring/instrumenting-an-application.md): Instrumenting an application - Instrumentation is the process of adding code to an application to monitor its performance, health, and other aspects by capturing data.
+      - [health-monitoring.md](software-engineering-operations/control/monitoring/health-monitoring.md): Health monitoring - A system is healthy if it is running and capable of processing requests.
+      - [availability-monitoring.md](software-engineering-operations/control/monitoring/availability-monitoring.md): Availability monitoring - A healthy system needs all parts to be available, with availability monitoring tracking uptime statistics, distinct from health monitoring's real-time status.
+      - [performance-monitoring.md](software-engineering-operations/control/monitoring/performance-monitoring.md): Performance monitoring - Performance monitoring measures how quickly and efficiently a system handles its workload, using indicators such as response time, request rate, error rate and resource utilization.
+      - [security-monitoring.md](software-engineering-operations/control/monitoring/security-monitoring.md): Security monitoring - Security monitoring collects and analyzes events that may indicate an attack or misuse: failed sign-ins, unusual access patterns, changes to privileges and suspicious requests.
+      - [sla-monitoring.md](software-engineering-operations/control/monitoring/sla-monitoring.md): SLA monitoring - SLA monitoring checks whether a system meets the service level agreements it promises to customers, such as availability and response time targets.
+      - [usage-monitoring.md](software-engineering-operations/control/monitoring/usage-monitoring.md): Usage monitoring - Usage monitoring tracks how the features and components of an application are used.
+      - Observability: logs, metrics and traces (planned)
+      - OpenTelemetry (planned)
+      - Distributed tracing (planned)
+    - Incident management (planned)
+    - Blameless postmortems (planned)
+    - Error budgets (planned)
+    - Alerting strategy (planned)
+  - **practical-considerations/** (planned)
+    - [README.md](software-engineering-operations/practical-considerations/README.md): Practical considerations for operations - Practical concerns of running software: incident response, on call work and operating in the cloud.
+    - On call practices (planned)
+    - Runbooks (planned)
+    - Chaos engineering (planned)
+  - **tools/** (planned)
+    - [README.md](software-engineering-operations/tools/README.md): Software engineering operations tools - Tools for deployment automation, monitoring, logging and incident management.
+    - Monitoring and alerting tools (planned)
+    - Log management tools (planned)
+    - Deployment automation tools (planned)
+- **software-maintenance/** (planned)
+  - [README.md](software-maintenance/README.md): Software maintenance - Software maintenance is the modification of a software product after delivery to correct faults, improve it or adapt it to a changed environment.
+  - **fundamentals/** (planned)
+    - [README.md](software-maintenance/fundamentals/README.md): Software maintenance fundamentals - Definitions, the nature of maintenance, why it is needed and the categories of maintenance.
+    - Categories of maintenance: corrective, adaptive, perfective, preventive (planned)
+    - Lehman's laws of software evolution (planned)
+  - **key-issues/** (planned)
+    - [README.md](software-maintenance/key-issues/README.md): Key issues in software maintenance - Technical and management issues of maintenance, cost estimation and measurement.
+    - Technical debt (planned)
+    - Maintainability measurement (planned)
+    - Maintenance cost estimation (planned)
+  - **processes/** (planned)
+    - [README.md](software-maintenance/processes/README.md): Software maintenance processes - Maintenance processes and activities, from problem reports to modification and release.
+    - Maintenance process models (ISO/IEC/IEEE 14764) (planned)
+    - Impact analysis (planned)
+  - **techniques/** (planned)
+    - [README.md](software-maintenance/techniques/README.md): Software maintenance techniques - Techniques for understanding and changing existing software: program comprehension, reengineering, reverse engineering, migration and retirement.
+    - Program comprehension (planned)
+    - Working with legacy code (planned)
+    - Reengineering and reverse engineering (planned)
+    - Legacy modernization strategies (planned)
+    - Software retirement (planned)
+  - **tools/** (planned)
+    - [README.md](software-maintenance/tools/README.md): Software maintenance tools - Tools for comprehension, analysis and transformation of existing code.
+    - Code navigation and dependency analysis tools (planned)
+    - Automated refactoring tools (planned)
+- **software-configuration-management/**
+  - [README.md](software-configuration-management/README.md): Software configuration management - Software configuration management identifies the configuration of a system at points in time, controls changes to it and keeps its integrity and traceability across the life cycle.
+  - **process-management/** (planned)
+    - [README.md](software-configuration-management/process-management/README.md): Management of the SCM process - Planning and controlling configuration management itself: organizational context, constraints, the SCM plan and its surveillance.
+    - SCM plan (planned)
+    - SCM roles and responsibilities (planned)
+  - **configuration-identification/** (planned)
+    - [README.md](software-configuration-management/configuration-identification/README.md): Software configuration identification - Identifying the items to control, their relations, versions and baselines.
+    - Configuration items (planned)
+    - Baselines (planned)
+    - Software libraries and artifact repositories (planned)
+  - **change-control/** (planned)
+    - [README.md](software-configuration-management/change-control/README.md): Software configuration change control - Requesting, evaluating, approving and implementing changes to configuration items.
+    - Change requests and change control boards (planned)
+    - Branching strategies (trunk-based development, Git flow) (planned)
+    - Pull request workflows (planned)
+  - **status-accounting/** (planned)
+    - [README.md](software-configuration-management/status-accounting/README.md): Software configuration status accounting - Recording and reporting the status of configuration items and changes.
+    - Change logs and release notes (planned)
+  - **auditing/** (planned)
+    - [README.md](software-configuration-management/auditing/README.md): Software configuration auditing - Checking that the delivered configuration matches its specification and its records.
+    - Functional and physical configuration audits (planned)
+  - **release-management-and-delivery/**
+    - [README.md](software-configuration-management/release-management-and-delivery/README.md): Software release management and delivery - Building, versioning and releasing software so that each release is identified and reproducible.
+    - [software-versioning.md](software-configuration-management/release-management-and-delivery/software-versioning.md): Software versioning - Versioning in software refers to the process of assigning unique version numbers to different stages of software development.
+    - Reproducible builds (planned)
+    - Release planning and release trains (planned)
+    - Changelog conventions (planned)
+  - **tools/** (planned)
+    - [README.md](software-configuration-management/tools/README.md): Software configuration management tools - Version control systems, build servers and artifact repositories.
+    - Version control with Git (planned)
+    - Artifact repositories (planned)
+- **software-engineering-management/** (planned)
+  - [README.md](software-engineering-management/README.md): Software engineering management - Software engineering management applies management activities (planning, coordinating, measuring, monitoring, controlling and reporting) to software projects.
+  - **initiation-and-scope-definition/** (planned)
+    - [README.md](software-engineering-management/initiation-and-scope-definition/README.md): Initiation and scope definition - Deciding to start a project: determining and negotiating requirements, feasibility and the process for revising scope.
+    - Feasibility analysis (planned)
+    - Scope definition and negotiation (planned)
+  - **project-planning/** (planned)
+    - [README.md](software-engineering-management/project-planning/README.md): Software project planning - Planning the work: process planning, deliverables, effort, schedule and cost estimation, resource allocation and risk management.
+    - Effort estimation techniques (planned)
+    - Risk management (planned)
+    - Work breakdown and scheduling (planned)
+    - Release and iteration planning (planned)
+  - **project-execution/** (planned)
+    - [README.md](software-engineering-management/project-execution/README.md): Software project execution - Carrying out the plan: implementation of plans, supplier contracts, monitoring and controlling the process and reporting.
+    - Project monitoring and control (planned)
+    - Supplier and contract management (planned)
+  - **review-and-evaluation/** (planned)
+    - [README.md](software-engineering-management/review-and-evaluation/README.md): Review and evaluation - Checking whether requirements are satisfied and evaluating performance of the project and the team.
+    - Retrospectives (planned)
+    - Project performance reviews (planned)
+  - **closure/** (planned)
+    - [README.md](software-engineering-management/closure/README.md): Closure - Ending a project or phase: determining closure and the closure activities.
+    - Project closure activities (planned)
+    - Lessons learned (planned)
+  - **measurement/** (planned)
+    - [README.md](software-engineering-management/measurement/README.md): Software engineering measurement - Establishing and sustaining a measurement program for software engineering.
+    - Goal-question-metric (GQM) (planned)
+    - DORA metrics (planned)
+    - Flow metrics (planned)
+  - **tools/** (planned)
+    - [README.md](software-engineering-management/tools/README.md): Software engineering management tools - Tools for planning, tracking and reporting software work.
+    - Issue trackers and boards (planned)
+- **software-engineering-process/** (planned)
+  - [README.md](software-engineering-process/README.md): Software engineering process - Software engineering process covers the activities, life cycles and improvement models by which software is developed and maintained.
+  - **fundamentals/** (planned)
+    - [README.md](software-engineering-process/fundamentals/README.md): Software engineering process fundamentals - What a software process is, how processes are defined and the standards that describe them.
+    - Process definition (planned)
+    - ISO/IEC/IEEE 12207 life cycle processes (planned)
+  - **life-cycles/** (planned)
+    - [README.md](software-engineering-process/life-cycles/README.md): Life cycles - Software life cycle models and how to choose and adapt one.
+    - Waterfall model (planned)
+    - V-model (planned)
+    - Incremental and iterative models (planned)
+    - Spiral model (planned)
+    - DevOps as a life cycle (planned)
+  - **assessment-and-improvement/** (planned)
+    - [README.md](software-engineering-process/assessment-and-improvement/README.md): Software process assessment and improvement - Assessing the capability of processes and improving them.
+    - CMMI (planned)
+    - ISO/IEC 33000 process assessment (planned)
+    - Continuous improvement cycles (PDCA) (planned)
+- **software-engineering-models-and-methods/**
+  - [README.md](software-engineering-models-and-methods/README.md): Software engineering models and methods - Models and methods give structure to software engineering work so that it is systematic, repeatable and focused on results.
+  - **modeling/**
+    - [README.md](software-engineering-models-and-methods/modeling/README.md): Modeling - Principles of modeling, the properties of good models and the languages used to express them.
+    - [uml.md](software-engineering-models-and-methods/modeling/uml.md): Unified Modeling Language (UML) - The Unified Modeling Language (UML) is a standardized, general-purpose modeling language used for specifying, visualizing, constructing, and documenting the artifacts of software systems.
+    - Modeling principles (planned)
+    - SysML (planned)
+    - Model-driven engineering (planned)
+  - **types-of-models/** (planned)
+    - [README.md](software-engineering-models-and-methods/types-of-models/README.md): Types of models - Information, behavioral and structural models.
+    - Information models (planned)
+    - Behavioral models (state machines, activity models) (planned)
+    - Structure models (planned)
+  - **analysis-of-models/** (planned)
+    - [README.md](software-engineering-models-and-methods/analysis-of-models/README.md): Analysis of models - Analyzing models for completeness, consistency, correctness, traceability and interaction.
+    - Model checking (planned)
+    - Consistency analysis (planned)
+  - **methods/**
+    - [README.md](software-engineering-models-and-methods/methods/README.md): Software engineering methods - Heuristic, formal, prototyping and agile methods for developing software.
+    - [agile-scrum-and-kanban.md](software-engineering-models-and-methods/methods/agile-scrum-and-kanban.md): Agile, Scrum and Kanban - Agile refers to a software development and project management approach that emphasizes flexibility, collaboration, and customer feedback.
+    - [extreme-programming.md](software-engineering-models-and-methods/methods/extreme-programming.md): Extreme programming (XP) - Extreme programming is a software development methodology that’s part of what’s collectively known as agile methodologies.
+    - Formal methods (planned)
+    - Prototyping methods (planned)
+    - Lean software development (planned)
+    - Scaled agile frameworks (planned)
+- **software-quality/**
+  - [README.md](software-quality/README.md): Software quality - Software quality is the degree to which a software product meets its stated requirements and the needs of its users.
+  - **fundamentals/**
+    - [README.md](software-quality/fundamentals/README.md): Software quality fundamentals - Culture and ethics of quality, the value and cost of quality, quality models and characteristics.
+    - **quality-attributes/**
+      - [README.md](software-quality/fundamentals/quality-attributes/README.md): Quality attributes - Measurable properties of a running system, such as performance, scalability, availability, latency, throughput and reliability, that architecture and design must achieve.
+      - [performance.md](software-quality/fundamentals/quality-attributes/performance.md): Performance - Performance refers to how well a system can handle a given workload or set of tasks.
+      - [latency.md](software-quality/fundamentals/quality-attributes/latency.md): Latency - Latency refers to the amount of time it takes for a system to respond to a request.
+      - [throughput.md](software-quality/fundamentals/quality-attributes/throughput.md): Throughput - Throughput is the amount of work a system completes per unit of time, for example requests per second or transactions per second.
+      - [scalability.md](software-quality/fundamentals/quality-attributes/scalability.md): Scalability - A service is said to be scalable if when we increase the resources in a system, it results in increased performance in a manner proportional to resources added.
+      - [availability.md](software-quality/fundamentals/quality-attributes/availability.md): Availability - Availability is the proportion of time a system is working and able to serve requests, usually expressed as a percentage of uptime such as 99.9 percent.
+      - [reliability.md](software-quality/fundamentals/quality-attributes/reliability.md): Reliability - Reliability is the ability of a system to perform its required functions correctly under stated conditions for a stated period of time.
+      - Maintainability (planned)
+      - Observability as a quality attribute (planned)
+      - Elasticity (planned)
+      - Durability (planned)
+    - ISO/IEC 25010 product quality model (planned)
+    - Cost of quality (planned)
+    - Software safety (planned)
+  - **management-process/** (planned)
+    - [README.md](software-quality/management-process/README.md): Software quality management process - Planning, assurance, control and improvement of quality across the life cycle.
+    - Software quality plans (planned)
+    - Defect management and root cause analysis (planned)
+  - **assurance-process/** (planned)
+    - [README.md](software-quality/assurance-process/README.md): Software quality assurance process - Reviews, audits and verification and validation activities that give confidence in quality.
+    - Reviews and inspections (planned)
+    - Verification and validation (planned)
+    - Static analysis (planned)
+  - **tools/** (planned)
+    - [README.md](software-quality/tools/README.md): Software quality tools - Tools that support static and dynamic quality analysis.
+    - Static analysis tools (planned)
+    - Code quality dashboards (planned)
+- **software-security/**
+  - [README.md](software-security/README.md): Software security - Software security is the practice of building software that keeps working correctly under malicious attack.
+  - **fundamentals/** (planned)
+    - [README.md](software-security/fundamentals/README.md): Software security fundamentals - Basic concepts: confidentiality, integrity and availability, threats, vulnerabilities and the attack surface of software.
+    - CIA triad (planned)
+    - Attack surface (planned)
+    - Defense in depth (planned)
+    - Least privilege (planned)
+  - **management-and-organization/** (planned)
+    - [README.md](software-security/management-and-organization/README.md): Security management and organization - Organizing security work: roles, policies and security in the development organization.
+    - Security champions programs (planned)
+    - Security requirements management (planned)
+  - **engineering-and-processes/**
+    - [README.md](software-security/engineering-and-processes/README.md): Software security engineering and processes - Secure development life cycles, threat modeling and software supply chain practices.
+    - [software-bill-of-materials.md](software-security/engineering-and-processes/software-bill-of-materials.md): Software bill of materials (SBOM) - A software bill of materials (SBOM) is a machine readable inventory of the components, versions and dependencies that make up a piece of software.
+    - Secure software development life cycle (SSDLC) (planned)
+    - Threat modeling (STRIDE) (planned)
+    - NIST Secure Software Development Framework (SSDF) (planned)
+    - Software supply chain security (SLSA) (planned)
+  - **security-engineering-for-software-systems/**
+    - [README.md](software-security/security-engineering-for-software-systems/README.md): Security engineering for software systems - Applying security in requirements, design, construction and testing of software systems, including the security of APIs.
+    - [api-security.md](software-security/security-engineering-for-software-systems/api-security.md): API security - API security protects application programming interfaces from misuse and attack.
+    - OWASP Top 10 (planned)
+    - Secure coding practices (planned)
+    - Authentication and authorization in applications (planned)
+    - Secrets management (planned)
+    - Input validation and output encoding (planned)
+  - **tools/** (planned)
+    - [README.md](software-security/tools/README.md): Software security tools - Tools for finding vulnerabilities in code, dependencies and running applications.
+    - Static application security testing (SAST) (planned)
+    - Dynamic application security testing (DAST) (planned)
+    - Software composition analysis (SCA) (planned)
+  - **domain-specific/** (planned)
+    - [README.md](software-security/domain-specific/README.md): Domain-specific software security - Security concerns specific to domains such as cloud, mobile, embedded systems and machine learning.
+    - Cloud native application security (planned)
+    - Mobile application security (planned)
+    - Security of machine learning systems (planned)
+- **software-engineering-professional-practice/** (planned)
+  - [README.md](software-engineering-professional-practice/README.md): Software engineering professional practice - Professional practice covers the knowledge, skills and attitudes software engineers need to work responsibly and ethically.
+  - **professionalism/** (planned)
+    - [README.md](software-engineering-professional-practice/professionalism/README.md): Professionalism - Accreditation, codes of ethics, legal issues, documentation and standards for software engineers.
+    - ACM/IEEE Software Engineering Code of Ethics (planned)
+    - Software licenses and intellectual property (planned)
+    - Legal issues and liability (planned)
+  - **group-dynamics-and-psychology/** (planned)
+    - [README.md](software-engineering-professional-practice/group-dynamics-and-psychology/README.md): Group dynamics and psychology - How engineers work in teams: cognition, problem solving, cooperation and dealing with uncertainty.
+    - Psychological safety (planned)
+    - Team topologies (planned)
+    - Cognitive load (planned)
+  - **communication-skills/** (planned)
+    - [README.md](software-engineering-professional-practice/communication-skills/README.md): Communication skills - Reading, writing, presenting and collaborating as a software engineer.
+    - Technical writing (planned)
+    - Giving and receiving code review feedback (planned)
+    - Presenting technical decisions (planned)
+- **software-engineering-economics/** (planned)
+  - [README.md](software-engineering-economics/README.md): Software engineering economics - Software engineering economics is about making technical decisions in the context of the business: value, cost, risk and return.
+  - **fundamentals/** (planned)
+    - [README.md](software-engineering-economics/fundamentals/README.md): Software engineering economics fundamentals - Finance, accounting, cash flow, time value of money, inflation and depreciation as they apply to software.
+    - Time value of money (planned)
+    - Total cost of ownership (planned)
+  - **engineering-decision-making/** (planned)
+    - [README.md](software-engineering-economics/engineering-decision-making/README.md): The engineering decision-making process - A structured process for understanding the problem, identifying alternatives and choosing between them.
+    - Defining selection criteria (planned)
+    - Evaluating alternatives (planned)
+  - **for-profit-decision-making/** (planned)
+    - [README.md](software-engineering-economics/for-profit-decision-making/README.md): For-profit decision-making - Minimum acceptable rate of return, return on investment and economic life in commercial settings.
+    - Return on investment (planned)
+    - Net present value (planned)
+    - Build versus buy decisions (planned)
+  - **nonprofit-decision-making/** (planned)
+    - [README.md](software-engineering-economics/nonprofit-decision-making/README.md): Nonprofit decision-making - Benefit-cost analysis and cost-effectiveness analysis for public and nonprofit organizations.
+    - Benefit-cost analysis (planned)
+  - **present-economy-decision-making/** (planned)
+    - [README.md](software-engineering-economics/present-economy-decision-making/README.md): Present economy decision-making - Decisions where the time value of money does not matter, such as break-even analysis and optimization.
+    - Break-even analysis (planned)
+  - **multiple-attribute-decision-making/** (planned)
+    - [README.md](software-engineering-economics/multiple-attribute-decision-making/README.md): Multiple-attribute decision-making - Choosing between alternatives that are judged on several attributes at once.
+    - Weighted scoring models (planned)
+    - Analytic hierarchy process (planned)
+  - **intangible-assets/** (planned)
+    - [README.md](software-engineering-economics/intangible-assets/README.md): Identifying and characterizing intangible assets - Recognizing and valuing intangible assets such as software, knowledge and reputation.
+    - Software as an intangible asset (planned)
+  - **estimation/** (planned)
+    - [README.md](software-engineering-economics/estimation/README.md): Estimation - Estimation techniques for effort, cost and schedule, and how to deal with their uncertainty.
+    - Expert judgment and planning poker (planned)
+    - Parametric models (COCOMO II) (planned)
+    - Three-point estimation (planned)
+    - Cone of uncertainty (planned)
+  - **practical-considerations/** (planned)
+    - [README.md](software-engineering-economics/practical-considerations/README.md): Practical considerations for economics - The business case, multiple currency analysis and systems thinking in economic decisions.
+    - Business case (planned)
+  - **related-concepts/** (planned)
+    - [README.md](software-engineering-economics/related-concepts/README.md): Related economic concepts - Concepts that complement software economics, such as cost of delay and technical debt as an economic model.
+    - Cost of delay (planned)
+    - Technical debt as an economic metaphor (planned)
+- **computing-foundations/**
+  - [README.md](computing-foundations/README.md): Computing foundations - Computing foundations are the computer science concepts a software engineer builds on: systems, computer organization, data structures and algorithms, programming languages, operating systems...
+  - **basic-concepts-of-a-system/**
+    - [README.md](computing-foundations/basic-concepts-of-a-system/README.md): Basic concepts of a system or solution - What a system is, how it differs from an application and a platform, and the vocabulary of systems engineering used by software engineers.
+    - [system-application-and-platform.md](computing-foundations/basic-concepts-of-a-system/system-application-and-platform.md): System, application and platform - A system is a set of components that interact to achieve a goal.
+    - Systems engineering concepts (planned)
+    - System of systems (planned)
+  - **computer-architecture-and-organization/** (planned)
+    - [README.md](computing-foundations/computer-architecture-and-organization/README.md): Computer architecture and organization - How computers are built from processors, memory and input and output, and why it matters for software performance.
+    - Memory hierarchy and caches (planned)
+    - CPU pipelines and parallelism (planned)
+    - Number representation (planned)
+  - **data-structures-and-algorithms/**
+    - [README.md](computing-foundations/data-structures-and-algorithms/README.md): Data structures and algorithms - Ways of organizing data in memory and the algorithms that operate on them, with their time and space costs.
+    - [abstract-data-types.md](computing-foundations/data-structures-and-algorithms/abstract-data-types.md): Abstract data types - An abstract data type (ADT) defines a type by the operations it supports and their behavior, not by how the data is stored.
+    - [array.md](computing-foundations/data-structures-and-algorithms/array.md): Array - An array data structure is a fundamental concept in computer science that stores a collection of elements in a contiguous block of memory.
+    - [linked-list.md](computing-foundations/data-structures-and-algorithms/linked-list.md): Linked list - A linked list is a fundamental data structure in computer science.
+    - [stack.md](computing-foundations/data-structures-and-algorithms/stack.md): Stack - A Stack is a linear data structure that follows a particular order in which the operations are performed.
+    - [queue.md](computing-foundations/data-structures-and-algorithms/queue.md): Queue - A Queue Data Structure is a fundamental concept in computer science used for storing and managing data in a specific order.
+    - [hash-table.md](computing-foundations/data-structures-and-algorithms/hash-table.md): Hash table - Hashing is a fundamental data structure that efficiently stores and retrieves data in a way that allows for quick access.
+    - [tree.md](computing-foundations/data-structures-and-algorithms/tree.md): Tree - Tree Data Structure is a non-linear data structure in which a collection of elements known as nodes are connected to each other via edges such that there exists exactly one path between any two nodes.
+    - [heap.md](computing-foundations/data-structures-and-algorithms/heap.md): Heap - A Heap is a complete binary tree data structure that satisfies the heap property: for every node, the value of its children is less than or equal to its own value.
+    - [graph.md](computing-foundations/data-structures-and-algorithms/graph.md): Graph - Graph Data Structure is a collection of nodes connected by edges.
+    - Asymptotic analysis and Big O notation (planned)
+    - Sorting algorithms (planned)
+    - Searching algorithms (planned)
+    - Recursion (planned)
+    - Dynamic programming (planned)
+    - Greedy algorithms (planned)
+    - Trie (planned)
+    - B-tree (planned)
+    - Bloom filter (planned)
+    - Graph algorithms (BFS, DFS, shortest paths) (planned)
+  - **programming-fundamentals-and-languages/**
+    - [README.md](computing-foundations/programming-fundamentals-and-languages/README.md): Programming fundamentals and languages - Programming concepts that apply across languages: paradigms, type systems, execution models and memory management.
+    - **programming-paradigms/**
+      - [README.md](computing-foundations/programming-fundamentals-and-languages/programming-paradigms/README.md): Programming paradigms - Fundamental styles of organizing code, such as structured, object-oriented, functional and reactive programming.
+      - [object-oriented-programming.md](computing-foundations/programming-fundamentals-and-languages/programming-paradigms/object-oriented-programming.md): Object-oriented programming - OOP is a programming paradigm based on the concept of "objects," which can contain data and methods.
+      - [structured-programming.md](computing-foundations/programming-fundamentals-and-languages/programming-paradigms/structured-programming.md): Structured programming - Structured programming is a programming paradigm aimed at improving clarity, quality, and development time by emphasizing a well-organized structure in code.
+      - [functional-programming.md](computing-foundations/programming-fundamentals-and-languages/programming-paradigms/functional-programming.md): Functional programming - Functional programming is a programming paradigm centered on treating computation as the evaluation of mathematical functions.
+      - [reactive-programming.md](computing-foundations/programming-fundamentals-and-languages/programming-paradigms/reactive-programming.md): Reactive programming - Reactive programming is a programming paradigm centered on asynchronous data streams and the propagation of change.
+      - Logic programming (planned)
+      - Declarative versus imperative programming (planned)
+    - Type systems (planned)
+    - Compilation and interpretation (planned)
+    - Memory management and garbage collection (planned)
+    - Concurrency models (planned)
+  - **operating-systems/** (planned)
+    - [README.md](computing-foundations/operating-systems/README.md): Operating systems - Processes, threads, scheduling, memory management, file systems and input and output.
+    - Processes and threads (planned)
+    - Scheduling (planned)
+    - Virtual memory (planned)
+    - File systems (planned)
+    - Containers and isolation (planned)
+  - **database-management/**
+    - [README.md](computing-foundations/database-management/README.md): Database management - Database concepts a software engineer needs: transactions, data models, indexing and data integration.
+    - [acid-and-base.md](computing-foundations/database-management/acid-and-base.md): ACID and BASE - ACID stands for Atomicity, Consistency, Isolation, and Durability.
+    - [change-data-capture.md](computing-foundations/database-management/change-data-capture.md): Change data capture - Change data capture (CDC) detects every insert, update and delete in a database and publishes it as a stream of change events.
+    - Relational model and normalization (planned)
+    - Indexes (planned)
+    - Transaction isolation levels (planned)
+    - NoSQL data models (planned)
+    - Replication (planned)
+  - **computer-networks-and-communications/**
+    - [README.md](computing-foundations/computer-networks-and-communications/README.md): Computer networks and communications - Network protocols and models that software depends on, from transport protocols to HTTP.
+    - [tcp.md](computing-foundations/computer-networks-and-communications/tcp.md): Transmission Control Protocol (TCP) - TCP is a connection-oriented protocol over an IP network.
+    - [udp.md](computing-foundations/computer-networks-and-communications/udp.md): User Datagram Protocol (UDP) - UDP is a core protocol of the Internet Protocol Suite.
+    - [http.md](computing-foundations/computer-networks-and-communications/http.md): Hypertext Transfer Protocol (HTTP) - HTTP is a method for encoding and transporting data between a client and a server.
+    - OSI and TCP/IP models (planned)
+    - DNS (planned)
+    - TLS (planned)
+    - HTTP/3 and QUIC (planned)
+    - IP addressing and routing (planned)
+  - **user-and-developer-human-factors/** (planned)
+    - [README.md](computing-foundations/user-and-developer-human-factors/README.md): User and developer human factors - How human abilities and limits affect the use and the creation of software.
+    - Usability principles (planned)
+    - Accessibility (planned)
+    - Developer experience (planned)
+  - **artificial-intelligence-and-machine-learning/** (planned)
+    - [README.md](computing-foundations/artificial-intelligence-and-machine-learning/README.md): Artificial intelligence and machine learning - AI and ML concepts relevant to software engineers building or using intelligent components.
+    - Machine learning basics for engineers (planned)
+    - Large language models in software engineering (planned)
+- **mathematical-foundations/** (planned)
+  - [README.md](mathematical-foundations/README.md): Mathematical foundations - Mathematical foundations give software engineers the tools for precise reasoning about programs: logic, sets, graphs, automata, counting, probability and numerical precision.
+  - **basic-logic/** (planned)
+    - [README.md](mathematical-foundations/basic-logic/README.md): Basic logic - Propositional and predicate logic.
+    - Propositional logic (planned)
+    - Predicate logic (planned)
+  - **proof-techniques/** (planned)
+    - [README.md](mathematical-foundations/proof-techniques/README.md): Proof techniques - Direct proof, proof by contradiction, induction and their use in reasoning about programs.
+    - Mathematical induction (planned)
+    - Loop invariants (planned)
+  - **set-relation-function/** (planned)
+    - [README.md](mathematical-foundations/set-relation-function/README.md): Set, relation and function - Sets, relations and functions as the vocabulary of data and specifications.
+    - Set operations (planned)
+    - Relations and their properties (planned)
+  - **graph-and-tree/** (planned)
+    - [README.md](mathematical-foundations/graph-and-tree/README.md): Graph and tree - Graphs and trees as mathematical objects.
+    - Graph terminology (planned)
+    - Tree properties (planned)
+  - **finite-state-machine/** (planned)
+    - [README.md](mathematical-foundations/finite-state-machine/README.md): Finite-state machine - Finite-state machines and their use for modeling behavior.
+    - Deterministic and nondeterministic automata (planned)
+    - State machines in software design (planned)
+  - **grammar/** (planned)
+    - [README.md](mathematical-foundations/grammar/README.md): Grammar - Formal grammars and languages, the basis of parsers and domain-specific languages.
+    - Regular and context-free grammars (planned)
+    - Parsing (planned)
+  - **number-theory/** (planned)
+    - [README.md](mathematical-foundations/number-theory/README.md): Number theory - Divisibility, primes and modular arithmetic, used in hashing and cryptography.
+    - Modular arithmetic (planned)
+  - **basics-of-counting/** (planned)
+    - [README.md](mathematical-foundations/basics-of-counting/README.md): Basics of counting - Combinatorics: sum and product rules, permutations and combinations.
+    - Permutations and combinations (planned)
+  - **discrete-probability/** (planned)
+    - [README.md](mathematical-foundations/discrete-probability/README.md): Discrete probability - Probability over finite sample spaces, used in reliability and randomized algorithms.
+    - Conditional probability (planned)
+    - Expected value (planned)
+  - **numerical-precision-accuracy-and-error/** (planned)
+    - [README.md](mathematical-foundations/numerical-precision-accuracy-and-error/README.md): Numerical precision, accuracy and error - Floating point representation and its errors.
+    - IEEE 754 floating point (planned)
+  - **algebraic-structures/** (planned)
+    - [README.md](mathematical-foundations/algebraic-structures/README.md): Algebraic structures - Groups, rings and other structures that appear in error correction and cryptography.
+    - Groups and monoids (planned)
+  - **engineering-calculus/** (planned)
+    - [README.md](mathematical-foundations/engineering-calculus/README.md): Engineering calculus - Derivatives, integrals and their applications in engineering.
+    - Rates of change in performance models (planned)
+  - **new-advancements/** (planned)
+    - [README.md](mathematical-foundations/new-advancements/README.md): New advancements - Mathematical topics that have recently become relevant to software engineering.
+    - Mathematics of machine learning (planned)
+- **engineering-foundations/** (planned)
+  - [README.md](engineering-foundations/README.md): Engineering foundations - Engineering foundations are the skills and methods that software engineering shares with other engineering disciplines: the engineering process and design, empirical methods, statistics, modeling...
+  - **engineering-process/** (planned)
+    - [README.md](engineering-foundations/engineering-process/README.md): The engineering process - The general engineering cycle of understanding a problem, designing, building and evaluating a solution.
+    - Engineering problem solving (planned)
+  - **engineering-design/** (planned)
+    - [README.md](engineering-foundations/engineering-design/README.md): Engineering design - Design as an engineering activity under constraints.
+    - Design under constraints (planned)
+    - Design trade off analysis (planned)
+  - **abstraction-and-encapsulation/** (planned)
+    - [README.md](engineering-foundations/abstraction-and-encapsulation/README.md): Abstraction and encapsulation - Levels of abstraction, encapsulation and hierarchy as general engineering tools.
+    - Levels of abstraction (planned)
+  - **empirical-methods-and-experimental-techniques/** (planned)
+    - [README.md](engineering-foundations/empirical-methods-and-experimental-techniques/README.md): Empirical methods and experimental techniques - Designed experiments, observational studies and retrospective studies.
+    - Controlled experiments (planned)
+    - A/B testing (planned)
+  - **statistical-analysis/** (planned)
+    - [README.md](engineering-foundations/statistical-analysis/README.md): Statistical analysis - Statistical tools for analyzing engineering data.
+    - Descriptive statistics for performance data (planned)
+    - Percentiles and tail latency (planned)
+  - **modeling-simulation-and-prototyping/** (planned)
+    - [README.md](engineering-foundations/modeling-simulation-and-prototyping/README.md): Modeling, simulation and prototyping - Using models, simulations and prototypes to explore solutions before building them.
+    - Queueing models (planned)
+    - Simulation (planned)
+  - **measurement/** (planned)
+    - [README.md](engineering-foundations/measurement/README.md): Measurement - Levels of measurement, direct and derived measures, reliability and validity.
+    - Measurement scales (planned)
+    - Validity of metrics (planned)
+  - **standards/** (planned)
+    - [README.md](engineering-foundations/standards/README.md): Standards - The role of standards and standards bodies in software engineering.
+    - ISO, IEC and IEEE standards for software (planned)
+  - **root-cause-analysis/** (planned)
+    - [README.md](engineering-foundations/root-cause-analysis/README.md): Root cause analysis - Techniques for finding the underlying cause of a problem.
+    - Five whys (planned)
+    - Fishbone (Ishikawa) diagrams (planned)
+  - **industry-4-0/** (planned)
+    - [README.md](engineering-foundations/industry-4-0/README.md): Industry 4.0 and software engineering - Software engineering in cyber-physical and connected industrial systems.
+    - Cyber-physical systems (planned)
+- **case-studies/**
+  - [README.md](case-studies/README.md): Case studies - Case studies describe how real systems were built and scaled, and connect the concepts in the knowledge areas to concrete engineering decisions.
+  - [facebook-memcached-scaling.md](case-studies/facebook-memcached-scaling.md): Scaling Memcached at Facebook - Facebook used Memcached as a demand-filled look-aside cache in front of MySQL to serve billions of requests per second.
+  - [reddit-architecture.md](case-studies/reddit-architecture.md): Reddit architecture - Reddit serves traffic through a content delivery network and load balancers to application services that started as a Python monolith and are moving to Go microservices behind a federated GraphQL...
+  - Discord message storage (planned)
+  - Netflix microservices and resilience (planned)
+  - Shopify modular monolith (planned)
+  - Stack Overflow monolith at scale (planned)
+  - WhatsApp on Erlang (planned)
+- **_assets/**
+  - **case-studies/**
+    - [facebook-memcached-scaling-figure-1.png](_assets/case-studies/facebook-memcached-scaling-figure-1.png): Figure 1 of the note "Scaling Memcached at Facebook".
+    - [facebook-memcached-scaling-figure-2.png](_assets/case-studies/facebook-memcached-scaling-figure-2.png): Figure 2 of the note "Scaling Memcached at Facebook".
+    - [facebook-memcached-scaling-figure-3.png](_assets/case-studies/facebook-memcached-scaling-figure-3.png): Figure 3 of the note "Scaling Memcached at Facebook".
+    - [facebook-memcached-scaling-figure-4.png](_assets/case-studies/facebook-memcached-scaling-figure-4.png): Figure 4 of the note "Scaling Memcached at Facebook".
+    - [facebook-memcached-scaling-figure-5.png](_assets/case-studies/facebook-memcached-scaling-figure-5.png): Figure 5 of the note "Scaling Memcached at Facebook".
+    - [facebook-memcached-scaling-figure-6.png](_assets/case-studies/facebook-memcached-scaling-figure-6.png): Figure 6 of the note "Scaling Memcached at Facebook".
+    - [reddit-architecture-figure-1.png](_assets/case-studies/reddit-architecture-figure-1.png): Figure 1 of the note "Reddit architecture".
+  - **computing-foundations/**
+    - [array-figure-1.png](_assets/computing-foundations/array-figure-1.png): Figure 1 of the note "Array".
+    - [graph-figure-1.png](_assets/computing-foundations/graph-figure-1.png): Figure 1 of the note "Graph".
+    - [graph-figure-2.png](_assets/computing-foundations/graph-figure-2.png): Figure 2 of the note "Graph".
+    - [graph-figure-3.png](_assets/computing-foundations/graph-figure-3.png): Figure 3 of the note "Graph".
+    - [graph-figure-4.png](_assets/computing-foundations/graph-figure-4.png): Figure 4 of the note "Graph".
+    - [graph-figure-5.png](_assets/computing-foundations/graph-figure-5.png): Figure 5 of the note "Graph".
+    - [hash-table-figure-1.png](_assets/computing-foundations/hash-table-figure-1.png): Figure 1 of the note "Hash table".
+    - [heap-figure-1.png](_assets/computing-foundations/heap-figure-1.png): Figure 1 of the note "Heap".
+    - [http-figure-1.png](_assets/computing-foundations/http-figure-1.png): Figure 1 of the note "Hypertext Transfer Protocol (HTTP)".
+    - [linked-list-figure-1.png](_assets/computing-foundations/linked-list-figure-1.png): Figure 1 of the note "Linked list".
+    - [queue-figure-1.png](_assets/computing-foundations/queue-figure-1.png): Figure 1 of the note "Queue".
+    - [stack-figure-1.png](_assets/computing-foundations/stack-figure-1.png): Figure 1 of the note "Stack".
+    - [system-application-and-platform-figure-1.png](_assets/computing-foundations/system-application-and-platform-figure-1.png): Figure 1 of the note "System, application and platform".
+    - [tcp-figure-1.png](_assets/computing-foundations/tcp-figure-1.png): Figure 1 of the note "Transmission Control Protocol (TCP)".
+    - [tcp-figure-2.png](_assets/computing-foundations/tcp-figure-2.png): Figure 2 of the note "Transmission Control Protocol (TCP)".
+    - [tree-figure-1.png](_assets/computing-foundations/tree-figure-1.png): Figure 1 of the note "Tree".
+    - [udp-figure-1.png](_assets/computing-foundations/udp-figure-1.png): Figure 1 of the note "User Datagram Protocol (UDP)".
+  - **software-architecture/**
+    - [ambassador-figure-1.png](_assets/software-architecture/ambassador-figure-1.png): Figure 1 of the note "Ambassador pattern".
+    - [anti-corruption-layer-figure-1.png](_assets/software-architecture/anti-corruption-layer-figure-1.png): Figure 1 of the note "Anti-corruption layer pattern".
+    - [asynchronism-figure-1.png](_assets/software-architecture/asynchronism-figure-1.png): Figure 1 of the note "Asynchronism".
+    - [asynchronous-request-reply-figure-1.png](_assets/software-architecture/asynchronous-request-reply-figure-1.png): Figure 1 of the note "Asynchronous request-reply pattern".
+    - [back-pressure-figure-1.png](_assets/software-architecture/back-pressure-figure-1.png): Figure 1 of the note "Back pressure".
+    - [back-pressure-figure-2.png](_assets/software-architecture/back-pressure-figure-2.png): Figure 2 of the note "Back pressure".
+    - [back-pressure-figure-3.png](_assets/software-architecture/back-pressure-figure-3.png): Figure 3 of the note "Back pressure".
+    - [back-pressure-figure-4.png](_assets/software-architecture/back-pressure-figure-4.png): Figure 4 of the note "Back pressure".
+    - [backends-for-frontends-figure-1.png](_assets/software-architecture/backends-for-frontends-figure-1.png): Figure 1 of the note "Backends for frontends pattern".
+    - [backends-for-frontends-figure-2.png](_assets/software-architecture/backends-for-frontends-figure-2.png): Figure 2 of the note "Backends for frontends pattern".
+    - [bulkhead-figure-1.png](_assets/software-architecture/bulkhead-figure-1.png): Figure 1 of the note "Bulkhead pattern".
+    - [cache-aside-figure-1.png](_assets/software-architecture/cache-aside-figure-1.png): Figure 1 of the note "Cache-aside pattern".
+    - [caching-figure-1.png](_assets/software-architecture/caching-figure-1.png): Figure 1 of the note "Caching".
+    - [caching-figure-2.png](_assets/software-architecture/caching-figure-2.png): Figure 2 of the note "Caching".
+    - [caching-figure-3.png](_assets/software-architecture/caching-figure-3.png): Figure 3 of the note "Caching".
+    - [caching-figure-4.png](_assets/software-architecture/caching-figure-4.png): Figure 4 of the note "Caching".
+    - [caching-figure-5.png](_assets/software-architecture/caching-figure-5.png): Figure 5 of the note "Caching".
+    - [cap-theorem-figure-1.png](_assets/software-architecture/cap-theorem-figure-1.png): Figure 1 of the note "CAP theorem".
+    - [cap-theorem-figure-2.png](_assets/software-architecture/cap-theorem-figure-2.png): Figure 2 of the note "CAP theorem".
+    - [cap-theorem-figure-3.png](_assets/software-architecture/cap-theorem-figure-3.png): Figure 3 of the note "CAP theorem".
+    - [cell-based-architecture-figure-1.png](_assets/software-architecture/cell-based-architecture-figure-1.png): Figure 1 of the note "Cell-based architecture".
+    - [choreography-figure-1.png](_assets/software-architecture/choreography-figure-1.png): Figure 1 of the note "Choreography pattern".
+    - [choreography-figure-2.png](_assets/software-architecture/choreography-figure-2.png): Figure 2 of the note "Choreography pattern".
+    - [choreography-figure-3.png](_assets/software-architecture/choreography-figure-3.png): Figure 3 of the note "Choreography pattern".
+    - [choreography-figure-4.png](_assets/software-architecture/choreography-figure-4.png): Figure 4 of the note "Choreography pattern".
+    - [circuit-breaker-figure-1.png](_assets/software-architecture/circuit-breaker-figure-1.png): Figure 1 of the note "Circuit breaker pattern".
+    - [circuit-breaker-figure-2.png](_assets/software-architecture/circuit-breaker-figure-2.png): Figure 2 of the note "Circuit breaker pattern".
+    - [claim-check-figure-1.png](_assets/software-architecture/claim-check-figure-1.png): Figure 1 of the note "Claim check pattern".
+    - [compensating-transaction-figure-1.png](_assets/software-architecture/compensating-transaction-figure-1.png): Figure 1 of the note "Compensating transaction pattern".
+    - [compensating-transaction-figure-2.png](_assets/software-architecture/compensating-transaction-figure-2.png): Figure 2 of the note "Compensating transaction pattern".
+    - [competing-consumers-figure-1.png](_assets/software-architecture/competing-consumers-figure-1.png): Figure 1 of the note "Competing consumers pattern".
+    - [compute-resource-consolidation-figure-1.png](_assets/software-architecture/compute-resource-consolidation-figure-1.png): Figure 1 of the note "Compute resource consolidation pattern".
+    - [consistency-figure-1.png](_assets/software-architecture/consistency-figure-1.png): Figure 1 of the note "Consistency".
+    - [consistency-figure-2.png](_assets/software-architecture/consistency-figure-2.png): Figure 2 of the note "Consistency".
+    - [consistency-figure-3.png](_assets/software-architecture/consistency-figure-3.png): Figure 3 of the note "Consistency".
+    - [consistency-figure-4.png](_assets/software-architecture/consistency-figure-4.png): Figure 4 of the note "Consistency".
+    - [cqrs-figure-1.png](_assets/software-architecture/cqrs-figure-1.png): Figure 1 of the note "CQRS pattern".
+    - [cqrs-figure-2.png](_assets/software-architecture/cqrs-figure-2.png): Figure 2 of the note "CQRS pattern".
+    - [cqrs-figure-3.png](_assets/software-architecture/cqrs-figure-3.png): Figure 3 of the note "CQRS pattern".
+    - [deployment-stamps-figure-1.png](_assets/software-architecture/deployment-stamps-figure-1.png): Figure 1 of the note "Deployment stamps pattern".
+    - [distributed-systems-figure-1.png](_assets/software-architecture/distributed-systems-figure-1.png): Figure 1 of the note "Distributed systems".
+    - [distributed-systems-figure-2.png](_assets/software-architecture/distributed-systems-figure-2.png): Figure 2 of the note "Distributed systems".
+    - [distributed-systems-figure-3.png](_assets/software-architecture/distributed-systems-figure-3.png): Figure 3 of the note "Distributed systems".
+    - [distributed-systems-figure-4.png](_assets/software-architecture/distributed-systems-figure-4.png): Figure 4 of the note "Distributed systems".
+    - [distributed-systems-figure-5.png](_assets/software-architecture/distributed-systems-figure-5.png): Figure 5 of the note "Distributed systems".
+    - [distributed-systems-figure-6.png](_assets/software-architecture/distributed-systems-figure-6.png): Figure 6 of the note "Distributed systems".
+    - [distributed-systems-figure-7.png](_assets/software-architecture/distributed-systems-figure-7.png): Figure 7 of the note "Distributed systems".
+    - [enterprise-architecture-frameworks-figure-1.png](_assets/software-architecture/enterprise-architecture-frameworks-figure-1.png): Figure 1 of the note "Enterprise architecture frameworks".
+    - [external-configuration-store-figure-1.png](_assets/software-architecture/external-configuration-store-figure-1.png): Figure 1 of the note "External configuration store pattern".
+    - [failover-and-replication-figure-1.png](_assets/software-architecture/failover-and-replication-figure-1.png): Figure 1 of the note "Failover and replication".
+    - [failover-and-replication-figure-2.png](_assets/software-architecture/failover-and-replication-figure-2.png): Figure 2 of the note "Failover and replication".
+    - [federated-identity-figure-1.png](_assets/software-architecture/federated-identity-figure-1.png): Figure 1 of the note "Federated identity pattern".
+    - [gatekeeper-figure-1.png](_assets/software-architecture/gatekeeper-figure-1.png): Figure 1 of the note "Gatekeeper pattern".
+    - [gateway-aggregation-figure-1.png](_assets/software-architecture/gateway-aggregation-figure-1.png): Figure 1 of the note "Gateway aggregation pattern".
+    - [gateway-aggregation-figure-2.png](_assets/software-architecture/gateway-aggregation-figure-2.png): Figure 2 of the note "Gateway aggregation pattern".
+    - [gateway-routing-figure-1.png](_assets/software-architecture/gateway-routing-figure-1.png): Figure 1 of the note "Gateway routing pattern".
+    - [geode-figure-1.png](_assets/software-architecture/geode-figure-1.png): Figure 1 of the note "Geode pattern".
+    - [geode-figure-2.png](_assets/software-architecture/geode-figure-2.png): Figure 2 of the note "Geode pattern".
+    - [health-endpoint-monitoring-figure-1.png](_assets/software-architecture/health-endpoint-monitoring-figure-1.png): Figure 1 of the note "Health endpoint monitoring pattern".
+    - [health-endpoint-monitoring-figure-2.png](_assets/software-architecture/health-endpoint-monitoring-figure-2.png): Figure 2 of the note "Health endpoint monitoring pattern".
+    - [ideals-principles-figure-1.png](_assets/software-architecture/ideals-principles-figure-1.png): Figure 1 of the note "IDEALS principles for microservices".
+    - [ideals-principles-figure-2.png](_assets/software-architecture/ideals-principles-figure-2.png): Figure 2 of the note "IDEALS principles for microservices".
+    - [index-table-figure-1.png](_assets/software-architecture/index-table-figure-1.png): Figure 1 of the note "Index table pattern".
+    - [index-table-figure-2.png](_assets/software-architecture/index-table-figure-2.png): Figure 2 of the note "Index table pattern".
+    - [index-table-figure-3.png](_assets/software-architecture/index-table-figure-3.png): Figure 3 of the note "Index table pattern".
+    - [index-table-figure-4.png](_assets/software-architecture/index-table-figure-4.png): Figure 4 of the note "Index table pattern".
+    - [materialized-view-figure-1.png](_assets/software-architecture/materialized-view-figure-1.png): Figure 1 of the note "Materialized view pattern".
+    - [message-queues-figure-1.png](_assets/software-architecture/message-queues-figure-1.png): Figure 1 of the note "Message queues".
+    - [message-queues-figure-2.png](_assets/software-architecture/message-queues-figure-2.png): Figure 2 of the note "Message queues".
+    - [micro-frontends-figure-1.png](_assets/software-architecture/micro-frontends-figure-1.png): Figure 1 of the note "Micro-frontends".
+    - [micro-frontends-figure-2.png](_assets/software-architecture/micro-frontends-figure-2.png): Figure 2 of the note "Micro-frontends".
+    - [microservices-figure-1.png](_assets/software-architecture/microservices-figure-1.png): Figure 1 of the note "Microservices architecture".
+    - [microservices-figure-2.png](_assets/software-architecture/microservices-figure-2.png): Figure 2 of the note "Microservices architecture".
+    - [microservices-figure-3.png](_assets/software-architecture/microservices-figure-3.png): Figure 3 of the note "Microservices architecture".
+    - [microservices-vs-monolith-figure-1.png](_assets/software-architecture/microservices-vs-monolith-figure-1.png): Figure 1 of the note "Microservices versus monolith".
+    - [microservices-vs-monolith-figure-2.png](_assets/software-architecture/microservices-vs-monolith-figure-2.png): Figure 2 of the note "Microservices versus monolith".
+    - [pipes-and-filters-figure-1.png](_assets/software-architecture/pipes-and-filters-figure-1.png): Figure 1 of the note "Pipes and filters pattern".
+    - [pipes-and-filters-figure-2.png](_assets/software-architecture/pipes-and-filters-figure-2.png): Figure 2 of the note "Pipes and filters pattern".
+    - [pipes-and-filters-figure-3.png](_assets/software-architecture/pipes-and-filters-figure-3.png): Figure 3 of the note "Pipes and filters pattern".
+    - [priority-queue-figure-1.png](_assets/software-architecture/priority-queue-figure-1.png): Figure 1 of the note "Priority queue pattern".
+    - [priority-queue-figure-2.png](_assets/software-architecture/priority-queue-figure-2.png): Figure 2 of the note "Priority queue pattern".
+    - [priority-queue-figure-3.png](_assets/software-architecture/priority-queue-figure-3.png): Figure 3 of the note "Priority queue pattern".
+    - [publisher-subscriber-figure-1.png](_assets/software-architecture/publisher-subscriber-figure-1.png): Figure 1 of the note "Publisher-subscriber pattern".
+    - [publisher-subscriber-figure-2.png](_assets/software-architecture/publisher-subscriber-figure-2.png): Figure 2 of the note "Publisher-subscriber pattern".
+    - [queue-based-load-leveling-figure-1.png](_assets/software-architecture/queue-based-load-leveling-figure-1.png): Figure 1 of the note "Queue-based load leveling pattern".
+    - [retry-figure-1.png](_assets/software-architecture/retry-figure-1.png): Figure 1 of the note "Retry pattern".
+    - [retry-figure-2.png](_assets/software-architecture/retry-figure-2.png): Figure 2 of the note "Retry pattern".
+    - [retry-storm-figure-1.png](_assets/software-architecture/retry-storm-figure-1.png): Figure 1 of the note "Retry storm antipattern".
+    - [retry-storm-figure-2.png](_assets/software-architecture/retry-storm-figure-2.png): Figure 2 of the note "Retry storm antipattern".
+    - [scheduler-agent-supervisor-figure-1.png](_assets/software-architecture/scheduler-agent-supervisor-figure-1.png): Figure 1 of the note "Scheduler agent supervisor pattern".
+    - [sequential-convoy-figure-1.png](_assets/software-architecture/sequential-convoy-figure-1.png): Figure 1 of the note "Sequential convoy pattern".
+    - [sequential-convoy-figure-2.png](_assets/software-architecture/sequential-convoy-figure-2.png): Figure 2 of the note "Sequential convoy pattern".
+    - [serverless-architecture-figure-1.png](_assets/software-architecture/serverless-architecture-figure-1.png): Figure 1 of the note "Serverless architecture".
+    - [sharding-figure-1.png](_assets/software-architecture/sharding-figure-1.png): Figure 1 of the note "Sharding pattern".
+    - [sharding-figure-2.png](_assets/software-architecture/sharding-figure-2.png): Figure 2 of the note "Sharding pattern".
+    - [sharding-figure-3.png](_assets/software-architecture/sharding-figure-3.png): Figure 3 of the note "Sharding pattern".
+    - [sidecar-figure-1.png](_assets/software-architecture/sidecar-figure-1.png): Figure 1 of the note "Sidecar pattern".
+    - [sidecar-figure-2.png](_assets/software-architecture/sidecar-figure-2.png): Figure 2 of the note "Sidecar pattern".
+    - [software-architecture-figure-1.png](_assets/software-architecture/software-architecture-figure-1.png): Figure 1 of the note "What software architecture is".
+    - [software-architecture-figure-2.png](_assets/software-architecture/software-architecture-figure-2.png): Figure 2 of the note "What software architecture is".
+    - [software-architecture-figure-3.png](_assets/software-architecture/software-architecture-figure-3.png): Figure 3 of the note "What software architecture is".
+    - [strangler-fig-figure-1.png](_assets/software-architecture/strangler-fig-figure-1.png): Figure 1 of the note "Strangler fig pattern".
+    - [synchronous-communication-figure-1.png](_assets/software-architecture/synchronous-communication-figure-1.png): Figure 1 of the note "Synchronous communication".
+    - [task-queues-figure-1.png](_assets/software-architecture/task-queues-figure-1.png): Figure 1 of the note "Task queues".
+    - [task-queues-figure-2.png](_assets/software-architecture/task-queues-figure-2.png): Figure 2 of the note "Task queues".
+    - [throttling-figure-1.png](_assets/software-architecture/throttling-figure-1.png): Figure 1 of the note "Throttling pattern".
+    - [valet-key-figure-1.png](_assets/software-architecture/valet-key-figure-1.png): Figure 1 of the note "Valet key pattern".
+  - **software-configuration-management/**
+    - [software-versioning-figure-1.png](_assets/software-configuration-management/software-versioning-figure-1.png): Figure 1 of the note "Software versioning".
+  - **software-design/**
+    - [api-design-overview-figure-1.png](_assets/software-design/api-design-overview-figure-1.png): Overview figure 1 of the section "API design".
+    - [behavioral-overview-figure-1.png](_assets/software-design/behavioral-overview-figure-1.png): Overview figure 1 of the section "Behavioral patterns".
+    - [coupling-and-cohesion-cohesion-level-1.png](_assets/software-design/coupling-and-cohesion-cohesion-level-1.png): Diagram of coincidental cohesion.
+    - [coupling-and-cohesion-cohesion-level-2.png](_assets/software-design/coupling-and-cohesion-cohesion-level-2.png): Diagram of logical cohesion.
+    - [coupling-and-cohesion-cohesion-level-3.png](_assets/software-design/coupling-and-cohesion-cohesion-level-3.png): Diagram of temporal cohesion.
+    - [coupling-and-cohesion-cohesion-level-4.png](_assets/software-design/coupling-and-cohesion-cohesion-level-4.png): Diagram of procedural cohesion.
+    - [coupling-and-cohesion-cohesion-level-5.png](_assets/software-design/coupling-and-cohesion-cohesion-level-5.png): Diagram of communicational cohesion.
+    - [coupling-and-cohesion-cohesion-level-6.png](_assets/software-design/coupling-and-cohesion-cohesion-level-6.png): Diagram of sequential cohesion.
+    - [coupling-and-cohesion-cohesion-level-7.png](_assets/software-design/coupling-and-cohesion-cohesion-level-7.png): Diagram of functional cohesion.
+    - [creational-overview-figure-1.png](_assets/software-design/creational-overview-figure-1.png): Overview figure 1 of the section "Creational patterns".
+    - [design-rot-figure-1.png](_assets/software-design/design-rot-figure-1.png): Diagram of the four symptoms of design rot: rigidity, fragility, immobility and viscosity.
+    - [design-rot-figure-2.png](_assets/software-design/design-rot-figure-2.png): Diagram comparing loose coupling and high cohesion with the opposite.
+    - [graphql-figure-1.png](_assets/software-design/graphql-figure-1.png): Figure 1 of the note "GraphQL".
+    - [graphql-figure-2.png](_assets/software-design/graphql-figure-2.png): Figure 2 of the note "GraphQL".
+    - [grpc-figure-1.png](_assets/software-design/grpc-figure-1.png): Figure 1 of the note "gRPC".
+    - [grpc-figure-2.png](_assets/software-design/grpc-figure-2.png): Figure 2 of the note "gRPC".
+    - [solid-figure-dip.png](_assets/software-design/solid-figure-dip.png): Diagram of high-level and low-level modules depending on an abstraction.
+    - [solid-figure-lsp.png](_assets/software-design/solid-figure-lsp.png): Diagram of a subclass that violates and one that respects the Liskov substitution principle.
+    - [structural-overview-figure-1.png](_assets/software-design/structural-overview-figure-1.png): Overview figure 1 of the section "Structural patterns".
+  - **software-engineering-models-and-methods/**
+    - [agile-scrum-and-kanban-figure-1.png](_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-1.png): Figure 1 of the note "Agile, Scrum and Kanban".
+    - [agile-scrum-and-kanban-figure-2.png](_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-2.png): Figure 2 of the note "Agile, Scrum and Kanban".
+    - [agile-scrum-and-kanban-figure-3.png](_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-3.png): Figure 3 of the note "Agile, Scrum and Kanban".
+    - [agile-scrum-and-kanban-figure-4.png](_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-4.png): Figure 4 of the note "Agile, Scrum and Kanban".
+    - [agile-scrum-and-kanban-figure-5.png](_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-5.png): Figure 5 of the note "Agile, Scrum and Kanban".
+    - [extreme-programming-figure-1.png](_assets/software-engineering-models-and-methods/extreme-programming-figure-1.png): Figure 1 of the note "Extreme programming (XP)".
+    - [extreme-programming-figure-2.png](_assets/software-engineering-models-and-methods/extreme-programming-figure-2.png): Figure 2 of the note "Extreme programming (XP)".
+    - [extreme-programming-figure-3.png](_assets/software-engineering-models-and-methods/extreme-programming-figure-3.png): Figure 3 of the note "Extreme programming (XP)".
+    - [extreme-programming-figure-4.png](_assets/software-engineering-models-and-methods/extreme-programming-figure-4.png): Figure 4 of the note "Extreme programming (XP)".
+    - [extreme-programming-figure-5.png](_assets/software-engineering-models-and-methods/extreme-programming-figure-5.png): Figure 5 of the note "Extreme programming (XP)".
+  - **software-engineering-operations/**
+    - [sla-slo-sli-figure-1.png](_assets/software-engineering-operations/sla-slo-sli-figure-1.png): Figure 1 of the note "SLA, SLO and SLI".
+    - [sla-slo-sli-figure-2.png](_assets/software-engineering-operations/sla-slo-sli-figure-2.png): Figure 2 of the note "SLA, SLO and SLI".
+  - **software-quality/**
+    - [availability-figure-1.png](_assets/software-quality/availability-figure-1.png): Figure 1 of the note "Availability".
+    - [latency-figure-1.png](_assets/software-quality/latency-figure-1.png): Figure 1 of the note "Latency".
+    - [latency-figure-2.png](_assets/software-quality/latency-figure-2.png): Figure 2 of the note "Latency".
+    - [latency-figure-3.png](_assets/software-quality/latency-figure-3.png): Figure 3 of the note "Latency".
+    - [performance-figure-1.png](_assets/software-quality/performance-figure-1.png): Figure 1 of the note "Performance".
+    - [performance-figure-2.png](_assets/software-quality/performance-figure-2.png): Figure 2 of the note "Performance".
+    - [performance-figure-3.png](_assets/software-quality/performance-figure-3.png): Figure 3 of the note "Performance".
+    - [reliability-figure-1.png](_assets/software-quality/reliability-figure-1.png): Figure 1 of the note "Reliability".
+    - [scalability-figure-1.png](_assets/software-quality/scalability-figure-1.png): Figure 1 of the note "Scalability".
+    - [scalability-figure-2.png](_assets/software-quality/scalability-figure-2.png): Figure 2 of the note "Scalability".
+    - [throughput-figure-1.png](_assets/software-quality/throughput-figure-1.png): Figure 1 of the note "Throughput".
+    - [throughput-figure-2.png](_assets/software-quality/throughput-figure-2.png): Figure 2 of the note "Throughput".
+  - **software-security/**
+    - [api-security-figure-1.png](_assets/software-security/api-security-figure-1.png): Figure 1 of the note "API security".
+  - **software-testing/**
+    - [test-driven-development-figure-1.png](_assets/software-testing/test-driven-development-figure-1.png): Figure 1 of the note "Test-driven development (TDD)".
+    - [test-driven-development-figure-2.png](_assets/software-testing/test-driven-development-figure-2.png): Figure 2 of the note "Test-driven development (TDD)".

@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "software-architecture.architectural-styles.monolithic-architecture",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "architectural-styles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.architectural-styles.layered-architecture",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fowler-monolith-first",
+      "type": "website",
+      "title": "MonolithFirst",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2015,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/bliki/MonolithFirst.html",
+      "verified": false
+    },
+    {
+      "key": "fsa-richards",
+      "type": "book",
+      "title": "Fundamentals of Software Architecture",
+      "authors": [
+        "Richards, M.",
+        "Ford, N."
+      ],
+      "year": 2020,
+      "publisher": "O'Reilly Media",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "architectural-styles"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "engineering-foundations.standards",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "engineering-foundations",
+      "standards"
+    ]
+  },
+  "map": {
+    "group": "engineering-foundations"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-design.recording-designs",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-design",
+      "recording-designs"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

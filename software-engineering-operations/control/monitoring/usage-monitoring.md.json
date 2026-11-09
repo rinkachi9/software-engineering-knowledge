@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-engineering-operations.control.monitoring.usage-monitoring",
+    "kind": "note",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-engineering-operations",
+      "control",
+      "monitoring"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-engineering-operations.control.monitoring.monitoring-and-diagnostics",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-monitoring",
+      "type": "documentation",
+      "title": "Monitoring and diagnostics guidance",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "monitoring"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.creational",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "creational"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.enterprise.domain-model",
+    "kind": "note",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "enterprise"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.design-patterns.enterprise.transaction-script",
+      "rel": "contrasts"
+    },
+    {
+      "to": "software-design.strategies-and-methods.domain-driven-design",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "poeaa",
+      "type": "book",
+      "title": "Patterns of Enterprise Application Architecture",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2002,
+      "publisher": "Addison-Wesley",
+      "url": "https://martinfowler.com/eaaCatalog/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "enterprise"
+  }
+}

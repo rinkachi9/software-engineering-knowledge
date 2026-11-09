@@ -1,0 +1,41 @@
+{
+  "node": {
+    "id": "software-quality.fundamentals.quality-attributes.throughput",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-quality",
+      "fundamentals",
+      "quality-attributes"
+    ]
+  },
+  "sources": [
+    {
+      "key": "iso25010",
+      "type": "standard",
+      "title": "ISO/IEC 25010:2023 Systems and software Quality Requirements and Evaluation (SQuaRE): Product quality model",
+      "authors": [
+        "ISO/IEC"
+      ],
+      "year": 2023,
+      "publisher": "ISO",
+      "url": "https://www.iso.org/standard/78176.html",
+      "verified": false
+    },
+    {
+      "key": "gregg-perf",
+      "type": "book",
+      "title": "Systems Performance: Enterprise and the Cloud, 2nd Edition",
+      "authors": [
+        "Gregg, B."
+      ],
+      "year": 2020,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "quality-attributes"
+  }
+}

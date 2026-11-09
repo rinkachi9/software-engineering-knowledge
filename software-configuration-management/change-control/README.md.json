@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-configuration-management.change-control",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-configuration-management",
+      "change-control"
+    ]
+  },
+  "map": {
+    "group": "software-configuration-management"
+  }
+}

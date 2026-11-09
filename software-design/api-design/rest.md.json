@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "software-design.api-design.rest",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-design",
+      "api-design"
+    ]
+  },
+  "links": [
+    {
+      "to": "computing-foundations.computer-networks-and-communications.http",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fielding-rest",
+      "type": "paper",
+      "title": "Architectural Styles and the Design of Network-based Software Architectures",
+      "authors": [
+        "Fielding, R. T."
+      ],
+      "year": 2000,
+      "publisher": "University of California, Irvine",
+      "url": "https://ics.uci.edu/~fielding/pubs/dissertation/top.htm",
+      "verified": false
+    },
+    {
+      "key": "rfc9110",
+      "type": "standard",
+      "title": "RFC 9110: HTTP Semantics",
+      "authors": [
+        "Fielding, R.",
+        "Nottingham, M.",
+        "Reschke, J."
+      ],
+      "year": 2022,
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "api-design"
+  }
+}

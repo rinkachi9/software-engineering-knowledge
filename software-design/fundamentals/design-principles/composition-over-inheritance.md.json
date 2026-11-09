@@ -1,0 +1,38 @@
+{
+  "node": {
+    "id": "software-design.fundamentals.design-principles.composition-over-inheritance",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-design",
+      "fundamentals",
+      "design-principles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.fundamentals.design-principles.encapsulate-what-varies",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gof",
+      "type": "book",
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "authors": [
+        "Gamma, E.",
+        "Helm, R.",
+        "Johnson, R.",
+        "Vlissides, J."
+      ],
+      "year": 1994,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-principles"
+  }
+}

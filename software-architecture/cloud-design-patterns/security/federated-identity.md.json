@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.security.federated-identity",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "security"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.security.gatekeeper",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-federated-identity",
+      "type": "documentation",
+      "title": "Federated identity pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/federated-identity",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security"
+  }
+}

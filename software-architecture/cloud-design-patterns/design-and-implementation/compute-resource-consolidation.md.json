@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.design-and-implementation.compute-resource-consolidation",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "design-and-implementation"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-compute-resource-consolidation",
+      "type": "documentation",
+      "title": "Compute resource consolidation pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/compute-resource-consolidation",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-and-implementation"
+  }
+}

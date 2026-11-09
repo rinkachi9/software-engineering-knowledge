@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-quality.assurance-process",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-quality",
+      "assurance-process"
+    ]
+  },
+  "map": {
+    "group": "software-quality"
+  }
+}

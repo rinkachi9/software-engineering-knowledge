@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.monolithic-persistence",
+    "kind": "note",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-monolithic-persistence",
+      "type": "documentation",
+      "title": "Monolithic persistence antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/monolithic-persistence",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "node": {
+    "id": "software-design.fundamentals.design-principles.dry",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-design",
+      "fundamentals",
+      "design-principles"
+    ]
+  },
+  "sources": [
+    {
+      "key": "pragmatic-programmer",
+      "type": "book",
+      "title": "The Pragmatic Programmer",
+      "authors": [
+        "Hunt, A.",
+        "Thomas, D."
+      ],
+      "year": 1999,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-principles"
+  }
+}

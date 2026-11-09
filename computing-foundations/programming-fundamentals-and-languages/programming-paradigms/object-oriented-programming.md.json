@@ -1,0 +1,26 @@
+{
+  "node": {
+    "id": "computing-foundations.programming-fundamentals-and-languages.programming-paradigms.object-oriented-programming",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "computing-foundations",
+      "programming-fundamentals-and-languages",
+      "programming-paradigms"
+    ]
+  },
+  "links": [
+    {
+      "to": "computing-foundations.programming-fundamentals-and-languages.programming-paradigms.functional-programming",
+      "rel": "contrasts"
+    },
+    {
+      "to": "computing-foundations.programming-fundamentals-and-languages.programming-paradigms.structured-programming",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "programming-paradigms"
+  }
+}

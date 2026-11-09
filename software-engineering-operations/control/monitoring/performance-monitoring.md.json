@@ -1,0 +1,39 @@
+{
+  "node": {
+    "id": "software-engineering-operations.control.monitoring.performance-monitoring",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-engineering-operations",
+      "control",
+      "monitoring"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-quality.fundamentals.quality-attributes.performance",
+      "rel": "related"
+    },
+    {
+      "to": "software-engineering-operations.control.monitoring.monitoring-and-diagnostics",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-monitoring",
+      "type": "documentation",
+      "title": "Monitoring and diagnostics guidance",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "monitoring"
+  }
+}

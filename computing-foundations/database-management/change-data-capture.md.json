@@ -1,0 +1,44 @@
+{
+  "node": {
+    "id": "computing-foundations.database-management.change-data-capture",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "computing-foundations",
+      "database-management"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.data-management.materialized-view",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "debezium",
+      "type": "documentation",
+      "title": "Debezium Architecture",
+      "authors": [
+        "Debezium Authors"
+      ],
+      "url": "https://debezium.io/documentation/reference/stable/architecture.html",
+      "verified": false
+    },
+    {
+      "key": "ddia",
+      "type": "book",
+      "title": "Designing Data-Intensive Applications",
+      "authors": [
+        "Kleppmann, M."
+      ],
+      "year": 2017,
+      "publisher": "O'Reilly Media",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "database-management"
+  }
+}

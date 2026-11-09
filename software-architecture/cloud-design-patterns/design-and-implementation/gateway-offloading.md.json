@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.design-and-implementation.gateway-offloading",
+    "kind": "note",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "design-and-implementation"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.design-and-implementation.gateway-routing",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-gateway-offloading",
+      "type": "documentation",
+      "title": "Gateway offloading pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-offloading",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-and-implementation"
+  }
+}

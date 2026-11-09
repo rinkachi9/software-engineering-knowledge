@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.resiliency.leader-election",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "resiliency"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-leader-election",
+      "type": "documentation",
+      "title": "Leader election pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/leader-election",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "resiliency"
+  }
+}

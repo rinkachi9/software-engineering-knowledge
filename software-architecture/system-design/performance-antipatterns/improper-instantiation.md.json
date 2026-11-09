@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.improper-instantiation",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-improper-instantiation",
+      "type": "documentation",
+      "title": "Improper instantiation antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/improper-instantiation",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

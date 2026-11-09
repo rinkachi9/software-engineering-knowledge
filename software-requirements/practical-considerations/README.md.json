@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-requirements.practical-considerations",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "software-requirements",
+      "practical-considerations"
+    ]
+  },
+  "map": {
+    "group": "software-requirements"
+  }
+}

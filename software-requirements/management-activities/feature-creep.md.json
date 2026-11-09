@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-requirements.management-activities.feature-creep",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-requirements",
+      "management-activities"
+    ]
+  },
+  "map": {
+    "group": "management-activities"
+  }
+}

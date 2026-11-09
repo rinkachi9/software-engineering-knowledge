@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.design-and-implementation.strangler-fig",
+    "kind": "note",
+    "status": "draft",
+    "order": 11,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "design-and-implementation"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.architectural-styles.monolithic-architecture",
+      "rel": "related",
+      "note": "Used to migrate away from a monolith"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-strangler-fig",
+      "type": "documentation",
+      "title": "Strangler fig pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig",
+      "verified": false
+    },
+    {
+      "key": "fowler-strangler",
+      "type": "website",
+      "title": "StranglerFigApplication",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2004,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/bliki/StranglerFigApplication.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-and-implementation"
+  }
+}

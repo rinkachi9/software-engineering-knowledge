@@ -1,0 +1,42 @@
+{
+  "node": {
+    "id": "computing-foundations.data-structures-and-algorithms.queue",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "computing-foundations",
+      "data-structures-and-algorithms"
+    ]
+  },
+  "links": [
+    {
+      "to": "computing-foundations.data-structures-and-algorithms.abstract-data-types",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "computing-foundations.data-structures-and-algorithms.stack",
+      "rel": "contrasts",
+      "note": "FIFO versus LIFO order"
+    }
+  ],
+  "sources": [
+    {
+      "key": "clrs",
+      "type": "book",
+      "title": "Introduction to Algorithms, 4th Edition",
+      "authors": [
+        "Cormen, T. H.",
+        "Leiserson, C. E.",
+        "Rivest, R. L.",
+        "Stein, C."
+      ],
+      "year": 2022,
+      "publisher": "MIT Press",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-structures-and-algorithms"
+  }
+}

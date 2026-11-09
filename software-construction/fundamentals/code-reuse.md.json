@@ -1,0 +1,21 @@
+{
+  "node": {
+    "id": "software-construction.fundamentals.code-reuse",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-construction",
+      "fundamentals"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.fundamentals.design-principles.dry",
+      "rel": "prerequisite"
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

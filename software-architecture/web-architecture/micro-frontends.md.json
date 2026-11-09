@@ -1,0 +1,46 @@
+{
+  "node": {
+    "id": "software-architecture.web-architecture.micro-frontends",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "web-architecture"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.architectural-styles.microservices",
+      "rel": "applies",
+      "note": "Applies the microservice idea to the frontend"
+    }
+  ],
+  "sources": [
+    {
+      "key": "micro-frontends-org",
+      "type": "website",
+      "title": "Micro Frontends: extending the microservice idea to frontend development",
+      "authors": [
+        "Geers, M."
+      ],
+      "url": "https://micro-frontends.org/",
+      "verified": false
+    },
+    {
+      "key": "fowler-micro-frontends",
+      "type": "website",
+      "title": "Micro Frontends",
+      "authors": [
+        "Jackson, C."
+      ],
+      "year": 2019,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/articles/micro-frontends.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "web-architecture"
+  }
+}

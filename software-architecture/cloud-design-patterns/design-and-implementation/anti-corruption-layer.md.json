@@ -1,0 +1,46 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.design-and-implementation.anti-corruption-layer",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "design-and-implementation"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.strategies-and-methods.domain-driven-design",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-anti-corruption-layer",
+      "type": "documentation",
+      "title": "Anti-corruption layer pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer",
+      "verified": false
+    },
+    {
+      "key": "evans-ddd",
+      "type": "book",
+      "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+      "authors": [
+        "Evans, E."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-and-implementation"
+  }
+}

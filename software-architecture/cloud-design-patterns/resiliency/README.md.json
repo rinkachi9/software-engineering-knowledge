@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.resiliency",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "resiliency"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

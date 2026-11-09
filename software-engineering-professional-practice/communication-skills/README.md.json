@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-professional-practice.communication-skills",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-engineering-professional-practice",
+      "communication-skills"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-professional-practice"
+  }
+}

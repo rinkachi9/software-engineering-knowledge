@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-management.measurement",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-engineering-management",
+      "measurement"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-management"
+  }
+}

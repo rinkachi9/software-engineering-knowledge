@@ -1,0 +1,46 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.high-availability.failover-and-replication",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "high-availability"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-quality.fundamentals.quality-attributes.availability",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-patterns",
+      "type": "documentation",
+      "title": "Cloud design patterns",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+      "verified": false
+    },
+    {
+      "key": "ddia",
+      "type": "book",
+      "title": "Designing Data-Intensive Applications",
+      "authors": [
+        "Kleppmann, M."
+      ],
+      "year": 2017,
+      "publisher": "O'Reilly Media",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "high-availability"
+  }
+}

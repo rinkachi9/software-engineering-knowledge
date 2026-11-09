@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-configuration-management.process-management",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-configuration-management",
+      "process-management"
+    ]
+  },
+  "map": {
+    "group": "software-configuration-management"
+  }
+}

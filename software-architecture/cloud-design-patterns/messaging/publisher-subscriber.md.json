@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.messaging.publisher-subscriber",
+    "kind": "note",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "messaging"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.message-queues",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-publisher-subscriber",
+      "type": "documentation",
+      "title": "Publisher-subscriber pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber",
+      "verified": false
+    },
+    {
+      "key": "eip",
+      "type": "book",
+      "title": "Enterprise Integration Patterns",
+      "authors": [
+        "Hohpe, G.",
+        "Woolf, B."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "url": "https://www.enterpriseintegrationpatterns.com/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "messaging"
+  }
+}

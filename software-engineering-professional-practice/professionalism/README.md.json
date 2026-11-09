@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-professional-practice.professionalism",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-engineering-professional-practice",
+      "professionalism"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-professional-practice"
+  }
+}

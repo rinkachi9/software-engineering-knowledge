@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-design.qualities",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-design",
+      "qualities"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

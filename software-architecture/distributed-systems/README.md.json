@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-architecture.distributed-systems",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "software-architecture",
+      "distributed-systems"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

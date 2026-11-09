@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.high-availability.queue-based-load-leveling",
+    "kind": "note",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "high-availability"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.message-queues",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-queue-based-load-leveling",
+      "type": "documentation",
+      "title": "Queue-based load leveling pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "high-availability"
+  }
+}

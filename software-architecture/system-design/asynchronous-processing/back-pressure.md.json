@@ -1,0 +1,46 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.asynchronous-processing.back-pressure",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "asynchronous-processing"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.high-availability.queue-based-load-leveling",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sdp",
+      "type": "website",
+      "title": "The System Design Primer",
+      "authors": [
+        "Martin, D."
+      ],
+      "publisher": "GitHub",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "verified": false
+    },
+    {
+      "key": "reactive-streams",
+      "type": "standard",
+      "title": "Reactive Streams",
+      "authors": [
+        "Reactive Streams initiative"
+      ],
+      "year": 2015,
+      "url": "https://www.reactive-streams.org/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "asynchronous-processing"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "computing-foundations.programming-fundamentals-and-languages.programming-paradigms.reactive-programming",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "computing-foundations",
+      "programming-fundamentals-and-languages",
+      "programming-paradigms"
+    ]
+  },
+  "links": [
+    {
+      "to": "computing-foundations.programming-fundamentals-and-languages.programming-paradigms.functional-programming",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "reactive-manifesto",
+      "type": "website",
+      "title": "The Reactive Manifesto",
+      "authors": [
+        "Bonér, J.",
+        "et al."
+      ],
+      "year": 2014,
+      "url": "https://www.reactivemanifesto.org/",
+      "verified": false
+    },
+    {
+      "key": "reactive-streams",
+      "type": "standard",
+      "title": "Reactive Streams",
+      "authors": [
+        "Reactive Streams initiative"
+      ],
+      "year": 2015,
+      "url": "https://www.reactive-streams.org/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "programming-paradigms"
+  }
+}

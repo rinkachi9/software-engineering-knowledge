@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-design.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-design",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

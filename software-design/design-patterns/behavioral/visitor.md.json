@@ -1,0 +1,38 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.behavioral.visitor",
+    "kind": "note",
+    "status": "draft",
+    "order": 10,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "behavioral"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.design-patterns.structural.composite",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gof",
+      "type": "book",
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "authors": [
+        "Gamma, E.",
+        "Helm, R.",
+        "Johnson, R.",
+        "Vlissides, J."
+      ],
+      "year": 1994,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "behavioral"
+  }
+}

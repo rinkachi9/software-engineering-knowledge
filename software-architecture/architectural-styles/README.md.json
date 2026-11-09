@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-architecture.architectural-styles",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "architectural-styles"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

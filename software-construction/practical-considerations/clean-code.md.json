@@ -1,0 +1,34 @@
+{
+  "node": {
+    "id": "software-construction.practical-considerations.clean-code",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-construction",
+      "practical-considerations"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.fundamentals.design-principles.kiss",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "clean-code",
+      "type": "book",
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "authors": [
+        "Martin, R. C."
+      ],
+      "year": 2008,
+      "publisher": "Prentice Hall",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "practical-considerations"
+  }
+}

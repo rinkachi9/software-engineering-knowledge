@@ -1,0 +1,34 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.background-jobs",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "system-design"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.task-queues",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-background-jobs",
+      "type": "documentation",
+      "title": "Background jobs",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "system-design"
+  }
+}

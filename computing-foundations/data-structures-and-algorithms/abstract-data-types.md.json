@@ -1,0 +1,44 @@
+{
+  "node": {
+    "id": "computing-foundations.data-structures-and-algorithms.abstract-data-types",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "computing-foundations",
+      "data-structures-and-algorithms"
+    ]
+  },
+  "sources": [
+    {
+      "key": "clrs",
+      "type": "book",
+      "title": "Introduction to Algorithms, 4th Edition",
+      "authors": [
+        "Cormen, T. H.",
+        "Leiserson, C. E.",
+        "Rivest, R. L.",
+        "Stein, C."
+      ],
+      "year": 2022,
+      "publisher": "MIT Press",
+      "verified": false
+    },
+    {
+      "key": "liskov-adt",
+      "type": "paper",
+      "title": "Programming with Abstract Data Types",
+      "authors": [
+        "Liskov, B.",
+        "Zilles, S."
+      ],
+      "year": 1974,
+      "publisher": "ACM SIGPLAN Notices",
+      "url": "https://doi.org/10.1145/942572.807045",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-structures-and-algorithms"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "node": {
+    "id": "software-engineering-operations.control.devops-metrics",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-engineering-operations",
+      "control"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-engineering-operations.control.system-metrics",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "dora",
+      "type": "website",
+      "title": "DORA's software delivery performance metrics",
+      "authors": [
+        "DORA"
+      ],
+      "publisher": "Google Cloud",
+      "url": "https://dora.dev/guides/dora-metrics/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "control"
+  }
+}

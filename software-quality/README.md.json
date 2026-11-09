@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "software-quality",
+    "kind": "index",
+    "status": "draft",
+    "order": 12,
+    "tags": [
+      "software-quality"
+    ]
+  },
+  "map": {
+    "group": "software-quality"
+  }
+}

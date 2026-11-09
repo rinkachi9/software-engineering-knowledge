@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-engineering-models-and-methods.modeling.uml",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-engineering-models-and-methods",
+      "modeling"
+    ]
+  },
+  "sources": [
+    {
+      "key": "uml-spec",
+      "type": "standard",
+      "title": "OMG Unified Modeling Language (UML), Version 2.5.1",
+      "authors": [
+        "Object Management Group"
+      ],
+      "year": 2017,
+      "publisher": "OMG",
+      "url": "https://www.omg.org/spec/UML/2.5.1",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "modeling"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-architecture.architectural-styles.serverless-architecture",
+    "kind": "note",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "software-architecture",
+      "architectural-styles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.architectural-styles.microservices",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berkeley-serverless",
+      "type": "paper",
+      "title": "Cloud Programming Simplified: A Berkeley View on Serverless Computing",
+      "authors": [
+        "Jonas, E.",
+        "et al."
+      ],
+      "year": 2019,
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/1902.03383",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "architectural-styles"
+  }
+}

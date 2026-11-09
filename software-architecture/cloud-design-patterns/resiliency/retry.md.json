@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.resiliency.retry",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "resiliency"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.idempotent-operations",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-retry",
+      "type": "documentation",
+      "title": "Retry pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/retry",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "resiliency"
+  }
+}

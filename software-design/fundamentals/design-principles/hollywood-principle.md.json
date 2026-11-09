@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "software-design.fundamentals.design-principles.hollywood-principle",
+    "kind": "note",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-design",
+      "fundamentals",
+      "design-principles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.fundamentals.design-principles.program-to-abstractions",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fowler-ioc",
+      "type": "website",
+      "title": "InversionOfControl",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2005,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/bliki/InversionOfControl.html",
+      "verified": false
+    },
+    {
+      "key": "gof",
+      "type": "book",
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "authors": [
+        "Gamma, E.",
+        "Helm, R.",
+        "Johnson, R.",
+        "Vlissides, J."
+      ],
+      "year": 1994,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-principles"
+  }
+}

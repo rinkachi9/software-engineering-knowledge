@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.security.valet-key",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "security"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.data-management.static-content-hosting",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-valet-key",
+      "type": "documentation",
+      "title": "Valet key pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security"
+  }
+}

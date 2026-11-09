@@ -1,0 +1,41 @@
+{
+  "node": {
+    "id": "software-architecture.distributed-systems.actor-model",
+    "kind": "note",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-architecture",
+      "distributed-systems"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.distributed-systems.distributed-systems",
+      "rel": "related"
+    },
+    {
+      "to": "computing-foundations.programming-fundamentals-and-languages.programming-paradigms.reactive-programming",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hewitt-actors",
+      "type": "paper",
+      "title": "A Universal Modular ACTOR Formalism for Artificial Intelligence",
+      "authors": [
+        "Hewitt, C.",
+        "Bishop, P.",
+        "Steiger, R."
+      ],
+      "year": 1973,
+      "publisher": "IJCAI",
+      "url": "https://ijcai.org/proceedings/1973/0031.pdf",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "distributed-systems"
+  }
+}

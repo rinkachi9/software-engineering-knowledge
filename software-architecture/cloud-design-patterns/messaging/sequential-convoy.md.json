@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.messaging.sequential-convoy",
+    "kind": "note",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "messaging"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.messaging.competing-consumers",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-sequential-convoy",
+      "type": "documentation",
+      "title": "Sequential convoy pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy",
+      "verified": false
+    },
+    {
+      "key": "eip",
+      "type": "book",
+      "title": "Enterprise Integration Patterns",
+      "authors": [
+        "Hohpe, G.",
+        "Woolf, B."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "url": "https://www.enterpriseintegrationpatterns.com/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "messaging"
+  }
+}

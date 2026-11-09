@@ -1,0 +1,39 @@
+{
+  "node": {
+    "id": "software-architecture.fundamentals.architecture-levels",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "fundamentals"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.fundamentals.software-architecture",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "software-architecture.description.enterprise-architecture-frameworks",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fsa-richards",
+      "type": "book",
+      "title": "Fundamentals of Software Architecture",
+      "authors": [
+        "Richards, M.",
+        "Ford, N."
+      ],
+      "year": 2020,
+      "publisher": "O'Reilly Media",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

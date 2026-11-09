@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-operations.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-engineering-operations",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-operations"
+  }
+}

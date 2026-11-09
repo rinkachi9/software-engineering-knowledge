@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "engineering-foundations.empirical-methods-and-experimental-techniques",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "engineering-foundations",
+      "empirical-methods-and-experimental-techniques"
+    ]
+  },
+  "map": {
+    "group": "engineering-foundations"
+  }
+}

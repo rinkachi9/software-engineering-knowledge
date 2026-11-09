@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.security.gatekeeper",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "security"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-gatekeeper",
+      "type": "documentation",
+      "title": "Gatekeeper pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/gatekeeper",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security"
+  }
+}

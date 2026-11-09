@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-testing.test-process",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-testing",
+      "test-process"
+    ]
+  },
+  "map": {
+    "group": "software-testing"
+  }
+}

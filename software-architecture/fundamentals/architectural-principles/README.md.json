@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-architecture.fundamentals.architectural-principles",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "fundamentals",
+      "architectural-principles"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-requirements.management-activities",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-requirements",
+      "management-activities"
+    ]
+  },
+  "map": {
+    "group": "software-requirements"
+  }
+}

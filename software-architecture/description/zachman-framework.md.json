@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.description.zachman-framework",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "description"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.description.enterprise-architecture-frameworks",
+      "rel": "example-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "zachman-1987",
+      "type": "paper",
+      "title": "A framework for information systems architecture",
+      "authors": [
+        "Zachman, J. A."
+      ],
+      "year": 1987,
+      "publisher": "IBM Systems Journal",
+      "url": "https://doi.org/10.1147/sj.263.0276",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "description"
+  }
+}

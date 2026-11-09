@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.grammar",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "mathematical-foundations",
+      "grammar"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

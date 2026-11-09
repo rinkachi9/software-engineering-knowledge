@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-architecture.web-architecture.spa-ssr-and-ssg",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "web-architecture"
+    ]
+  },
+  "links": [
+    {
+      "to": "computing-foundations.computer-networks-and-communications.http",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "webdev-rendering",
+      "type": "documentation",
+      "title": "Rendering on the Web",
+      "authors": [
+        "Miller, J.",
+        "Osmani, A."
+      ],
+      "year": 2019,
+      "publisher": "web.dev",
+      "url": "https://web.dev/articles/rendering-on-the-web",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "web-architecture"
+  }
+}

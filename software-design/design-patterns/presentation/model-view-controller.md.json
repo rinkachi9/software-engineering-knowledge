@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.presentation.model-view-controller",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "presentation"
+    ]
+  },
+  "sources": [
+    {
+      "key": "fowler-gui-archs",
+      "type": "website",
+      "title": "GUI Architectures",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2006,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/eaaDev/uiArchs.html",
+      "verified": false
+    },
+    {
+      "key": "reenskaug-mvc",
+      "type": "website",
+      "title": "MVC: Xerox PARC 1978-79",
+      "authors": [
+        "Reenskaug, T."
+      ],
+      "year": 1979,
+      "publisher": "Xerox PARC",
+      "verified": false
+    },
+    {
+      "key": "posa1",
+      "type": "book",
+      "title": "Pattern-Oriented Software Architecture, Volume 1: A System of Patterns",
+      "authors": [
+        "Buschmann, F.",
+        "Meunier, R.",
+        "Rohnert, H.",
+        "Sommerlad, P.",
+        "Stal, M."
+      ],
+      "year": 1996,
+      "publisher": "Wiley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "presentation"
+  }
+}

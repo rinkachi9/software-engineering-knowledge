@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-security.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-security",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-security"
+  }
+}

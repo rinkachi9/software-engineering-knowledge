@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-security.security-engineering-for-software-systems.api-security",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-security",
+      "security-engineering-for-software-systems"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.api-design.rest",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "owasp-api-2023",
+      "type": "standard",
+      "title": "OWASP API Security Top 10, 2023 edition",
+      "authors": [
+        "OWASP"
+      ],
+      "year": 2023,
+      "publisher": "OWASP",
+      "url": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security-engineering-for-software-systems"
+  }
+}

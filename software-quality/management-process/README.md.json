@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-quality.management-process",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-quality",
+      "management-process"
+    ]
+  },
+  "map": {
+    "group": "software-quality"
+  }
+}

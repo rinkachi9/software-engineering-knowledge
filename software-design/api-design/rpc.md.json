@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-design.api-design.rpc",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-design",
+      "api-design"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.api-design.rest",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "birrell-nelson-rpc",
+      "type": "paper",
+      "title": "Implementing Remote Procedure Calls",
+      "authors": [
+        "Birrell, A. D.",
+        "Nelson, B. J."
+      ],
+      "year": 1984,
+      "publisher": "ACM Transactions on Computer Systems",
+      "url": "https://doi.org/10.1145/2080.357392",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "api-design"
+  }
+}

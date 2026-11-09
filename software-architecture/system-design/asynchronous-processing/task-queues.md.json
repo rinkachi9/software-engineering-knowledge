@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.asynchronous-processing.task-queues",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "asynchronous-processing"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.message-queues",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sdp",
+      "type": "website",
+      "title": "The System Design Primer",
+      "authors": [
+        "Martin, D."
+      ],
+      "publisher": "GitHub",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "asynchronous-processing"
+  }
+}

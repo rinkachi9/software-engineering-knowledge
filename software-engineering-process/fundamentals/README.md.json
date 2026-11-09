@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-process.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-engineering-process",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-process"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.fundamentals.architectural-principles.policy-and-detail",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "fundamentals",
+      "architectural-principles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.fundamentals.architectural-principles.boundaries",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "clean-architecture",
+      "type": "book",
+      "title": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
+      "authors": [
+        "Martin, R. C."
+      ],
+      "year": 2017,
+      "publisher": "Prentice Hall",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "architectural-principles"
+  }
+}

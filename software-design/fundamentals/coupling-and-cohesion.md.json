@@ -1,0 +1,43 @@
+{
+  "node": {
+    "id": "software-design.fundamentals.coupling-and-cohesion",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-design",
+      "fundamentals"
+    ]
+  },
+  "sources": [
+    {
+      "key": "stevens-myers-constantine",
+      "type": "paper",
+      "title": "Structured design",
+      "authors": [
+        "Stevens, W. P.",
+        "Myers, G. J.",
+        "Constantine, L. L."
+      ],
+      "year": 1974,
+      "publisher": "IBM Systems Journal",
+      "url": "https://doi.org/10.1147/sj.132.0115",
+      "verified": false
+    },
+    {
+      "key": "yourdon-constantine",
+      "type": "book",
+      "title": "Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design",
+      "authors": [
+        "Yourdon, E.",
+        "Constantine, L. L."
+      ],
+      "year": 1979,
+      "publisher": "Prentice Hall",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

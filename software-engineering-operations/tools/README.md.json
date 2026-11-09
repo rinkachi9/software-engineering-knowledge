@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-operations.tools",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-engineering-operations",
+      "tools"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-operations"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.number-theory",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "mathematical-foundations",
+      "number-theory"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.enterprise",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "enterprise"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

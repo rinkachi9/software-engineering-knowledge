@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-testing.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-testing",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-testing"
+  }
+}

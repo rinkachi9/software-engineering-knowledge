@@ -1,0 +1,38 @@
+{
+  "node": {
+    "id": "computing-foundations.data-structures-and-algorithms.linked-list",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "computing-foundations",
+      "data-structures-and-algorithms"
+    ]
+  },
+  "links": [
+    {
+      "to": "computing-foundations.data-structures-and-algorithms.array",
+      "rel": "contrasts",
+      "note": "Pointer based versus contiguous storage"
+    }
+  ],
+  "sources": [
+    {
+      "key": "clrs",
+      "type": "book",
+      "title": "Introduction to Algorithms, 4th Edition",
+      "authors": [
+        "Cormen, T. H.",
+        "Leiserson, C. E.",
+        "Rivest, R. L.",
+        "Stein, C."
+      ],
+      "year": 2022,
+      "publisher": "MIT Press",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-structures-and-algorithms"
+  }
+}

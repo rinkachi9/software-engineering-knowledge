@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "software-architecture.distributed-systems.cap-theorem",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "distributed-systems"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.distributed-systems.distributed-systems",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gilbert-lynch-cap",
+      "type": "paper",
+      "title": "Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services",
+      "authors": [
+        "Gilbert, S.",
+        "Lynch, N."
+      ],
+      "year": 2002,
+      "publisher": "ACM SIGACT News",
+      "url": "https://doi.org/10.1145/564585.564601",
+      "verified": false
+    },
+    {
+      "key": "brewer-cap-12",
+      "type": "website",
+      "title": "CAP Twelve Years Later: How the \"Rules\" Have Changed",
+      "authors": [
+        "Brewer, E."
+      ],
+      "year": 2012,
+      "publisher": "InfoQ (originally IEEE Computer)",
+      "url": "https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "distributed-systems"
+  }
+}

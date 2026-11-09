@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.architectural-styles.service-oriented-architecture",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "architectural-styles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.architectural-styles.microservices",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "oasis-soa-rm",
+      "type": "standard",
+      "title": "Reference Model for Service Oriented Architecture 1.0",
+      "authors": [
+        "OASIS"
+      ],
+      "year": 2006,
+      "publisher": "OASIS",
+      "url": "https://docs.oasis-open.org/soa-rm/v1.0/soa-rm.pdf",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "architectural-styles"
+  }
+}

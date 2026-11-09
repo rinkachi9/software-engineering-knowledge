@@ -1,0 +1,33 @@
+{
+  "node": {
+    "id": "software-design.api-design.graphql",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-design",
+      "api-design"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.api-design.rest",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "graphql-spec",
+      "type": "standard",
+      "title": "GraphQL Specification",
+      "authors": [
+        "GraphQL Foundation"
+      ],
+      "url": "https://spec.graphql.org/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "api-design"
+  }
+}

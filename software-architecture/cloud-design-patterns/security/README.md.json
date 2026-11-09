@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.security",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "security"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

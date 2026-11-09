@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.asynchronous-processing.message-queues",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "asynchronous-processing"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.asynchronism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "computing-foundations.data-structures-and-algorithms.queue",
+      "rel": "applies"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sdp",
+      "type": "website",
+      "title": "The System Design Primer",
+      "authors": [
+        "Martin, D."
+      ],
+      "publisher": "GitHub",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "verified": false
+    },
+    {
+      "key": "eip",
+      "type": "book",
+      "title": "Enterprise Integration Patterns",
+      "authors": [
+        "Hohpe, G.",
+        "Woolf, B."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "url": "https://www.enterpriseintegrationpatterns.com/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "asynchronous-processing"
+  }
+}

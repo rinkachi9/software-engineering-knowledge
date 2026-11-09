@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns",
+    "kind": "index",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-management.initiation-and-scope-definition",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-engineering-management",
+      "initiation-and-scope-definition"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-management"
+  }
+}

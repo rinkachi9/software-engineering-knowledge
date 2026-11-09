@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "computing-foundations.computer-architecture-and-organization",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "computing-foundations",
+      "computer-architecture-and-organization"
+    ]
+  },
+  "map": {
+    "group": "computing-foundations"
+  }
+}

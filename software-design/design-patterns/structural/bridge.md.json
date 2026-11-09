@@ -1,0 +1,38 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.structural.bridge",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "structural"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.design-patterns.structural.adapter",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gof",
+      "type": "book",
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "authors": [
+        "Gamma, E.",
+        "Helm, R.",
+        "Johnson, R.",
+        "Vlissides, J."
+      ],
+      "year": 1994,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "structural"
+  }
+}

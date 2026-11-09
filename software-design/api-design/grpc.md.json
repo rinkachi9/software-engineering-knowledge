@@ -1,0 +1,38 @@
+{
+  "node": {
+    "id": "software-design.api-design.grpc",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-design",
+      "api-design"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.api-design.rpc",
+      "rel": "extends"
+    },
+    {
+      "to": "computing-foundations.computer-networks-and-communications.http",
+      "rel": "prerequisite",
+      "note": "gRPC runs over HTTP/2"
+    }
+  ],
+  "sources": [
+    {
+      "key": "grpc-docs",
+      "type": "documentation",
+      "title": "Introduction to gRPC",
+      "authors": [
+        "gRPC Authors"
+      ],
+      "url": "https://grpc.io/docs/what-is-grpc/introduction/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "api-design"
+  }
+}

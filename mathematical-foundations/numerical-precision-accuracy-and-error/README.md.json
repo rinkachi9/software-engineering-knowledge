@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.numerical-precision-accuracy-and-error",
+    "kind": "index",
+    "status": "draft",
+    "order": 10,
+    "tags": [
+      "mathematical-foundations",
+      "numerical-precision-accuracy-and-error"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

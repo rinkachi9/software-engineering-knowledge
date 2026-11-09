@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.engineering-calculus",
+    "kind": "index",
+    "status": "draft",
+    "order": 12,
+    "tags": [
+      "mathematical-foundations",
+      "engineering-calculus"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

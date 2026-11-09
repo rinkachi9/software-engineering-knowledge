@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.basic-logic",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "mathematical-foundations",
+      "basic-logic"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

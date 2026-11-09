@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.messaging.priority-queue",
+    "kind": "note",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "messaging"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.asynchronous-processing.message-queues",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-priority-queue",
+      "type": "documentation",
+      "title": "Priority queue pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/priority-queue",
+      "verified": false
+    },
+    {
+      "key": "eip",
+      "type": "book",
+      "title": "Enterprise Integration Patterns",
+      "authors": [
+        "Hohpe, G.",
+        "Woolf, B."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "url": "https://www.enterpriseintegrationpatterns.com/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "messaging"
+  }
+}

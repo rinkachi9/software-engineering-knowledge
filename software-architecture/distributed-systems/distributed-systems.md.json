@@ -1,0 +1,40 @@
+{
+  "node": {
+    "id": "software-architecture.distributed-systems.distributed-systems",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "distributed-systems"
+    ]
+  },
+  "sources": [
+    {
+      "key": "ddia",
+      "type": "book",
+      "title": "Designing Data-Intensive Applications",
+      "authors": [
+        "Kleppmann, M."
+      ],
+      "year": 2017,
+      "publisher": "O'Reilly Media",
+      "verified": false
+    },
+    {
+      "key": "lamport-clocks",
+      "type": "paper",
+      "title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+      "authors": [
+        "Lamport, L."
+      ],
+      "year": 1978,
+      "publisher": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/359545.359563",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "distributed-systems"
+  }
+}

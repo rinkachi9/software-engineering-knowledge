@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "engineering-foundations.abstraction-and-encapsulation",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "engineering-foundations",
+      "abstraction-and-encapsulation"
+    ]
+  },
+  "map": {
+    "group": "engineering-foundations"
+  }
+}

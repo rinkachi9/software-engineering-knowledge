@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "engineering-foundations.statistical-analysis",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "engineering-foundations",
+      "statistical-analysis"
+    ]
+  },
+  "map": {
+    "group": "engineering-foundations"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.retry-storm",
+    "kind": "note",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.resiliency.retry",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-retry-storm",
+      "type": "documentation",
+      "title": "Retry storm antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/retry-storm",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.no-caching",
+    "kind": "note",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.caching",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-no-caching",
+      "type": "documentation",
+      "title": "No caching antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/no-caching",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

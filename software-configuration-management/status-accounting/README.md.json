@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-configuration-management.status-accounting",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-configuration-management",
+      "status-accounting"
+    ]
+  },
+  "map": {
+    "group": "software-configuration-management"
+  }
+}

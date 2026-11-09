@@ -1,0 +1,51 @@
+{
+  "node": {
+    "id": "software-quality.fundamentals.quality-attributes.availability",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-quality",
+      "fundamentals",
+      "quality-attributes"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-quality.fundamentals.quality-attributes.reliability",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "iso25010",
+      "type": "standard",
+      "title": "ISO/IEC 25010:2023 Systems and software Quality Requirements and Evaluation (SQuaRE): Product quality model",
+      "authors": [
+        "ISO/IEC"
+      ],
+      "year": 2023,
+      "publisher": "ISO",
+      "url": "https://www.iso.org/standard/78176.html",
+      "verified": false
+    },
+    {
+      "key": "sre-risk",
+      "type": "book",
+      "title": "Site Reliability Engineering, chapter 3: Embracing Risk",
+      "authors": [
+        "Beyer, B.",
+        "Jones, C.",
+        "Petoff, J.",
+        "Murphy, N. R. (eds.)"
+      ],
+      "year": 2016,
+      "publisher": "O'Reilly Media",
+      "url": "https://sre.google/sre-book/embracing-risk/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "quality-attributes"
+  }
+}

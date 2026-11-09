@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.data-management",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "data-management"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

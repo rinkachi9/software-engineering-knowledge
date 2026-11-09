@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-maintenance.key-issues",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-maintenance",
+      "key-issues"
+    ]
+  },
+  "map": {
+    "group": "software-maintenance"
+  }
+}

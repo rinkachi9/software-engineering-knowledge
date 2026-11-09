@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-engineering-operations.control.monitoring",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-engineering-operations",
+      "control",
+      "monitoring"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-operations"
+  }
+}

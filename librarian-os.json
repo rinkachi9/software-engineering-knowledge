@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "project": {
+    "name": "Software Engineering Knowledge",
+    "description": "A personal, language agnostic knowledge base of software engineering, organized by the 18 knowledge areas of the SWEBOK Guide V4.0, with a separate section of case studies.",
+    "language": "en"
+  },
+  "entryPoints": [
+    {
+      "path": "software-requirements"
+    },
+    {
+      "path": "software-architecture"
+    },
+    {
+      "path": "software-design"
+    },
+    {
+      "path": "software-construction"
+    },
+    {
+      "path": "software-testing"
+    },
+    {
+      "path": "software-engineering-operations"
+    },
+    {
+      "path": "software-maintenance"
+    },
+    {
+      "path": "software-configuration-management"
+    },
+    {
+      "path": "software-engineering-management"
+    },
+    {
+      "path": "software-engineering-process"
+    },
+    {
+      "path": "software-engineering-models-and-methods"
+    },
+    {
+      "path": "software-quality"
+    },
+    {
+      "path": "software-security"
+    },
+    {
+      "path": "software-engineering-professional-practice"
+    },
+    {
+      "path": "software-engineering-economics"
+    },
+    {
+      "path": "computing-foundations"
+    },
+    {
+      "path": "mathematical-foundations"
+    },
+    {
+      "path": "engineering-foundations"
+    },
+    {
+      "path": "case-studies"
+    }
+  ],
+  "toc": {
+    "file": "ToC.md",
+    "check": true,
+    "descriptions": {
+      ".gitignore": "Files excluded from version control.",
+      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules.",
+      "_assets/case-studies/facebook-memcached-scaling-figure-1.png": "Figure 1 of the note \"Scaling Memcached at Facebook\".",
+      "_assets/case-studies/facebook-memcached-scaling-figure-2.png": "Figure 2 of the note \"Scaling Memcached at Facebook\".",
+      "_assets/case-studies/facebook-memcached-scaling-figure-3.png": "Figure 3 of the note \"Scaling Memcached at Facebook\".",
+      "_assets/case-studies/facebook-memcached-scaling-figure-4.png": "Figure 4 of the note \"Scaling Memcached at Facebook\".",
+      "_assets/case-studies/facebook-memcached-scaling-figure-5.png": "Figure 5 of the note \"Scaling Memcached at Facebook\".",
+      "_assets/case-studies/facebook-memcached-scaling-figure-6.png": "Figure 6 of the note \"Scaling Memcached at Facebook\".",
+      "_assets/case-studies/reddit-architecture-figure-1.png": "Figure 1 of the note \"Reddit architecture\".",
+      "_assets/computing-foundations/array-figure-1.png": "Figure 1 of the note \"Array\".",
+      "_assets/computing-foundations/graph-figure-1.png": "Figure 1 of the note \"Graph\".",
+      "_assets/computing-foundations/graph-figure-2.png": "Figure 2 of the note \"Graph\".",
+      "_assets/computing-foundations/graph-figure-3.png": "Figure 3 of the note \"Graph\".",
+      "_assets/computing-foundations/graph-figure-4.png": "Figure 4 of the note \"Graph\".",
+      "_assets/computing-foundations/graph-figure-5.png": "Figure 5 of the note \"Graph\".",
+      "_assets/computing-foundations/hash-table-figure-1.png": "Figure 1 of the note \"Hash table\".",
+      "_assets/computing-foundations/heap-figure-1.png": "Figure 1 of the note \"Heap\".",
+      "_assets/computing-foundations/http-figure-1.png": "Figure 1 of the note \"Hypertext Transfer Protocol (HTTP)\".",
+      "_assets/computing-foundations/linked-list-figure-1.png": "Figure 1 of the note \"Linked list\".",
+      "_assets/computing-foundations/queue-figure-1.png": "Figure 1 of the note \"Queue\".",
+      "_assets/computing-foundations/stack-figure-1.png": "Figure 1 of the note \"Stack\".",
+      "_assets/computing-foundations/system-application-and-platform-figure-1.png": "Figure 1 of the note \"System, application and platform\".",
+      "_assets/computing-foundations/tcp-figure-1.png": "Figure 1 of the note \"Transmission Control Protocol (TCP)\".",
+      "_assets/computing-foundations/tcp-figure-2.png": "Figure 2 of the note \"Transmission Control Protocol (TCP)\".",
+      "_assets/computing-foundations/tree-figure-1.png": "Figure 1 of the note \"Tree\".",
+      "_assets/computing-foundations/udp-figure-1.png": "Figure 1 of the note \"User Datagram Protocol (UDP)\".",
+      "_assets/software-architecture/ambassador-figure-1.png": "Figure 1 of the note \"Ambassador pattern\".",
+      "_assets/software-architecture/anti-corruption-layer-figure-1.png": "Figure 1 of the note \"Anti-corruption layer pattern\".",
+      "_assets/software-architecture/asynchronism-figure-1.png": "Figure 1 of the note \"Asynchronism\".",
+      "_assets/software-architecture/asynchronous-request-reply-figure-1.png": "Figure 1 of the note \"Asynchronous request-reply pattern\".",
+      "_assets/software-architecture/back-pressure-figure-1.png": "Figure 1 of the note \"Back pressure\".",
+      "_assets/software-architecture/back-pressure-figure-2.png": "Figure 2 of the note \"Back pressure\".",
+      "_assets/software-architecture/back-pressure-figure-3.png": "Figure 3 of the note \"Back pressure\".",
+      "_assets/software-architecture/back-pressure-figure-4.png": "Figure 4 of the note \"Back pressure\".",
+      "_assets/software-architecture/backends-for-frontends-figure-1.png": "Figure 1 of the note \"Backends for frontends pattern\".",
+      "_assets/software-architecture/backends-for-frontends-figure-2.png": "Figure 2 of the note \"Backends for frontends pattern\".",
+      "_assets/software-architecture/bulkhead-figure-1.png": "Figure 1 of the note \"Bulkhead pattern\".",
+      "_assets/software-architecture/cache-aside-figure-1.png": "Figure 1 of the note \"Cache-aside pattern\".",
+      "_assets/software-architecture/caching-figure-1.png": "Figure 1 of the note \"Caching\".",
+      "_assets/software-architecture/caching-figure-2.png": "Figure 2 of the note \"Caching\".",
+      "_assets/software-architecture/caching-figure-3.png": "Figure 3 of the note \"Caching\".",
+      "_assets/software-architecture/caching-figure-4.png": "Figure 4 of the note \"Caching\".",
+      "_assets/software-architecture/caching-figure-5.png": "Figure 5 of the note \"Caching\".",
+      "_assets/software-architecture/cap-theorem-figure-1.png": "Figure 1 of the note \"CAP theorem\".",
+      "_assets/software-architecture/cap-theorem-figure-2.png": "Figure 2 of the note \"CAP theorem\".",
+      "_assets/software-architecture/cap-theorem-figure-3.png": "Figure 3 of the note \"CAP theorem\".",
+      "_assets/software-architecture/cell-based-architecture-figure-1.png": "Figure 1 of the note \"Cell-based architecture\".",
+      "_assets/software-architecture/choreography-figure-1.png": "Figure 1 of the note \"Choreography pattern\".",
+      "_assets/software-architecture/choreography-figure-2.png": "Figure 2 of the note \"Choreography pattern\".",
+      "_assets/software-architecture/choreography-figure-3.png": "Figure 3 of the note \"Choreography pattern\".",
+      "_assets/software-architecture/choreography-figure-4.png": "Figure 4 of the note \"Choreography pattern\".",
+      "_assets/software-architecture/circuit-breaker-figure-1.png": "Figure 1 of the note \"Circuit breaker pattern\".",
+      "_assets/software-architecture/circuit-breaker-figure-2.png": "Figure 2 of the note \"Circuit breaker pattern\".",
+      "_assets/software-architecture/claim-check-figure-1.png": "Figure 1 of the note \"Claim check pattern\".",
+      "_assets/software-architecture/compensating-transaction-figure-1.png": "Figure 1 of the note \"Compensating transaction pattern\".",
+      "_assets/software-architecture/compensating-transaction-figure-2.png": "Figure 2 of the note \"Compensating transaction pattern\".",
+      "_assets/software-architecture/competing-consumers-figure-1.png": "Figure 1 of the note \"Competing consumers pattern\".",
+      "_assets/software-architecture/compute-resource-consolidation-figure-1.png": "Figure 1 of the note \"Compute resource consolidation pattern\".",
+      "_assets/software-architecture/consistency-figure-1.png": "Figure 1 of the note \"Consistency\".",
+      "_assets/software-architecture/consistency-figure-2.png": "Figure 2 of the note \"Consistency\".",
+      "_assets/software-architecture/consistency-figure-3.png": "Figure 3 of the note \"Consistency\".",
+      "_assets/software-architecture/consistency-figure-4.png": "Figure 4 of the note \"Consistency\".",
+      "_assets/software-architecture/cqrs-figure-1.png": "Figure 1 of the note \"CQRS pattern\".",
+      "_assets/software-architecture/cqrs-figure-2.png": "Figure 2 of the note \"CQRS pattern\".",
+      "_assets/software-architecture/cqrs-figure-3.png": "Figure 3 of the note \"CQRS pattern\".",
+      "_assets/software-architecture/deployment-stamps-figure-1.png": "Figure 1 of the note \"Deployment stamps pattern\".",
+      "_assets/software-architecture/distributed-systems-figure-1.png": "Figure 1 of the note \"Distributed systems\".",
+      "_assets/software-architecture/distributed-systems-figure-2.png": "Figure 2 of the note \"Distributed systems\".",
+      "_assets/software-architecture/distributed-systems-figure-3.png": "Figure 3 of the note \"Distributed systems\".",
+      "_assets/software-architecture/distributed-systems-figure-4.png": "Figure 4 of the note \"Distributed systems\".",
+      "_assets/software-architecture/distributed-systems-figure-5.png": "Figure 5 of the note \"Distributed systems\".",
+      "_assets/software-architecture/distributed-systems-figure-6.png": "Figure 6 of the note \"Distributed systems\".",
+      "_assets/software-architecture/distributed-systems-figure-7.png": "Figure 7 of the note \"Distributed systems\".",
+      "_assets/software-architecture/enterprise-architecture-frameworks-figure-1.png": "Figure 1 of the note \"Enterprise architecture frameworks\".",
+      "_assets/software-architecture/external-configuration-store-figure-1.png": "Figure 1 of the note \"External configuration store pattern\".",
+      "_assets/software-architecture/failover-and-replication-figure-1.png": "Figure 1 of the note \"Failover and replication\".",
+      "_assets/software-architecture/failover-and-replication-figure-2.png": "Figure 2 of the note \"Failover and replication\".",
+      "_assets/software-architecture/federated-identity-figure-1.png": "Figure 1 of the note \"Federated identity pattern\".",
+      "_assets/software-architecture/gatekeeper-figure-1.png": "Figure 1 of the note \"Gatekeeper pattern\".",
+      "_assets/software-architecture/gateway-aggregation-figure-1.png": "Figure 1 of the note \"Gateway aggregation pattern\".",
+      "_assets/software-architecture/gateway-aggregation-figure-2.png": "Figure 2 of the note \"Gateway aggregation pattern\".",
+      "_assets/software-architecture/gateway-routing-figure-1.png": "Figure 1 of the note \"Gateway routing pattern\".",
+      "_assets/software-architecture/geode-figure-1.png": "Figure 1 of the note \"Geode pattern\".",
+      "_assets/software-architecture/geode-figure-2.png": "Figure 2 of the note \"Geode pattern\".",
+      "_assets/software-architecture/health-endpoint-monitoring-figure-1.png": "Figure 1 of the note \"Health endpoint monitoring pattern\".",
+      "_assets/software-architecture/health-endpoint-monitoring-figure-2.png": "Figure 2 of the note \"Health endpoint monitoring pattern\".",
+      "_assets/software-architecture/ideals-principles-figure-1.png": "Figure 1 of the note \"IDEALS principles for microservices\".",
+      "_assets/software-architecture/ideals-principles-figure-2.png": "Figure 2 of the note \"IDEALS principles for microservices\".",
+      "_assets/software-architecture/index-table-figure-1.png": "Figure 1 of the note \"Index table pattern\".",
+      "_assets/software-architecture/index-table-figure-2.png": "Figure 2 of the note \"Index table pattern\".",
+      "_assets/software-architecture/index-table-figure-3.png": "Figure 3 of the note \"Index table pattern\".",
+      "_assets/software-architecture/index-table-figure-4.png": "Figure 4 of the note \"Index table pattern\".",
+      "_assets/software-architecture/materialized-view-figure-1.png": "Figure 1 of the note \"Materialized view pattern\".",
+      "_assets/software-architecture/message-queues-figure-1.png": "Figure 1 of the note \"Message queues\".",
+      "_assets/software-architecture/message-queues-figure-2.png": "Figure 2 of the note \"Message queues\".",
+      "_assets/software-architecture/micro-frontends-figure-1.png": "Figure 1 of the note \"Micro-frontends\".",
+      "_assets/software-architecture/micro-frontends-figure-2.png": "Figure 2 of the note \"Micro-frontends\".",
+      "_assets/software-architecture/microservices-figure-1.png": "Figure 1 of the note \"Microservices architecture\".",
+      "_assets/software-architecture/microservices-figure-2.png": "Figure 2 of the note \"Microservices architecture\".",
+      "_assets/software-architecture/microservices-figure-3.png": "Figure 3 of the note \"Microservices architecture\".",
+      "_assets/software-architecture/microservices-vs-monolith-figure-1.png": "Figure 1 of the note \"Microservices versus monolith\".",
+      "_assets/software-architecture/microservices-vs-monolith-figure-2.png": "Figure 2 of the note \"Microservices versus monolith\".",
+      "_assets/software-architecture/pipes-and-filters-figure-1.png": "Figure 1 of the note \"Pipes and filters pattern\".",
+      "_assets/software-architecture/pipes-and-filters-figure-2.png": "Figure 2 of the note \"Pipes and filters pattern\".",
+      "_assets/software-architecture/pipes-and-filters-figure-3.png": "Figure 3 of the note \"Pipes and filters pattern\".",
+      "_assets/software-architecture/priority-queue-figure-1.png": "Figure 1 of the note \"Priority queue pattern\".",
+      "_assets/software-architecture/priority-queue-figure-2.png": "Figure 2 of the note \"Priority queue pattern\".",
+      "_assets/software-architecture/priority-queue-figure-3.png": "Figure 3 of the note \"Priority queue pattern\".",
+      "_assets/software-architecture/publisher-subscriber-figure-1.png": "Figure 1 of the note \"Publisher-subscriber pattern\".",
+      "_assets/software-architecture/publisher-subscriber-figure-2.png": "Figure 2 of the note \"Publisher-subscriber pattern\".",
+      "_assets/software-architecture/queue-based-load-leveling-figure-1.png": "Figure 1 of the note \"Queue-based load leveling pattern\".",
+      "_assets/software-architecture/retry-figure-1.png": "Figure 1 of the note \"Retry pattern\".",
+      "_assets/software-architecture/retry-figure-2.png": "Figure 2 of the note \"Retry pattern\".",
+      "_assets/software-architecture/retry-storm-figure-1.png": "Figure 1 of the note \"Retry storm antipattern\".",
+      "_assets/software-architecture/retry-storm-figure-2.png": "Figure 2 of the note \"Retry storm antipattern\".",
+      "_assets/software-architecture/scheduler-agent-supervisor-figure-1.png": "Figure 1 of the note \"Scheduler agent supervisor pattern\".",
+      "_assets/software-architecture/sequential-convoy-figure-1.png": "Figure 1 of the note \"Sequential convoy pattern\".",
+      "_assets/software-architecture/sequential-convoy-figure-2.png": "Figure 2 of the note \"Sequential convoy pattern\".",
+      "_assets/software-architecture/serverless-architecture-figure-1.png": "Figure 1 of the note \"Serverless architecture\".",
+      "_assets/software-architecture/sharding-figure-1.png": "Figure 1 of the note \"Sharding pattern\".",
+      "_assets/software-architecture/sharding-figure-2.png": "Figure 2 of the note \"Sharding pattern\".",
+      "_assets/software-architecture/sharding-figure-3.png": "Figure 3 of the note \"Sharding pattern\".",
+      "_assets/software-architecture/sidecar-figure-1.png": "Figure 1 of the note \"Sidecar pattern\".",
+      "_assets/software-architecture/sidecar-figure-2.png": "Figure 2 of the note \"Sidecar pattern\".",
+      "_assets/software-architecture/software-architecture-figure-1.png": "Figure 1 of the note \"What software architecture is\".",
+      "_assets/software-architecture/software-architecture-figure-2.png": "Figure 2 of the note \"What software architecture is\".",
+      "_assets/software-architecture/software-architecture-figure-3.png": "Figure 3 of the note \"What software architecture is\".",
+      "_assets/software-architecture/strangler-fig-figure-1.png": "Figure 1 of the note \"Strangler fig pattern\".",
+      "_assets/software-architecture/synchronous-communication-figure-1.png": "Figure 1 of the note \"Synchronous communication\".",
+      "_assets/software-architecture/task-queues-figure-1.png": "Figure 1 of the note \"Task queues\".",
+      "_assets/software-architecture/task-queues-figure-2.png": "Figure 2 of the note \"Task queues\".",
+      "_assets/software-architecture/throttling-figure-1.png": "Figure 1 of the note \"Throttling pattern\".",
+      "_assets/software-architecture/valet-key-figure-1.png": "Figure 1 of the note \"Valet key pattern\".",
+      "_assets/software-configuration-management/software-versioning-figure-1.png": "Figure 1 of the note \"Software versioning\".",
+      "_assets/software-design/api-design-overview-figure-1.png": "Overview figure 1 of the section \"API design\".",
+      "_assets/software-design/behavioral-overview-figure-1.png": "Overview figure 1 of the section \"Behavioral patterns\".",
+      "_assets/software-design/coupling-and-cohesion-cohesion-level-1.png": "Diagram of coincidental cohesion.",
+      "_assets/software-design/coupling-and-cohesion-cohesion-level-2.png": "Diagram of logical cohesion.",
+      "_assets/software-design/coupling-and-cohesion-cohesion-level-3.png": "Diagram of temporal cohesion.",
+      "_assets/software-design/coupling-and-cohesion-cohesion-level-4.png": "Diagram of procedural cohesion.",
+      "_assets/software-design/coupling-and-cohesion-cohesion-level-5.png": "Diagram of communicational cohesion.",
+      "_assets/software-design/coupling-and-cohesion-cohesion-level-6.png": "Diagram of sequential cohesion.",
+      "_assets/software-design/coupling-and-cohesion-cohesion-level-7.png": "Diagram of functional cohesion.",
+      "_assets/software-design/creational-overview-figure-1.png": "Overview figure 1 of the section \"Creational patterns\".",
+      "_assets/software-design/design-rot-figure-1.png": "Diagram of the four symptoms of design rot: rigidity, fragility, immobility and viscosity.",
+      "_assets/software-design/design-rot-figure-2.png": "Diagram comparing loose coupling and high cohesion with the opposite.",
+      "_assets/software-design/graphql-figure-1.png": "Figure 1 of the note \"GraphQL\".",
+      "_assets/software-design/graphql-figure-2.png": "Figure 2 of the note \"GraphQL\".",
+      "_assets/software-design/grpc-figure-1.png": "Figure 1 of the note \"gRPC\".",
+      "_assets/software-design/grpc-figure-2.png": "Figure 2 of the note \"gRPC\".",
+      "_assets/software-design/solid-figure-dip.png": "Diagram of high-level and low-level modules depending on an abstraction.",
+      "_assets/software-design/solid-figure-lsp.png": "Diagram of a subclass that violates and one that respects the Liskov substitution principle.",
+      "_assets/software-design/structural-overview-figure-1.png": "Overview figure 1 of the section \"Structural patterns\".",
+      "_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-1.png": "Figure 1 of the note \"Agile, Scrum and Kanban\".",
+      "_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-2.png": "Figure 2 of the note \"Agile, Scrum and Kanban\".",
+      "_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-3.png": "Figure 3 of the note \"Agile, Scrum and Kanban\".",
+      "_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-4.png": "Figure 4 of the note \"Agile, Scrum and Kanban\".",
+      "_assets/software-engineering-models-and-methods/agile-scrum-and-kanban-figure-5.png": "Figure 5 of the note \"Agile, Scrum and Kanban\".",
+      "_assets/software-engineering-models-and-methods/extreme-programming-figure-1.png": "Figure 1 of the note \"Extreme programming (XP)\".",
+      "_assets/software-engineering-models-and-methods/extreme-programming-figure-2.png": "Figure 2 of the note \"Extreme programming (XP)\".",
+      "_assets/software-engineering-models-and-methods/extreme-programming-figure-3.png": "Figure 3 of the note \"Extreme programming (XP)\".",
+      "_assets/software-engineering-models-and-methods/extreme-programming-figure-4.png": "Figure 4 of the note \"Extreme programming (XP)\".",
+      "_assets/software-engineering-models-and-methods/extreme-programming-figure-5.png": "Figure 5 of the note \"Extreme programming (XP)\".",
+      "_assets/software-engineering-operations/sla-slo-sli-figure-1.png": "Figure 1 of the note \"SLA, SLO and SLI\".",
+      "_assets/software-engineering-operations/sla-slo-sli-figure-2.png": "Figure 2 of the note \"SLA, SLO and SLI\".",
+      "_assets/software-quality/availability-figure-1.png": "Figure 1 of the note \"Availability\".",
+      "_assets/software-quality/latency-figure-1.png": "Figure 1 of the note \"Latency\".",
+      "_assets/software-quality/latency-figure-2.png": "Figure 2 of the note \"Latency\".",
+      "_assets/software-quality/latency-figure-3.png": "Figure 3 of the note \"Latency\".",
+      "_assets/software-quality/performance-figure-1.png": "Figure 1 of the note \"Performance\".",
+      "_assets/software-quality/performance-figure-2.png": "Figure 2 of the note \"Performance\".",
+      "_assets/software-quality/performance-figure-3.png": "Figure 3 of the note \"Performance\".",
+      "_assets/software-quality/reliability-figure-1.png": "Figure 1 of the note \"Reliability\".",
+      "_assets/software-quality/scalability-figure-1.png": "Figure 1 of the note \"Scalability\".",
+      "_assets/software-quality/scalability-figure-2.png": "Figure 2 of the note \"Scalability\".",
+      "_assets/software-quality/throughput-figure-1.png": "Figure 1 of the note \"Throughput\".",
+      "_assets/software-quality/throughput-figure-2.png": "Figure 2 of the note \"Throughput\".",
+      "_assets/software-security/api-security-figure-1.png": "Figure 1 of the note \"API security\".",
+      "_assets/software-testing/test-driven-development-figure-1.png": "Figure 1 of the note \"Test-driven development (TDD)\".",
+      "_assets/software-testing/test-driven-development-figure-2.png": "Figure 2 of the note \"Test-driven development (TDD)\"."
+    }
+  },
+  "rules": {
+    "requireSidecars": true,
+    "noLongDashes": true
+  }
+}

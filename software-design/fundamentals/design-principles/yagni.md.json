@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "software-design.fundamentals.design-principles.yagni",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-design",
+      "fundamentals",
+      "design-principles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-requirements.management-activities.feature-creep",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fowler-yagni",
+      "type": "website",
+      "title": "Yagni",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2015,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/bliki/Yagni.html",
+      "verified": false
+    },
+    {
+      "key": "beck-xp",
+      "type": "book",
+      "title": "Extreme Programming Explained: Embrace Change, 2nd Edition",
+      "authors": [
+        "Beck, K.",
+        "Andres, C."
+      ],
+      "year": 2004,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-principles"
+  }
+}

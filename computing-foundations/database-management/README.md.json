@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "computing-foundations.database-management",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "computing-foundations",
+      "database-management"
+    ]
+  },
+  "map": {
+    "group": "computing-foundations"
+  }
+}

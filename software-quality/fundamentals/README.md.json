@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-quality.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-quality",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-quality"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.graph-and-tree",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "mathematical-foundations",
+      "graph-and-tree"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.design-and-implementation.cqrs",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "design-and-implementation"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.data-management.materialized-view",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-cqrs",
+      "type": "documentation",
+      "title": "CQRS pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+      "verified": false
+    },
+    {
+      "key": "fowler-cqrs",
+      "type": "website",
+      "title": "CQRS",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2011,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/bliki/CQRS.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-and-implementation"
+  }
+}

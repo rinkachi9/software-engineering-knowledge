@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.presentation.model-view-presenter",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "presentation"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.design-patterns.presentation.model-view-controller",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fowler-gui-archs",
+      "type": "website",
+      "title": "GUI Architectures",
+      "authors": [
+        "Fowler, M."
+      ],
+      "year": 2006,
+      "publisher": "martinfowler.com",
+      "url": "https://martinfowler.com/eaaDev/uiArchs.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "presentation"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-requirements.tools",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-requirements",
+      "tools"
+    ]
+  },
+  "map": {
+    "group": "software-requirements"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "software-architecture",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

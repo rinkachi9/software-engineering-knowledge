@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-maintenance.processes",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-maintenance",
+      "processes"
+    ]
+  },
+  "map": {
+    "group": "software-maintenance"
+  }
+}

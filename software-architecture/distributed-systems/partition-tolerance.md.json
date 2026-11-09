@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "software-architecture.distributed-systems.partition-tolerance",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "distributed-systems"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.distributed-systems.cap-theorem",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gilbert-lynch-cap",
+      "type": "paper",
+      "title": "Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services",
+      "authors": [
+        "Gilbert, S.",
+        "Lynch, N."
+      ],
+      "year": 2002,
+      "publisher": "ACM SIGACT News",
+      "url": "https://doi.org/10.1145/564585.564601",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "distributed-systems"
+  }
+}

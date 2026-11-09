@@ -1,0 +1,40 @@
+{
+  "node": {
+    "id": "case-studies.facebook-memcached-scaling",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "case-studies"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.caching",
+      "rel": "applies"
+    },
+    {
+      "to": "computing-foundations.computer-networks-and-communications.udp",
+      "rel": "applies",
+      "note": "Memcache reads over UDP to reduce latency"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fb-memcache",
+      "type": "paper",
+      "title": "Scaling Memcache at Facebook",
+      "authors": [
+        "Nishtala, R.",
+        "et al."
+      ],
+      "year": 2013,
+      "publisher": "USENIX NSDI",
+      "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "case-studies"
+  }
+}

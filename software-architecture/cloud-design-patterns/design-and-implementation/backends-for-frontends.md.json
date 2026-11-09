@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.design-and-implementation.backends-for-frontends",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "design-and-implementation"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.design-and-implementation.gateway-aggregation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-backends-for-frontends",
+      "type": "documentation",
+      "title": "Backends for frontends pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-and-implementation"
+  }
+}

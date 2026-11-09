@@ -1,0 +1,28 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.cloud-design-patterns-overview",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-patterns",
+      "type": "documentation",
+      "title": "Cloud design patterns",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "cloud-design-patterns"
+  }
+}

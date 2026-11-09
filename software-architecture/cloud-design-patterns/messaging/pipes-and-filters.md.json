@@ -1,0 +1,42 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.messaging.pipes-and-filters",
+    "kind": "note",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "messaging"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-pipes-and-filters",
+      "type": "documentation",
+      "title": "Pipes and filters pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters",
+      "verified": false
+    },
+    {
+      "key": "eip",
+      "type": "book",
+      "title": "Enterprise Integration Patterns",
+      "authors": [
+        "Hohpe, G.",
+        "Woolf, B."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "url": "https://www.enterpriseintegrationpatterns.com/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "messaging"
+  }
+}

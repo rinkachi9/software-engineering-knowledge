@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.high-availability.circuit-breaker",
+    "kind": "note",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "high-availability"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.resiliency.retry",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-circuit-breaker",
+      "type": "documentation",
+      "title": "Circuit breaker pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "high-availability"
+  }
+}

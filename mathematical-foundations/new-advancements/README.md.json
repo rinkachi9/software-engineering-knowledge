@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.new-advancements",
+    "kind": "index",
+    "status": "draft",
+    "order": 13,
+    "tags": [
+      "mathematical-foundations",
+      "new-advancements"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

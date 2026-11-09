@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "computing-foundations.computer-networks-and-communications.udp",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "computing-foundations",
+      "computer-networks-and-communications"
+    ]
+  },
+  "links": [
+    {
+      "to": "computing-foundations.computer-networks-and-communications.tcp",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "rfc768",
+      "type": "standard",
+      "title": "RFC 768: User Datagram Protocol",
+      "authors": [
+        "Postel, J."
+      ],
+      "year": 1980,
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc768.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "computer-networks-and-communications"
+  }
+}

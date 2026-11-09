@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-security.security-engineering-for-software-systems",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-security",
+      "security-engineering-for-software-systems"
+    ]
+  },
+  "map": {
+    "group": "software-security"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.distributed-systems.eventual-consistency",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "distributed-systems"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.distributed-systems.consistency",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vogels-eventual",
+      "type": "paper",
+      "title": "Eventually Consistent",
+      "authors": [
+        "Vogels, W."
+      ],
+      "year": 2009,
+      "publisher": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/1435417.1435432",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "distributed-systems"
+  }
+}

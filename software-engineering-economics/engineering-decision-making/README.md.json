@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-engineering-economics.engineering-decision-making",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-engineering-economics",
+      "engineering-decision-making"
+    ]
+  },
+  "map": {
+    "group": "software-engineering-economics"
+  }
+}

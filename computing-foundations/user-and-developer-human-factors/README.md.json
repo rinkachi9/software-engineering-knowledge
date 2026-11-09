@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "computing-foundations.user-and-developer-human-factors",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "computing-foundations",
+      "user-and-developer-human-factors"
+    ]
+  },
+  "map": {
+    "group": "computing-foundations"
+  }
+}

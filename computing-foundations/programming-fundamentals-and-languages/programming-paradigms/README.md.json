@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "computing-foundations.programming-fundamentals-and-languages.programming-paradigms",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "computing-foundations",
+      "programming-fundamentals-and-languages",
+      "programming-paradigms"
+    ]
+  },
+  "map": {
+    "group": "computing-foundations"
+  }
+}

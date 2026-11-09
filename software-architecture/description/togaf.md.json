@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.description.togaf",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "description"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.description.enterprise-architecture-frameworks",
+      "rel": "example-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "togaf",
+      "type": "standard",
+      "title": "The TOGAF Standard, 10th Edition",
+      "authors": [
+        "The Open Group"
+      ],
+      "year": 2022,
+      "publisher": "The Open Group",
+      "url": "https://www.opengroup.org/togaf",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "description"
+  }
+}

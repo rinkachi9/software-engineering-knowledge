@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-maintenance.tools",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-maintenance",
+      "tools"
+    ]
+  },
+  "map": {
+    "group": "software-maintenance"
+  }
+}

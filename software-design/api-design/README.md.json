@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-design.api-design",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "software-design",
+      "api-design"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

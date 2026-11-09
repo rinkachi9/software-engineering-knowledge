@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "software-design.fundamentals.design-principles.solid",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-design",
+      "fundamentals",
+      "design-principles"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-design.fundamentals.coupling-and-cohesion",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "martin-asd",
+      "type": "book",
+      "title": "Agile Software Development, Principles, Patterns, and Practices",
+      "authors": [
+        "Martin, R. C."
+      ],
+      "year": 2002,
+      "publisher": "Prentice Hall",
+      "verified": false
+    },
+    {
+      "key": "liskov-wing",
+      "type": "paper",
+      "title": "A Behavioral Notion of Subtyping",
+      "authors": [
+        "Liskov, B. H.",
+        "Wing, J. M."
+      ],
+      "year": 1994,
+      "publisher": "ACM Transactions on Programming Languages and Systems",
+      "url": "https://doi.org/10.1145/197320.197383",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "design-principles"
+  }
+}

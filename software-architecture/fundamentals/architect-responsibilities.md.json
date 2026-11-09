@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.fundamentals.architect-responsibilities",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "fundamentals"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.fundamentals.software-architecture",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fsa-richards",
+      "type": "book",
+      "title": "Fundamentals of Software Architecture",
+      "authors": [
+        "Richards, M.",
+        "Ford, N."
+      ],
+      "year": 2020,
+      "publisher": "O'Reilly Media",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

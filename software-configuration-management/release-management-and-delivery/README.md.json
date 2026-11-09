@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-configuration-management.release-management-and-delivery",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-configuration-management",
+      "release-management-and-delivery"
+    ]
+  },
+  "map": {
+    "group": "software-configuration-management"
+  }
+}

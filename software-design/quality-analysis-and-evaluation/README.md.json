@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-design.quality-analysis-and-evaluation",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "software-design",
+      "quality-analysis-and-evaluation"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

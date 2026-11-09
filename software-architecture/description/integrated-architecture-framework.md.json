@@ -1,0 +1,39 @@
+{
+  "node": {
+    "id": "software-architecture.description.integrated-architecture-framework",
+    "kind": "note",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "description"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.description.enterprise-architecture-frameworks",
+      "rel": "example-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "iaf-book",
+      "type": "book",
+      "title": "The Integrated Architecture Framework Explained",
+      "authors": [
+        "van 't Wout, J.",
+        "Waage, M.",
+        "Hartman, H.",
+        "Stahlecker, M.",
+        "Hofman, A."
+      ],
+      "year": 2010,
+      "publisher": "Springer",
+      "url": "https://doi.org/10.1007/978-3-642-11518-9",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "description"
+  }
+}

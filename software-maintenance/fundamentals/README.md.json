@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-maintenance.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-maintenance",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-maintenance"
+  }
+}

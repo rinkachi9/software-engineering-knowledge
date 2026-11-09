@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "computing-foundations.computer-networks-and-communications.tcp",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "computing-foundations",
+      "computer-networks-and-communications"
+    ]
+  },
+  "sources": [
+    {
+      "key": "rfc9293",
+      "type": "standard",
+      "title": "RFC 9293: Transmission Control Protocol (TCP)",
+      "authors": [
+        "Eddy, W. (ed.)"
+      ],
+      "year": 2022,
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "computer-networks-and-communications"
+  }
+}

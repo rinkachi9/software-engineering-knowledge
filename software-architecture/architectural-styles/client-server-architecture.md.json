@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.architectural-styles.client-server-architecture",
+    "kind": "note",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-architecture",
+      "architectural-styles"
+    ]
+  },
+  "sources": [
+    {
+      "key": "fsa-richards",
+      "type": "book",
+      "title": "Fundamentals of Software Architecture",
+      "authors": [
+        "Richards, M.",
+        "Ford, N."
+      ],
+      "year": 2020,
+      "publisher": "O'Reilly Media",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "architectural-styles"
+  }
+}

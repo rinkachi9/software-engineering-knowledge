@@ -1,0 +1,42 @@
+{
+  "node": {
+    "id": "software-architecture.fundamentals.software-architecture",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "fundamentals"
+    ]
+  },
+  "sources": [
+    {
+      "key": "sap-bass",
+      "type": "book",
+      "title": "Software Architecture in Practice, 4th Edition",
+      "authors": [
+        "Bass, L.",
+        "Clements, P.",
+        "Kazman, R."
+      ],
+      "year": 2021,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    },
+    {
+      "key": "iso42010",
+      "type": "standard",
+      "title": "ISO/IEC/IEEE 42010:2022 Software, systems and enterprise: Architecture description",
+      "authors": [
+        "ISO/IEC/IEEE"
+      ],
+      "year": 2022,
+      "publisher": "ISO",
+      "url": "https://www.iso.org/standard/74393.html",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-testing.test-techniques",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-testing",
+      "test-techniques"
+    ]
+  },
+  "map": {
+    "group": "software-testing"
+  }
+}

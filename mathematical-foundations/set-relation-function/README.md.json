@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.set-relation-function",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "mathematical-foundations",
+      "set-relation-function"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

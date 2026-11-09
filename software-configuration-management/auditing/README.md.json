@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-configuration-management.auditing",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "software-configuration-management",
+      "auditing"
+    ]
+  },
+  "map": {
+    "group": "software-configuration-management"
+  }
+}

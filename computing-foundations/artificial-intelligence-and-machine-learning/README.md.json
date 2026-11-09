@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "computing-foundations.artificial-intelligence-and-machine-learning",
+    "kind": "index",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "computing-foundations",
+      "artificial-intelligence-and-machine-learning"
+    ]
+  },
+  "map": {
+    "group": "computing-foundations"
+  }
+}

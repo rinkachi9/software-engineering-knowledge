@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.basics-of-counting",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "mathematical-foundations",
+      "basics-of-counting"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

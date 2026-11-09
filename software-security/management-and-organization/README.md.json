@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-security.management-and-organization",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-security",
+      "management-and-organization"
+    ]
+  },
+  "map": {
+    "group": "software-security"
+  }
+}

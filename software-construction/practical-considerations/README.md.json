@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-construction.practical-considerations",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-construction",
+      "practical-considerations"
+    ]
+  },
+  "map": {
+    "group": "software-construction"
+  }
+}

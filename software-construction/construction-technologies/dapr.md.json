@@ -1,0 +1,33 @@
+{
+  "node": {
+    "id": "software-construction.construction-technologies.dapr",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-construction",
+      "construction-technologies"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.cloud-design-patterns.design-and-implementation.sidecar",
+      "rel": "applies"
+    }
+  ],
+  "sources": [
+    {
+      "key": "dapr-docs",
+      "type": "documentation",
+      "title": "Dapr concepts",
+      "authors": [
+        "Dapr Authors"
+      ],
+      "url": "https://docs.dapr.io/concepts/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "construction-technologies"
+  }
+}

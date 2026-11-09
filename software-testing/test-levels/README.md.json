@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-testing.test-levels",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-testing",
+      "test-levels"
+    ]
+  },
+  "map": {
+    "group": "software-testing"
+  }
+}

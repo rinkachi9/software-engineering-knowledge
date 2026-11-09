@@ -1,0 +1,39 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.caching",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "system-design"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-caching",
+      "type": "documentation",
+      "title": "Caching guidance",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching",
+      "verified": false
+    },
+    {
+      "key": "sdp",
+      "type": "website",
+      "title": "The System Design Primer",
+      "authors": [
+        "Martin, D."
+      ],
+      "publisher": "GitHub",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "system-design"
+  }
+}

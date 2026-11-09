@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "computing-foundations.operating-systems",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "computing-foundations",
+      "operating-systems"
+    ]
+  },
+  "map": {
+    "group": "computing-foundations"
+  }
+}

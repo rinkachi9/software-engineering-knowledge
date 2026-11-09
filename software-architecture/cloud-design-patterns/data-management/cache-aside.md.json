@@ -1,0 +1,35 @@
+{
+  "node": {
+    "id": "software-architecture.cloud-design-patterns.data-management.cache-aside",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "cloud-design-patterns",
+      "data-management"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.system-design.caching",
+      "rel": "applies"
+    }
+  ],
+  "sources": [
+    {
+      "key": "azure-cache-aside",
+      "type": "documentation",
+      "title": "Cache-aside pattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-management"
+  }
+}

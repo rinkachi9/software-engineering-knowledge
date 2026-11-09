@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.asynchronous-processing",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "asynchronous-processing"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "node": {
+    "id": "computing-foundations.programming-fundamentals-and-languages.programming-paradigms.structured-programming",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "computing-foundations",
+      "programming-fundamentals-and-languages",
+      "programming-paradigms"
+    ]
+  },
+  "sources": [
+    {
+      "key": "dijkstra-goto",
+      "type": "paper",
+      "title": "Go To Statement Considered Harmful",
+      "authors": [
+        "Dijkstra, E. W."
+      ],
+      "year": 1968,
+      "publisher": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/362929.362947",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "programming-paradigms"
+  }
+}

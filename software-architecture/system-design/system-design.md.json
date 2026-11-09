@@ -1,0 +1,28 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.system-design",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "system-design"
+    ]
+  },
+  "sources": [
+    {
+      "key": "sdp",
+      "type": "website",
+      "title": "The System Design Primer",
+      "authors": [
+        "Martin, D."
+      ],
+      "publisher": "GitHub",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "system-design"
+  }
+}

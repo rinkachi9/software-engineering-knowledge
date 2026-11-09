@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "computing-foundations.database-management.acid-and-base",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "computing-foundations",
+      "database-management"
+    ]
+  },
+  "links": [
+    {
+      "to": "software-architecture.distributed-systems.eventual-consistency",
+      "rel": "related",
+      "note": "BASE relies on eventual consistency"
+    }
+  ],
+  "sources": [
+    {
+      "key": "haerder-reuter-acid",
+      "type": "paper",
+      "title": "Principles of Transaction-Oriented Database Recovery",
+      "authors": [
+        "Haerder, T.",
+        "Reuter, A."
+      ],
+      "year": 1983,
+      "publisher": "ACM Computing Surveys",
+      "url": "https://doi.org/10.1145/289.291",
+      "verified": false
+    },
+    {
+      "key": "ddia",
+      "type": "book",
+      "title": "Designing Data-Intensive Applications",
+      "authors": [
+        "Kleppmann, M."
+      ],
+      "year": 2017,
+      "publisher": "O'Reilly Media",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "database-management"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "software-architecture.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-architecture",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "software-architecture"
+  }
+}

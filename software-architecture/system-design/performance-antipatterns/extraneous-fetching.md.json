@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "software-architecture.system-design.performance-antipatterns.extraneous-fetching",
+    "kind": "note",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "software-architecture",
+      "system-design",
+      "performance-antipatterns"
+    ]
+  },
+  "sources": [
+    {
+      "key": "azure-extraneous-fetching",
+      "type": "documentation",
+      "title": "Extraneous fetching antipattern",
+      "authors": [
+        "Microsoft"
+      ],
+      "publisher": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/extraneous-fetching",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "performance-antipatterns"
+  }
+}

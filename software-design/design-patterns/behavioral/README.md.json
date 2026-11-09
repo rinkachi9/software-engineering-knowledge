@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "software-design.design-patterns.behavioral",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "software-design",
+      "design-patterns",
+      "behavioral"
+    ]
+  },
+  "map": {
+    "group": "software-design"
+  }
+}

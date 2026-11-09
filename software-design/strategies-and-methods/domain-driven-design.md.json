@@ -1,0 +1,28 @@
+{
+  "node": {
+    "id": "software-design.strategies-and-methods.domain-driven-design",
+    "kind": "note",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "software-design",
+      "strategies-and-methods"
+    ]
+  },
+  "sources": [
+    {
+      "key": "evans-ddd",
+      "type": "book",
+      "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+      "authors": [
+        "Evans, E."
+      ],
+      "year": 2003,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "strategies-and-methods"
+  }
+}
